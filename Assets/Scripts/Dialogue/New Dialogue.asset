@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7574145889227756432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5c1e9e00-333a-4b47-8864-1d3630f95cd8
+  m_EditorClassIdentifier: 
+  text: 
+  children:
+  - 67c7912e-e07d-41db-b7a8-36037ba176b6
+  - 93cebbc6-3d35-4b4d-952b-8ac115d59b51
+  rect:
+    serializedVersion: 2
+    x: 72
+    y: 182
+    width: 200
+    height: 100
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: New Dialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -7574145889227756432}
+  - {fileID: 2835701440294499659}
+  - {fileID: 942793555432934799}
+  - {fileID: 7050254009180415540}
+--- !u!114 &942793555432934799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 93cebbc6-3d35-4b4d-952b-8ac115d59b51
+  m_EditorClassIdentifier: 
+  text: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 648
+    y: 45
+    width: 200
+    height: 100
+--- !u!114 &2835701440294499659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 67c7912e-e07d-41db-b7a8-36037ba176b6
+  m_EditorClassIdentifier: 
+  text: 
+  children:
+  - c618ac2b-d96a-4d74-a0d8-abe49fc16124
+  rect:
+    serializedVersion: 2
+    x: 364
+    y: 325
+    width: 200
+    height: 100
+--- !u!114 &7050254009180415540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c618ac2b-d96a-4d74-a0d8-abe49fc16124
+  m_EditorClassIdentifier: 
+  text: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 635
+    y: 202
+    width: 200
+    height: 100

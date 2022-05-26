@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3333339834298216904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 25c00df8-2bae-42c1-a0dd-d384b76612e4
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 891
+    y: 144
+    width: 200
+    height: 100
+--- !u!114 &-1037402198856667728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: f5903408-aaa7-475b-9ebb-e240ae1afb2b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 
+  children:
+  - 1073193b-58eb-433a-a550-c9a1fa642934
+  rect:
+    serializedVersion: 2
+    x: 451
+    y: 335
+    width: 200
+    height: 100
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: New Dialogue 2
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1343239214098497852}
+  - {fileID: 8780994500692901834}
+  - {fileID: -3333339834298216904}
+  - {fileID: -1037402198856667728}
+  - {fileID: 1412226581562355937}
+  - {fileID: 8154593989565292512}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1343239214098497852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 8ae5e340-9094-4332-bdf4-34c5f22da9d2
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 
+  children:
+  - bfde556c-a68a-471e-be43-3c6ffb31c40b
+  - f5903408-aaa7-475b-9ebb-e240ae1afb2b
+  rect:
+    serializedVersion: 2
+    x: 210
+    y: 225
+    width: 200
+    height: 100
+--- !u!114 &1412226581562355937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 1073193b-58eb-433a-a550-c9a1fa642934
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 
+  children:
+  - 51343425-f5eb-4fd7-9da6-f681ed8b05a4
+  rect:
+    serializedVersion: 2
+    x: 671
+    y: 205
+    width: 200
+    height: 100
+--- !u!114 &8154593989565292512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 51343425-f5eb-4fd7-9da6-f681ed8b05a4
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 943
+    y: 358
+    width: 200
+    height: 100
+--- !u!114 &8780994500692901834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: bfde556c-a68a-471e-be43-3c6ffb31c40b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 
+  children:
+  - 25c00df8-2bae-42c1-a0dd-d384b76612e4
+  rect:
+    serializedVersion: 2
+    x: 546
+    y: 71
+    width: 200
+    height: 100
