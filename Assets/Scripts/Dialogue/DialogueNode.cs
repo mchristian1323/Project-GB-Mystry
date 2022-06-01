@@ -12,6 +12,8 @@ namespace Dialogue
         [SerializeField] string text;
         [SerializeField] List<string> children = new List<string>();
         [SerializeField] Rect rect = new Rect(0, 0, 200, 100);
+        [SerializeField] string onEnterAction;
+        [SerializeField] string onExitAction; //array to trigger multipe actions on exiting a node
 
         public Rect GetRect()
         {
@@ -31,6 +33,16 @@ namespace Dialogue
         public bool IsPlayerSpeaking()
         {
             return isPlayerSpeaking;
+        }
+
+        public string GetOnEnterActions()
+        {
+            return onEnterAction;
+        }
+        
+        public string GetOnExitActions()
+        {
+            return onExitAction;
         }
 
 #if UNITY_EDITOR
