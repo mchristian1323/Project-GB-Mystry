@@ -22,7 +22,7 @@ namespace Dialogue
 
         private void Start()
         {
-            StartDialogue(testConversant, testDialogue);
+            //StartDialogue(testConversant, testDialogue);
         }
 
         public void StartDialogue(AIConversant newConversant, Dialogue newDialogue)
