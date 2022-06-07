@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using Interactions;
 using UI;
+using InventorySystem;
 
 namespace Control
 {
@@ -23,6 +24,8 @@ namespace Control
         [SerializeField] LayerMask interactionLayer;
         [Header("Menu")]
         [SerializeField] MenuManager myMenuManager;
+        [Header("Test")]
+        [SerializeField] ItemData testItem;
 
         //private
         Vector2 controllerMovement;
@@ -31,17 +34,24 @@ namespace Control
 
         Rigidbody2D myRigidbody;
         PlayerInput myPlayerInput;
+        UltraInventory myUltraInventory;
 
         private void Awake()
         {
             myRigidbody = GetComponent<Rigidbody2D>();
             myPlayerInput = GetComponent<PlayerInput>();
+            myUltraInventory = GetComponent<UltraInventory>();
 
             myPlayerInput.actions["Select"].started += OnSelect;
             myPlayerInput.actions["Back"].started += OnBack;
             myPlayerInput.actions["Evidence"].performed += OnEvidence;
             myPlayerInput.actions["Pause"].performed += OnPause;
             myPlayerInput.actions["Theory"].performed += OnTheory;
+        }
+
+        private void Start()
+        {
+            FindObjectOfType<UI_UltraInventory>().SetInventory(myUltraInventory);
         }
 
         private void FixedUpdate()

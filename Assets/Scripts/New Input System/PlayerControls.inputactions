@@ -172,7 +172,7 @@
                 {
                     "name": "",
                     "id": "7d077f78-5f57-4ae7-a528-658e12350921",
-                    "path": "<Keyboard>/q",
+                    "path": "<Keyboard>/r",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
@@ -199,6 +199,74 @@
                     "processors": "",
                     "groups": "Keyboard",
                     "action": "MousePos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Save Debug",
+            "id": "ce8f5a4c-f41e-4d17-8099-770bae528d7f",
+            "actions": [
+                {
+                    "name": "Save",
+                    "type": "Button",
+                    "id": "7423e2d0-205a-42ce-a64f-5c1d893ddac1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Load",
+                    "type": "Button",
+                    "id": "46842284-388b-4277-9534-bca1a5fc60b0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Delete",
+                    "type": "Button",
+                    "id": "6b925592-3d2c-4a4f-b285-2d1e1f5317f3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "330248bc-6d32-424a-b9d3-63a46f73e6d0",
+                    "path": "<Keyboard>/comma",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Save",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3e8e21c8-bc15-4714-b88a-52f06ccb05f0",
+                    "path": "<Keyboard>/period",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Load",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f7c02947-0829-47e2-b73b-6055228ad446",
+                    "path": "<Keyboard>/rightBracket",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Delete",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

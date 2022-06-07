@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using Saving;
 
 namespace InventorySystem
 {
-    public class UltraInventory: MonoBehaviour
+    public class UltraInventory: MonoBehaviour, ISaveable
     {
         /// <summary>
         /// this script, placed on the player, will create the space and store items in each inventory. needs visual updating, backpack managment update, saving and loading
+        /// there are weird details that need to be initialized first, so initialize the backpack on start than on awake
         /// </summary>
         
         //TODO
@@ -346,6 +348,33 @@ namespace InventorySystem
         public int GetInventorySize()
         {
             return inventorySize;
+        }
+
+
+        public object CaptureState()
+        {
+            var slotStrings = new string[inventorySize];
+            for( int i = 0; i < inventorySize; i++ )
+            {
+                if (itemList[i].item != null)
+                {
+                    ItemData item = itemList[i].item;
+                    slotStrings[i] = item.GetID();
+                }
+            }
+
+            return slotStrings;
+        }
+
+        public void RestoreState(object state)
+        {
+            var slotStrings = (string[])state;
+            for(int i = 0; i < inventorySize; i++)
+            {
+                itemList[i].item = ItemData.GetFromID(slotStrings[i]);
+                itemList[i].amount = 1;
+            }
+            InventoryUpdated?.Invoke(this, EventArgs.Empty);
         }
     }
 }

@@ -65,8 +65,6 @@ namespace InventorySystem
                 image.gameObject.SetActive(false);
                 uiText.gameObject.SetActive(false);
             }
-
-            
         }
     }
 }

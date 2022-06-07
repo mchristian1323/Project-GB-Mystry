@@ -194,7 +194,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""7d077f78-5f57-4ae7-a528-658e12350921"",
-                    ""path"": ""<Keyboard>/q"",
+                    ""path"": ""<Keyboard>/r"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard"",
@@ -221,6 +221,74 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": ""Keyboard"",
                     ""action"": ""MousePos"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""Save Debug"",
+            ""id"": ""ce8f5a4c-f41e-4d17-8099-770bae528d7f"",
+            ""actions"": [
+                {
+                    ""name"": ""Save"",
+                    ""type"": ""Button"",
+                    ""id"": ""7423e2d0-205a-42ce-a64f-5c1d893ddac1"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Load"",
+                    ""type"": ""Button"",
+                    ""id"": ""46842284-388b-4277-9534-bca1a5fc60b0"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Delete"",
+                    ""type"": ""Button"",
+                    ""id"": ""6b925592-3d2c-4a4f-b285-2d1e1f5317f3"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""330248bc-6d32-424a-b9d3-63a46f73e6d0"",
+                    ""path"": ""<Keyboard>/comma"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""Save"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3e8e21c8-bc15-4714-b88a-52f06ccb05f0"",
+                    ""path"": ""<Keyboard>/period"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""Load"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f7c02947-0829-47e2-b73b-6055228ad446"",
+                    ""path"": ""<Keyboard>/rightBracket"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""Delete"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -266,6 +334,11 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         m_Controls_Theory = m_Controls.FindAction("Theory", throwIfNotFound: true);
         m_Controls_Evidence = m_Controls.FindAction("Evidence", throwIfNotFound: true);
         m_Controls_MousePos = m_Controls.FindAction("MousePos", throwIfNotFound: true);
+        // Save Debug
+        m_SaveDebug = asset.FindActionMap("Save Debug", throwIfNotFound: true);
+        m_SaveDebug_Save = m_SaveDebug.FindAction("Save", throwIfNotFound: true);
+        m_SaveDebug_Load = m_SaveDebug.FindAction("Load", throwIfNotFound: true);
+        m_SaveDebug_Delete = m_SaveDebug.FindAction("Delete", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -402,6 +475,55 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         }
     }
     public ControlsActions @Controls => new ControlsActions(this);
+
+    // Save Debug
+    private readonly InputActionMap m_SaveDebug;
+    private ISaveDebugActions m_SaveDebugActionsCallbackInterface;
+    private readonly InputAction m_SaveDebug_Save;
+    private readonly InputAction m_SaveDebug_Load;
+    private readonly InputAction m_SaveDebug_Delete;
+    public struct SaveDebugActions
+    {
+        private @PlayerControls m_Wrapper;
+        public SaveDebugActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Save => m_Wrapper.m_SaveDebug_Save;
+        public InputAction @Load => m_Wrapper.m_SaveDebug_Load;
+        public InputAction @Delete => m_Wrapper.m_SaveDebug_Delete;
+        public InputActionMap Get() { return m_Wrapper.m_SaveDebug; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(SaveDebugActions set) { return set.Get(); }
+        public void SetCallbacks(ISaveDebugActions instance)
+        {
+            if (m_Wrapper.m_SaveDebugActionsCallbackInterface != null)
+            {
+                @Save.started -= m_Wrapper.m_SaveDebugActionsCallbackInterface.OnSave;
+                @Save.performed -= m_Wrapper.m_SaveDebugActionsCallbackInterface.OnSave;
+                @Save.canceled -= m_Wrapper.m_SaveDebugActionsCallbackInterface.OnSave;
+                @Load.started -= m_Wrapper.m_SaveDebugActionsCallbackInterface.OnLoad;
+                @Load.performed -= m_Wrapper.m_SaveDebugActionsCallbackInterface.OnLoad;
+                @Load.canceled -= m_Wrapper.m_SaveDebugActionsCallbackInterface.OnLoad;
+                @Delete.started -= m_Wrapper.m_SaveDebugActionsCallbackInterface.OnDelete;
+                @Delete.performed -= m_Wrapper.m_SaveDebugActionsCallbackInterface.OnDelete;
+                @Delete.canceled -= m_Wrapper.m_SaveDebugActionsCallbackInterface.OnDelete;
+            }
+            m_Wrapper.m_SaveDebugActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Save.started += instance.OnSave;
+                @Save.performed += instance.OnSave;
+                @Save.canceled += instance.OnSave;
+                @Load.started += instance.OnLoad;
+                @Load.performed += instance.OnLoad;
+                @Load.canceled += instance.OnLoad;
+                @Delete.started += instance.OnDelete;
+                @Delete.performed += instance.OnDelete;
+                @Delete.canceled += instance.OnDelete;
+            }
+        }
+    }
+    public SaveDebugActions @SaveDebug => new SaveDebugActions(this);
     private int m_KeyboardSchemeIndex = -1;
     public InputControlScheme KeyboardScheme
     {
@@ -429,5 +551,11 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         void OnTheory(InputAction.CallbackContext context);
         void OnEvidence(InputAction.CallbackContext context);
         void OnMousePos(InputAction.CallbackContext context);
+    }
+    public interface ISaveDebugActions
+    {
+        void OnSave(InputAction.CallbackContext context);
+        void OnLoad(InputAction.CallbackContext context);
+        void OnDelete(InputAction.CallbackContext context);
     }
 }

@@ -8,13 +8,15 @@ namespace InventorySystem
     public class UI_UltraInventory : MonoBehaviour
     {
         private UltraInventory inventory;
-        private Transform itemSlotContainer;
+        [Header("From Children")]
+        [SerializeField] Transform itemSlotContainer;
+        [Header("From Prefab Folder")]
         [SerializeField] UI_ItemSlotContainer itemSlotTemplate;
 
         private void Awake()
         {
-            itemSlotContainer = transform.Find(UITags.itemSlotContainer);
-            gameObject.SetActive(false);
+            //itemSlotContainer = transform.Find(UITags.itemSlotContainer);
+            //took away set false because evidence does this for it
         }
 
         public void SetInventory(UltraInventory inventory)

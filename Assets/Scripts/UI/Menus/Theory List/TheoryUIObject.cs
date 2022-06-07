@@ -12,7 +12,7 @@ namespace UI.Theory
 
         TextMeshProUGUI thisTextFeild;
 
-        private void Start()
+        private void Awake()
         {
             thisTextFeild = GetComponent<TextMeshProUGUI>();
         }
@@ -20,6 +20,7 @@ namespace UI.Theory
         public void SetThisThoery(TheoryList.Theory theory)
         {
             thisTheory = theory;
+            Debug.Log(theory);
 
             SetTheorySettings();
         }

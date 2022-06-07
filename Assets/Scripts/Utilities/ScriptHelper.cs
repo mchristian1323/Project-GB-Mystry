@@ -6,4 +6,5 @@
     public const string amountText = "amountText";
     public const string text = "Text";
     public const string selector = "selector";
+    public const string theoryContainer = "Theory Container";
 }
