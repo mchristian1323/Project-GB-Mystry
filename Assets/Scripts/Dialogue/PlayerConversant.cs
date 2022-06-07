@@ -22,11 +22,13 @@ namespace Dialogue
 
         private void Start()
         {
-            //StartDialogue(testConversant, testDialogue);
+            StartDialogue(testConversant, testDialogue);
         }
 
         public void StartDialogue(AIConversant newConversant, Dialogue newDialogue)
         {
+            GetComponent<Control.PlayerControl>().SetAct(false); //unique to GB Express
+
             currentConversant = newConversant;
             currentDialogue = newDialogue;
             currentNode = currentDialogue.GetRootNode();
@@ -36,6 +38,8 @@ namespace Dialogue
 
         public void Quit()
         {
+            GetComponent<Control.PlayerControl>().SetAct(true); //unique to GB Express
+
             currentDialogue = null;
             TriggerExitActions();
             currentNode = null;

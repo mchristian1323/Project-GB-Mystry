@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 86e916952f52b69409bf9d6a98fd402b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Art Nouveau Pixels
+  fontNames:
+  - Art Nouveau Pixels
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d88843d2e17f3be4faf30db5d6a80567, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

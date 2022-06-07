@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: bf5cb1c3aeb893f448443293e5a20d49
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Plain Pixel
+  fontNames:
+  - Plain Pixel
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 28cd4979649b34f41997492604e12997, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

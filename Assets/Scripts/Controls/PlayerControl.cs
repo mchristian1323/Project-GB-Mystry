@@ -2,43 +2,63 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Interactions;
+using UI;
 
 namespace Control
 {
     public class PlayerControl : MonoBehaviour
     {
-        [SerializeField] float playerCurrentSpeed;
+        //public
+        public bool canAct = true;
 
+        //Serialized
+        [Header("Player Stats")]
+        [SerializeField] float playerCurrentSpeed;
+        [Header("Menus")]
+        [SerializeField] GameObject pauseMenu;
+        [SerializeField] GameObject theoryMenu;
+        [SerializeField] GameObject evidenceMenu;
+        [Header("Layers")]
+        [SerializeField] LayerMask interactionLayer;
+        [Header("Menu")]
+        [SerializeField] MenuManager myMenuManager;
+
+        //private
         Vector2 controllerMovement;
 
-        PlayerControls myPlayerControls;
+        Collider2D currentCollision;
+
         Rigidbody2D myRigidbody;
+        PlayerInput myPlayerInput;
 
         private void Awake()
         {
-            myPlayerControls = new PlayerControls();
-        }
-
-        private void OnEnable()
-        {
-            myPlayerControls.Enable();
-        }
-
-        private void OnDisable()
-        {
-            myPlayerControls.Disable();
-        }
-
-        private void Start()
-        {
             myRigidbody = GetComponent<Rigidbody2D>();
+            myPlayerInput = GetComponent<PlayerInput>();
+
+            myPlayerInput.actions["Select"].started += OnSelect;
+            myPlayerInput.actions["Back"].started += OnBack;
+            myPlayerInput.actions["Evidence"].performed += OnEvidence;
+            myPlayerInput.actions["Pause"].performed += OnPause;
+            myPlayerInput.actions["Theory"].performed += OnTheory;
         }
 
         private void FixedUpdate()
         {
-            Movement();
+            if(canAct)
+            {
+                Movement();
+            }
         }
 
+        //gets this from the controller
+        public void OnMove(InputAction.CallbackContext context)
+        {
+            controllerMovement = context.ReadValue<Vector2>();
+        }
+
+        //for the fixed update function
         private void Movement()
         {
             float xThrow = controllerMovement.x;
@@ -48,34 +68,56 @@ namespace Control
             myRigidbody.velocity = playerVelocity;
         }
 
-        private void OnMove(InputValue value)
+        private void OnSelect(InputAction.CallbackContext context)
         {
-            controllerMovement = value.Get<Vector2>();
+            if(canAct)
+            {
+                if (currentCollision != null && currentCollision.tag == "NPC")
+                {
+                    Interactables interactable = currentCollision.GetComponent<Interactables>();
+
+                    if (interactable != null)
+                    {
+                        interactable.Interact();
+                    }
+                }
+            }
         }
 
-        private void OnSelect()
+        private void OnTriggerEnter2D(Collider2D collision)
         {
-
+            currentCollision = collision;
         }
 
-        private void OnBack()
+        private void OnTriggerExit2D(Collider2D collision)
         {
-
+            currentCollision = null;
         }
 
-        private void OnPause()
+        private void OnBack(InputAction.CallbackContext context)
         {
-
+            //close menu
+            Debug.Log("bakc");
         }
 
-        private void OnTheory()
+        private void OnPause(InputAction.CallbackContext context)
         {
-
+            myMenuManager.PauseGame();
         }
 
-        private void OnEvidence()
+        private void OnTheory(InputAction.CallbackContext context)
         {
+            myMenuManager.TheoryList();
+        }
 
+        private void OnEvidence(InputAction.CallbackContext context)
+        {
+            myMenuManager.EvidenceList();;
+        }
+
+        public void SetAct(bool act)
+        {
+            canAct = act;
         }
     }
 }
