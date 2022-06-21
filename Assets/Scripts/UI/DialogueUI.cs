@@ -17,6 +17,8 @@ namespace UI
         [SerializeField] GameObject choicePrefab;
         [SerializeField] Button quitButton;
         [SerializeField] TextMeshProUGUI conversantName;
+        [SerializeField] Image portrait;
+        AudioSource speechPlayer;
 
         // Start is called before the first frame update
         void Start()
@@ -25,27 +27,48 @@ namespace UI
             myPlayerConversant.onConversationUpdated += UpdateUI;
             nextButton.onClick.AddListener(() => myPlayerConversant.Next());
             quitButton.onClick.AddListener(() => myPlayerConversant.Quit());
+            speechPlayer = GetComponent<AudioSource>();
 
             UpdateUI();
         }
 
         private void UpdateUI()
         {
+            StopAllCoroutines();
             gameObject.SetActive(myPlayerConversant.IsActive());
             if(!myPlayerConversant.IsActive())
             {
                 return;
             }
-            conversantName.text = myPlayerConversant.GetCurrentConversantName();
+            //conversantName.text = myPlayerConversant.GetCurrentConversantName(); //origina code
+            conversantName.text = myPlayerConversant.GetName(); //my code
             aiResponse.SetActive(!myPlayerConversant.IsChoosing());
             choiceRoot.gameObject.SetActive(myPlayerConversant.IsChoosing());
+            portrait.sprite = myPlayerConversant.GetCurrentPortrait();
+            speechPlayer.clip = myPlayerConversant.CurrentSound();
+            if(portrait.sprite != null)
+            {
+                portrait.gameObject.SetActive(true);
+            }
+            else
+            {
+                portrait.gameObject.SetActive(false);
+            }
+            if(myPlayerConversant.HasSkip())
+            {
+                quitButton.gameObject.SetActive(false);
+            }
+            else
+            {
+                quitButton.gameObject.SetActive(true);
+            }
             if(myPlayerConversant.IsChoosing())
             {
                 BuildChoiceList();
             }
             else
             {
-                dialogueBox.text = myPlayerConversant.GetText();
+                StartCoroutine(ScrollingText(myPlayerConversant.GetText()));
                 nextButton.gameObject.SetActive(myPlayerConversant.HasNext());
             }
         }
@@ -68,6 +91,34 @@ namespace UI
                     myPlayerConversant.SelectChoice(choiceText);
                 });
             }
+        }
+
+        private IEnumerator ScrollingText(string currentText)
+        {
+            dialogueBox.text = "";
+            /*
+            string originalText = currentText;
+            string displayedText = "";
+            int alphaIndex = 0;
+
+            foreach (char c in currentText.ToCharArray())
+            {
+                alphaIndex++;
+
+                dialogueBox.text += originalText;
+                displayedText = Text.text.Insert(alphaIndex, "<color=#00000000>");
+
+                yield return new WaitForSeconds(0.01f);
+            }
+            */
+            speechPlayer.Play();
+
+            for (int i = 0; i < currentText.Length; i++)
+            {
+                dialogueBox.text = currentText.Substring(0, i);
+                yield return new WaitForSeconds(0.01f);
+            }
+            speechPlayer.Stop();
         }
     }
 }

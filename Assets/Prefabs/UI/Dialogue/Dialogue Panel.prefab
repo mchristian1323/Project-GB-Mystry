@@ -642,6 +642,7 @@ MonoBehaviour:
     type: 3}
   quitButton: {fileID: 6947529543895331402}
   conversantName: {fileID: 4228350683690792076}
+  portrait: {fileID: 4228350684359527242}
 --- !u!114 &6872662857607899139
 MonoBehaviour:
   m_ObjectHideFlags: 0

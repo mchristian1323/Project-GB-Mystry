@@ -1,0 +1,510 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8729916373103710330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 32e0cf95-1fcf-469a-89d6-7c6e561753b9
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: Brock!!! You there partner?
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 8efc3ec9d557e6a42836dfa02fd87371, type: 3}
+  unSkipable: 1
+  children:
+  - 1a5b4ea0-a4ec-4163-b6a8-35e5532f3ccb
+  rect:
+    serializedVersion: 2
+    x: 326
+    y: 280
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-8327009217595905352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5f13668c-b3ea-4ecd-947c-8a2ed46a54ed
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: "Well it helps that I have been listening to the gossip all this time. We
+    have eight suspects that had access to the VIP section during the estimated time
+    of death. They\u2019re all in the common area waiting for questioning. When ever
+    your ready chief."
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 8efc3ec9d557e6a42836dfa02fd87371, type: 3}
+  unSkipable: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 949
+    y: 411
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-7396202263373088167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ede236b5-3a0b-4cb7-a37a-af6a816a1981
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'With all of us isolated from the rest of the solar system, things are going
+    to have to be done a little off the books. But ones things for sure, with all
+    of us trapped on this ship with a murderer, this case needed to be solved so
+    that no one else gets hurt. It also might be our best chance to figure out whats
+    going on, before the murder is released unto mars and out of reach. '
+  portrait: {fileID: 0}
+  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  unSkipable: 1
+  children:
+  - 32e0cf95-1fcf-469a-89d6-7c6e561753b9
+  rect:
+    serializedVersion: 2
+    x: 1
+    y: 281
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-6985514601106138920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ddc0a5f2-5b86-4c8c-aee9-7a8f36e0a0da
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "It happened on the fourth day. I heard a commotion coming from down the
+    ships main hall while Watts was out. Watts was gone and I needed to stretch my
+    legs so I\u2019d thought I would take a look. I got to the VIP area, where ships
+    attendants were blocking a VIP room, where Cole Waters lie dead on the floor,
+    covered in blood dripping from his neck. There is no question, he was murdered.
+    Watts already started scanning the area, and I announced to the ship that the
+    entire ship was under investigation."
+  portrait: {fileID: 0}
+  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  unSkipable: 1
+  children:
+  - ede236b5-3a0b-4cb7-a37a-af6a816a1981
+  rect:
+    serializedVersion: 2
+    x: 953
+    y: 139
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-6506190948361473986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: a58052a0-cab5-4472-9807-36622038d566
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "During the trip, Watts tried to entertain me by filling me in on the gossip
+    around the ship. I wasn\u2019t too interested, however I had no choice being
+    held captive in my quarters by him. I wish I paid a little more attention, would
+    have helped me with what was to come."
+  portrait: {fileID: 0}
+  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  unSkipable: 1
+  children:
+  - ce48d4a6-a885-4a28-bf5d-d3bc9fb813d7
+  rect:
+    serializedVersion: 2
+    x: 312
+    y: 146
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-5919503065415331516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: bf3a27e7-ce6b-4a1b-ab40-ca607646223b
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "It was a 5 day trip, and Watts wouldn\u2019t let me walk around the ship.
+    I tried to tell him I\u2019m fine, but he wasn\u2019t having any of it. He tends
+    to worry a bit to much."
+  portrait: {fileID: 0}
+  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  unSkipable: 1
+  children:
+  - a58052a0-cab5-4472-9807-36622038d566
+  rect:
+    serializedVersion: 2
+    x: -2
+    y: 150
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-4323018989363353465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: f2ea3d4c-bd99-4202-a37a-922245660c1f
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "We are already off the books as it is. We can\u2019t let this situation
+    get any messier.Well if your finally done, I\u2019ve already narrowed our list
+    of suspects"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  unSkipable: 1
+  children:
+  - 31e00b82-392d-4eff-99e4-e0ffd49b9fa1
+  rect:
+    serializedVersion: 2
+    x: 6
+    y: 425
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-2891766508211228135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 77b3a5cc-2345-4d3e-b54c-9db84a3e8fda
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: "We\u2019re kind of in the thick of it partner, you think you can cool it
+    with the formalities and paperwork?"
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 8efc3ec9d557e6a42836dfa02fd87371, type: 3}
+  unSkipable: 1
+  children:
+  - f2ea3d4c-bd99-4202-a37a-922245660c1f
+  rect:
+    serializedVersion: 2
+    x: 953
+    y: 255
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-2595968186687269700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ce48d4a6-a885-4a28-bf5d-d3bc9fb813d7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "Apparently a famous actor was on board the ship. Cole Waters. actor, philanthropist,
+    and entrepreneur. I wasn\u2019t much of a movie goer but even I know him. Apparently,
+    he got into an argument with a steward that outed his presence on the ship. This
+    would start a chain of events that would lead to his downfall"
+  portrait: {fileID: 0}
+  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  unSkipable: 1
+  children:
+  - ddc0a5f2-5b86-4c8c-aee9-7a8f36e0a0da
+  rect:
+    serializedVersion: 2
+    x: 662
+    y: 139
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-158308215242706867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 8f6c6fbc-b7bc-4773-86f7-dc6b7f0ab3c3
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: My partner, Watts offered to escort me to the cybernetics facility on mars.
+    State of the art place that normally would take an arm and a leg to fix my eye,
+    but luckily being a detective with Solarpol has its advantages.
+  portrait: {fileID: 0}
+  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  unSkipable: 1
+  children:
+  - bf3a27e7-ce6b-4a1b-ab40-ca607646223b
+  rect:
+    serializedVersion: 2
+    x: 954
+    y: 12
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Opening Dialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1443710844218335764}
+  - {fileID: 8194110533798615925}
+  - {fileID: 7196421547070732659}
+  - {fileID: -158308215242706867}
+  - {fileID: -5919503065415331516}
+  - {fileID: -6506190948361473986}
+  - {fileID: -2595968186687269700}
+  - {fileID: -6985514601106138920}
+  - {fileID: -7396202263373088167}
+  - {fileID: -8729916373103710330}
+  - {fileID: 4906232971288163007}
+  - {fileID: -2891766508211228135}
+  - {fileID: -4323018989363353465}
+  - {fileID: 2138805102428883040}
+  - {fileID: 9213891154571399370}
+  - {fileID: -8327009217595905352}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1443710844218335764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: f40313bc-37d8-476d-a5ab-2dc648abbbe0
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Impromptu case during sick leave.
+  portrait: {fileID: 0}
+  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  unSkipable: 1
+  children:
+  - 74b65101-1f62-4ef8-9790-960aa2d837ac
+  rect:
+    serializedVersion: 2
+    x: -4
+    y: 17
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &2138805102428883040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 31e00b82-392d-4eff-99e4-e0ffd49b9fa1
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: "Well if your finally done, I\u2019ve already narrowed our list of suspects."
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 8efc3ec9d557e6a42836dfa02fd87371, type: 3}
+  unSkipable: 1
+  children:
+  - 02d6e05b-1a7c-4460-84ab-c866a22af57f
+  rect:
+    serializedVersion: 2
+    x: 319
+    y: 422
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4906232971288163007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 1a5b4ea0-a4ec-4163-b6a8-35e5532f3ccb
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Sorry I was logging things down. Whats the situation?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  unSkipable: 1
+  children:
+  - 77b3a5cc-2345-4d3e-b54c-9db84a3e8fda
+  rect:
+    serializedVersion: 2
+    x: 670
+    y: 273
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &7196421547070732659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 0fe8de3c-6d30-471e-bb5e-1abffa26a0cc
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "This is the log of the chance murder I happened to encounter on my trip
+    to mars. In a previous case, I had an altercation with a suspect, damaged my
+    cybernetic eye. It severely hindered my vision, at least enough for my boss to
+    push me into taking sick leave. The job had been done, so I had little excuse
+    to refuse, and my cybernetic eye wasn\u2019t gonna heal on its own."
+  portrait: {fileID: 0}
+  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  unSkipable: 1
+  children:
+  - 8f6c6fbc-b7bc-4773-86f7-dc6b7f0ab3c3
+  rect:
+    serializedVersion: 2
+    x: 663
+    y: 15
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8194110533798615925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 74b65101-1f62-4ef8-9790-960aa2d837ac
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'Date: 20XX. Location: In transit to Mars on the GB Express Interplanetary
+    ship. Victim: Cole Waters. Cause of Death: Laceration to the neck.'
+  portrait: {fileID: 0}
+  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  unSkipable: 1
+  children:
+  - 0fe8de3c-6d30-471e-bb5e-1abffa26a0cc
+  rect:
+    serializedVersion: 2
+    x: 313
+    y: 15
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &9213891154571399370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 02d6e05b-1a7c-4460-84ab-c866a22af57f
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Fast as always Watts.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  unSkipable: 1
+  children:
+  - 5f13668c-b3ea-4ecd-947c-8a2ed46a54ed
+  rect:
+    serializedVersion: 2
+    x: 670
+    y: 416
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 

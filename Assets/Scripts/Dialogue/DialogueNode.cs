@@ -8,8 +8,12 @@ namespace Dialogue
 {
     public class DialogueNode : ScriptableObject
     {
-        [SerializeField] bool isPlayerSpeaking = false; //make an enum for multiple speakers
+        [SerializeField] bool dialogueChoiceNode = false; //make an enum for multiple speakers
+        [SerializeField] string conversantName;
         [SerializeField] string text;
+        [SerializeField] Sprite portrait;
+        [SerializeField] AudioClip characterSound;
+        [SerializeField] bool unSkipable;
         [SerializeField] List<string> children = new List<string>();
         [SerializeField] Rect rect = new Rect(0, 0, 200, 100);
         [SerializeField] string onEnterAction;
@@ -20,10 +24,25 @@ namespace Dialogue
             return rect;
         }
 
+        public string GetConversantName()
+        {
+            return conversantName;
+        }
+
         public string GetText()
         {
             return text;
         }
+
+        public Sprite GetPortrait()
+        {
+            return portrait;
+        }
+
+        public AudioClip GetConversantAudio()
+        {
+            return characterSound;
+        }    
 
         public List<string> GetChildren()
         {
@@ -32,7 +51,12 @@ namespace Dialogue
 
         public bool IsPlayerSpeaking()
         {
-            return isPlayerSpeaking;
+            return dialogueChoiceNode;
+        }
+
+        public bool IsTextUnskippable()
+        {
+            return unSkipable;
         }
 
         public string GetOnEnterActions()
@@ -83,7 +107,7 @@ namespace Dialogue
         public void SetPlayerSpeaking(bool newIsPlayerSpeaking)
         {
             Undo.RecordObject(this, "Change Dialogue Speaker");
-            isPlayerSpeaking = newIsPlayerSpeaking;
+            dialogueChoiceNode = newIsPlayerSpeaking;
             EditorUtility.SetDirty(this);
         }
 #endif

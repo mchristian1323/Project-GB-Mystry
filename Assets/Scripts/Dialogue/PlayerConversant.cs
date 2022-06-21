@@ -11,8 +11,8 @@ namespace Dialogue
         //This Resides on the player, make sure the tag matches in the dialogueUI script
 
         //for testing purposes
-        //[SerializeField] Dialogue testDialogue;
-        //[SerializeField] AIConversant testConversant;
+        [SerializeField] Dialogue testDialogue;
+        [SerializeField] AIConversant testConversant;
 
         [SerializeField] string playerName;
         Dialogue currentDialogue;
@@ -24,7 +24,7 @@ namespace Dialogue
 
         private void Start()
         {
-            //StartDialogue(testConversant, testDialogue);
+            StartDialogue(testConversant, testDialogue);
         }
 
         public void StartDialogue(AIConversant newConversant, Dialogue newDialogue)
@@ -55,7 +55,7 @@ namespace Dialogue
             return currentDialogue != null;
         }
 
-        public string GetCurrentConversantName()
+        public string GetCurrentConversantName() //origina code
         {
             if(isChoosing)
             {
@@ -65,6 +65,16 @@ namespace Dialogue
             {
                 return currentConversant.GetName();
             }
+        }
+
+        public string GetName() //my code
+        {
+            if (currentNode == null)
+            {
+                return "";
+            }
+
+            return currentNode.GetConversantName();
         }
 
         public bool IsChoosing()
@@ -95,6 +105,16 @@ namespace Dialogue
             return currentNode.GetText();
         }
 
+        public Sprite GetCurrentPortrait()
+        {
+            return currentNode.GetPortrait();
+        }
+
+        public AudioClip CurrentSound()
+        {
+            return currentNode.GetConversantAudio();
+        }
+
         public void Next()
         {
             int numPlayerResponses = currentDialogue.GetPlayerChildren(currentNode).Count();
@@ -118,6 +138,11 @@ namespace Dialogue
         public bool HasNext()
         {
             return currentDialogue.GetAllChildren(currentNode).Count() > 0;
+        }
+
+        public bool HasSkip()
+        {
+            return currentNode.IsTextUnskippable();
         }
 
         private void TriggerEnterActions()
