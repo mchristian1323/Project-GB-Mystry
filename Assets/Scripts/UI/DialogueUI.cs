@@ -34,26 +34,40 @@ namespace UI
 
         private void UpdateUI()
         {
+            if(dialogueBox.IsActive() != false)
+            {
+                StartCoroutine(FadeOut());
+            }
             StopAllCoroutines();
+
             gameObject.SetActive(myPlayerConversant.IsActive());
             if(!myPlayerConversant.IsActive())
             {
                 return;
             }
+
             //conversantName.text = myPlayerConversant.GetCurrentConversantName(); //origina code
             conversantName.text = myPlayerConversant.GetName(); //my code
             aiResponse.SetActive(!myPlayerConversant.IsChoosing());
             choiceRoot.gameObject.SetActive(myPlayerConversant.IsChoosing());
             portrait.sprite = myPlayerConversant.GetCurrentPortrait();
             speechPlayer.clip = myPlayerConversant.CurrentSound();
+
             if(portrait.sprite != null)
             {
-                portrait.gameObject.SetActive(true);
+                Image image = portrait.gameObject.GetComponent<Image>();
+                var tempColor = image.color;
+                tempColor.a = 1f;
+                image.color = tempColor;
             }
             else
             {
-                portrait.gameObject.SetActive(false);
+                Image image = portrait.gameObject.GetComponent<Image>();
+                var tempColor = image.color;
+                tempColor.a = 0f;
+                image.color = tempColor;
             }
+
             if(myPlayerConversant.HasSkip())
             {
                 quitButton.gameObject.SetActive(false);
@@ -62,6 +76,7 @@ namespace UI
             {
                 quitButton.gameObject.SetActive(true);
             }
+
             if(myPlayerConversant.IsChoosing())
             {
                 BuildChoiceList();
@@ -96,7 +111,10 @@ namespace UI
         private IEnumerator ScrollingText(string currentText)
         {
             dialogueBox.text = "";
-            /*
+            speechPlayer.volume = 1;
+            speechPlayer.Play();
+
+            
             string originalText = currentText;
             string displayedText = "";
             int alphaIndex = 0;
@@ -105,19 +123,34 @@ namespace UI
             {
                 alphaIndex++;
 
-                dialogueBox.text += originalText;
-                displayedText = Text.text.Insert(alphaIndex, "<color=#00000000>");
+                dialogueBox.text = originalText;
+                displayedText = dialogueBox.text.Insert(alphaIndex, "<color=#00000000>");
+                dialogueBox.text = displayedText;
 
                 yield return new WaitForSeconds(0.01f);
             }
-            */
-            speechPlayer.Play();
 
-            for (int i = 0; i < currentText.Length; i++)
+            /*
+            for (int i = 0; i < currentText.Length + 1; i++)
             {
                 dialogueBox.text = currentText.Substring(0, i);
                 yield return new WaitForSeconds(0.01f);
             }
+            */
+            StartCoroutine(FadeOut());
+        }
+
+        private IEnumerator FadeOut()
+        {
+            float audioVolume = speechPlayer.volume;
+
+            while(speechPlayer.volume > 0)
+            {
+                audioVolume -= .8f;
+                speechPlayer.volume = audioVolume;
+                yield return new WaitForSeconds(0.1f);
+            }
+
             speechPlayer.Stop();
         }
     }
