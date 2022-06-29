@@ -1,0 +1,647 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7906791804075264466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: bec47f5e-7b9f-48ad-8ed8-c5913139cf24
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "Not unless it was something important\u2026 "
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 80f18474-a34e-4e9a-aad5-2eccad830a53
+  - 5502268b-bcd3-4f93-8482-c25eba719444
+  - 06523560-5dc2-4e90-a4d2-a87381687931
+  rect:
+    serializedVersion: 2
+    x: 1672
+    y: 346
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-7510725670528227969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b7fc36e7-1bcd-4cd4-b9af-81b2e41b3170
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'You have strong opinions on art. '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 7d8a740c-958b-4a83-acc1-4ab65b710b8e
+  rect:
+    serializedVersion: 2
+    x: 1173
+    y: 31
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5903261946781521005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 9fbfb4ab-1354-4f84-ae7b-6efeaafa92e7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: "Thanks, I\u2019ll add that to my resume. "
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 462df1d6-3601-420a-9ef1-506a128754e3
+  rect:
+    serializedVersion: 2
+    x: 922
+    y: 189
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4692366114822836509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 01a4a3b8-6a6a-41f6-bd36-4ba11e58c668
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: Yeah?
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 80f18474-a34e-4e9a-aad5-2eccad830a53
+  - 5502268b-bcd3-4f93-8482-c25eba719444
+  - 06523560-5dc2-4e90-a4d2-a87381687931
+  rect:
+    serializedVersion: 2
+    x: 172
+    y: 190
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4407458945413601658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b38b883d-e503-462b-a466-d45443647431
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'Did you do anything like that to Waters? '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 61c7a914-2a6b-4b6b-95f8-cbe70e8704eb
+  rect:
+    serializedVersion: 2
+    x: 1922
+    y: 189
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4313336037902034107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 93aa238a-0b3f-4f1d-a05d-b580b133a4c2
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "Forgive the brash conclusion, but you appear to be a rather opinionated
+    and spiteful woman, Ros\xE9."
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 9fbfb4ab-1354-4f84-ae7b-6efeaafa92e7
+  rect:
+    serializedVersion: 2
+    x: 672
+    y: 190
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3705504373344967326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ea614f5b-df25-4b68-8946-31662a5c2b7a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: "So you really don\u2019t like Waters\u2019 movies? "
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 3964a222-ec98-4823-b1ab-899fc7ba4ec7
+  rect:
+    serializedVersion: 2
+    x: 673
+    y: 31
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Rose Day 2 ver 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -4692366114822836509}
+  - {fileID: 3745049146295557953}
+  - {fileID: 3453558733266266994}
+  - {fileID: 7188473431396885586}
+  - {fileID: -3705504373344967326}
+  - {fileID: 7169034541454259933}
+  - {fileID: -7510725670528227969}
+  - {fileID: 2169251097432060372}
+  - {fileID: -4313336037902034107}
+  - {fileID: -5903261946781521005}
+  - {fileID: 8060627858042331414}
+  - {fileID: 4460206421178637657}
+  - {fileID: 5763774657873608568}
+  - {fileID: -4407458945413601658}
+  - {fileID: 1793782807657875539}
+  - {fileID: 3116357987404395471}
+  - {fileID: 7639366148829742706}
+  - {fileID: 7571330404470695013}
+  - {fileID: 7873190651570595746}
+  - {fileID: 5718442178523094192}
+  - {fileID: -7906791804075264466}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1793782807657875539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 61c7a914-2a6b-4b6b-95f8-cbe70e8704eb
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: 'I switched some of his carry-ons with another passenger. I think it was
+    that professor guy. They had similar bags so I just subtly swapped them just
+    to cause some confusion. '
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - be41f326-95e8-458e-a526-7140ba218220
+  rect:
+    serializedVersion: 2
+    x: 2184
+    y: 189
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &2169251097432060372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7d8a740c-958b-4a83-acc1-4ab65b710b8e
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: "Shouldn\u2019t you be solving a murder right now? I don\u2019t see how my
+    taste in film is relevant. "
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 80f18474-a34e-4e9a-aad5-2eccad830a53
+  - 5502268b-bcd3-4f93-8482-c25eba719444
+  - 06523560-5dc2-4e90-a4d2-a87381687931
+  rect:
+    serializedVersion: 2
+    x: 1423
+    y: 31
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3116357987404395471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: be41f326-95e8-458e-a526-7140ba218220
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: '*Whispers* I think that explains some things. '
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 80f18474-a34e-4e9a-aad5-2eccad830a53
+  - 5502268b-bcd3-4f93-8482-c25eba719444
+  - 06523560-5dc2-4e90-a4d2-a87381687931
+  rect:
+    serializedVersion: 2
+    x: 2439
+    y: 190
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3453558733266266994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5502268b-bcd3-4f93-8482-c25eba719444
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Spite...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 93aa238a-0b3f-4f1d-a05d-b580b133a4c2
+  rect:
+    serializedVersion: 2
+    x: 422
+    y: 190
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3745049146295557953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 80f18474-a34e-4e9a-aad5-2eccad830a53
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Not a fan...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - ea614f5b-df25-4b68-8946-31662a5c2b7a
+  rect:
+    serializedVersion: 2
+    x: 423
+    y: 34
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &4460206421178637657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 295d38f5-49b6-4244-bed6-48b5b204ff9d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: "Ok look. For the sake of transparency, yes, there are some harmless pranks
+    I pull on annoying passengers to help keep me sane. Little things to get back
+    at them. Turn off the artificial gravity while they\u2019re sleeping, then turn
+    it back on to wake them up by making them fall onto their mattress. Gaslight
+    them into thinking it was a nightmare. "
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 915edf86-a4e4-4de3-b61a-4066ac7f6df8
+  rect:
+    serializedVersion: 2
+    x: 1422
+    y: 189
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5718442178523094192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 4f972a52-635d-49d6-a731-4929dbc69c90
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: 'He probably threw it out. I doubt that posh prick would keep ruined papers. '
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - bec47f5e-7b9f-48ad-8ed8-c5913139cf24
+  rect:
+    serializedVersion: 2
+    x: 1422
+    y: 346
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5763774657873608568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 915edf86-a4e4-4de3-b61a-4066ac7f6df8
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: "*Whispers* If she\u2019s not the killer, that makes two psychos on board. "
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - b38b883d-e503-462b-a466-d45443647431
+  rect:
+    serializedVersion: 2
+    x: 1672
+    y: 189
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7169034541454259933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3964a222-ec98-4823-b1ab-899fc7ba4ec7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: "No. They\u2019re mainstream garbage that get pumped out every year and are
+    ruining the art of cinema. "
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - b7fc36e7-1bcd-4cd4-b9af-81b2e41b3170
+  rect:
+    serializedVersion: 2
+    x: 923
+    y: 31
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7188473431396885586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 06523560-5dc2-4e90-a4d2-a87381687931
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Waters' Papers...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 23dd81d0-5422-4567-8019-21c39af1b871
+  rect:
+    serializedVersion: 2
+    x: 422
+    y: 346
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7571330404470695013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 94019f68-53a6-46fd-b677-6f8fa59442c1
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: "Not really. Believe it or not, I mind my business. It looked like a short
+    stack of papers though. Also a lot of scribbles, almost like he was proofreading
+    something. Didn\u2019t matter in the end though, because I absolutely soaked
+    it with his drink."
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 36616617-6a4c-4bbf-805c-1d10e6662a65
+  rect:
+    serializedVersion: 2
+    x: 922
+    y: 346
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7639366148829742706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 23dd81d0-5422-4567-8019-21c39af1b871
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "Ros\xE9, you mentioned when you first served Waters, you spilled a drink
+    on his papers, did you see what they were? "
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 94019f68-53a6-46fd-b677-6f8fa59442c1
+  rect:
+    serializedVersion: 2
+    x: 672
+    y: 346
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7873190651570595746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 36616617-6a4c-4bbf-805c-1d10e6662a65
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: "Brock, we didn\u2019t find any stained, handwritten papers in his room. "
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 4f972a52-635d-49d6-a731-4929dbc69c90
+  rect:
+    serializedVersion: 2
+    x: 1172
+    y: 346
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8060627858042331414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 462df1d6-3601-420a-9ef1-506a128754e3
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "What I\u2019m trying to say is, I don\u2019t think you simply avoided Waters
+    for the remainder of the trip. "
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 295d38f5-49b6-4244-bed6-48b5b204ff9d
+  rect:
+    serializedVersion: 2
+    x: 1182
+    y: 189
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

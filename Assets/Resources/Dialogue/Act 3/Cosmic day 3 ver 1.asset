@@ -1,0 +1,726 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8260676042194982160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 8c0877d2-fb59-470b-aabc-5218cab84b61
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "Well no\u2026 I care about her."
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - fc8e4e17-4502-40c6-ba83-50d2ec037d2e
+  rect:
+    serializedVersion: 2
+    x: 1346
+    y: 248
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6661754231683122321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 0109aa3f-3e6f-47c1-b68d-c46ac1b5073d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Then what is it, Mr. Apple?!
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 6b239802-8003-443d-8446-bf0363c8c3a4
+  rect:
+    serializedVersion: 2
+    x: 2096
+    y: 248
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6342967319545982325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b44feb46-3161-4d2a-a2ed-fa829e45203b
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "I don\u2019t know what you want me to say. If I had access to my Cosmonauts
+    they would back me up."
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 7e279a5b-e86b-4919-a026-799629a070ff
+  rect:
+    serializedVersion: 2
+    x: 846
+    y: 97
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2299906431889083587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: def39071-65a4-4470-992e-1927a5488fda
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: And your wife seemed to fine someone of higher value.
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - c0ad2cbb-0549-4aa6-a813-63e8037e7c31
+  rect:
+    serializedVersion: 2
+    x: 2596
+    y: 248
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2071246769501009801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 102a5f58-b705-4248-820d-07a29fd5398d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: You need to prove you weren't there...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 81004165-c922-424b-939b-76dda1efc17b
+  rect:
+    serializedVersion: 2
+    x: 347
+    y: 97
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1834751602846780164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: f42080ba-5bae-4020-a5f4-5c2adf639e51
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: No thats not it at all!
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 0109aa3f-3e6f-47c1-b68d-c46ac1b5073d
+  rect:
+    serializedVersion: 2
+    x: 1846
+    y: 248
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1412901956095481438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: d4955a9b-1dc0-4dce-b379-b56a6ef7944a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "Ugh\u2026"
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 102a5f58-b705-4248-820d-07a29fd5398d
+  - 90081325-165a-4ca3-817c-c78ac603e2c4
+  rect:
+    serializedVersion: 2
+    x: 2346
+    y: 97
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-914729234311591449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 9ff14302-5d8b-4a25-8f5c-7016fe9b349f
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: Plus a nice exposed video of that wife thief would not only clear my name,
+    but bring in the subscribers!
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 9b37cb5f-ffe1-4c32-877f-581e22ae0c1a
+  rect:
+    serializedVersion: 2
+    x: 1846
+    y: 97
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-806690165996915099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e1a7b9da-9586-4cae-9012-bfb587267532
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "Well as I mentioned before, it\u2019s a business-"
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - b5897dba-5e01-4a93-988e-3a02e52b91d3
+  rect:
+    serializedVersion: 2
+    x: 846
+    y: 248
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-742903674946590460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 90081325-165a-4ca3-817c-c78ac603e2c4
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: What were you planning...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 0e6fbc62-af2e-4796-abb2-f08accfbdc0e
+  rect:
+    serializedVersion: 2
+    x: 346
+    y: 249
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-87940648477871611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 94751d76-2a98-4518-a43f-a185f05ef389
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: What do you want now?
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 102a5f58-b705-4248-820d-07a29fd5398d
+  - 90081325-165a-4ca3-817c-c78ac603e2c4
+  rect:
+    serializedVersion: 2
+    x: 99
+    y: 173
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Cosmic day 3 ver 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -87940648477871611}
+  - {fileID: -2071246769501009801}
+  - {fileID: -742903674946590460}
+  - {fileID: 9154691395537382655}
+  - {fileID: 5479722344783543079}
+  - {fileID: -6342967319545982325}
+  - {fileID: 689195166755225765}
+  - {fileID: 4640517743064671256}
+  - {fileID: 427294170833672322}
+  - {fileID: -914729234311591449}
+  - {fileID: 7315391244252717873}
+  - {fileID: -1412901956095481438}
+  - {fileID: -806690165996915099}
+  - {fileID: 3909354717590085763}
+  - {fileID: -8260676042194982160}
+  - {fileID: 7369123195427252988}
+  - {fileID: -1834751602846780164}
+  - {fileID: -6661754231683122321}
+  - {fileID: 1339311364795133348}
+  - {fileID: -2299906431889083587}
+  - {fileID: 6608387613458496395}
+  - {fileID: 2746387620265043210}
+  - {fileID: 6426667881772626922}
+  - {fileID: 4003877770927758126}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &427294170833672322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c4300172-4555-4545-a6a7-96e85b28f23e
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Mr. Apple.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 9ff14302-5d8b-4a25-8f5c-7016fe9b349f
+  rect:
+    serializedVersion: 2
+    x: 1596
+    y: 97
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &689195166755225765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7e279a5b-e86b-4919-a026-799629a070ff
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Some random people on the Internet vouching for you is not enough to clear
+    your alibi.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 97cda3c3-2e07-45e6-8165-932817b055b6
+  rect:
+    serializedVersion: 2
+    x: 1096
+    y: 97
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &1339311364795133348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 6b239802-8003-443d-8446-bf0363c8c3a4
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "I do love her! But social media is my lively hood! And if I don\u2019t focus
+    on this then we can\u2019t have a life together. This world only gives to those
+    who have value\u2026"
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - def39071-65a4-4470-992e-1927a5488fda
+  rect:
+    serializedVersion: 2
+    x: 2346
+    y: 248
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &2746387620265043210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 614a3d56-4143-4a62-b412-1385e1501cf1
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Mr. Apple, your here talking about value while a man has been killed.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 39122c18-e24c-45bb-95e5-ecd9225c325e
+  rect:
+    serializedVersion: 2
+    x: 3102
+    y: 248
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3909354717590085763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b5897dba-5e01-4a93-988e-3a02e52b91d3
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "You can\u2019t seriously tell me that you made one of the biggest commitments
+    someone could make with someone you care little about."
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 8c0877d2-fb59-470b-aabc-5218cab84b61
+  rect:
+    serializedVersion: 2
+    x: 1096
+    y: 248
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &4003877770927758126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 53b192d8-c968-4e67-aa15-d1623a427a59
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "\u2026No further questions"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 102a5f58-b705-4248-820d-07a29fd5398d
+  - 90081325-165a-4ca3-817c-c78ac603e2c4
+  rect:
+    serializedVersion: 2
+    x: 3596
+    y: 249
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &4640517743064671256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 97cda3c3-2e07-45e6-8165-932817b055b6
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "What do you mean, they are good people. I\u2019ve been told that my following
+    are welcoming and non-toxic community."
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - c4300172-4555-4545-a6a7-96e85b28f23e
+  rect:
+    serializedVersion: 2
+    x: 1346
+    y: 97
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5479722344783543079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 0e6fbc62-af2e-4796-abb2-f08accfbdc0e
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Your marriage is falling apart at the seems and you only seem to care about
+    your following.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - e1a7b9da-9586-4cae-9012-bfb587267532
+  rect:
+    serializedVersion: 2
+    x: 596
+    y: 248
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6426667881772626922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 39122c18-e24c-45bb-95e5-ecd9225c325e
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "\u2026I know."
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 53b192d8-c968-4e67-aa15-d1623a427a59
+  rect:
+    serializedVersion: 2
+    x: 3347
+    y: 248
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6608387613458496395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c0ad2cbb-0549-4aa6-a813-63e8037e7c31
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "\u2026I was thinking, if I could prove that I was worth more than maybe
+    I could win her back."
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 614a3d56-4143-4a62-b412-1385e1501cf1
+  rect:
+    serializedVersion: 2
+    x: 2846
+    y: 248
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7315391244252717873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 9b37cb5f-ffe1-4c32-877f-581e22ae0c1a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: MR. APPLE TAKE THIS SERIOUSLY!!!
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - d4955a9b-1dc0-4dce-b379-b56a6ef7944a
+  rect:
+    serializedVersion: 2
+    x: 2096
+    y: 97
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7369123195427252988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: fc8e4e17-4502-40c6-ba83-50d2ec037d2e
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Oh really? Next your going to tell me you only care about her because she
+    is some kind of investment.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - f42080ba-5bae-4020-a5f4-5c2adf639e51
+  rect:
+    serializedVersion: 2
+    x: 1596
+    y: 248
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &9154691395537382655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 81004165-c922-424b-939b-76dda1efc17b
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "You need to prove to me that you weren\u2019t in that room last night, Mr.
+    Apple."
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - b44feb46-3161-4d2a-a2ed-fa829e45203b
+  rect:
+    serializedVersion: 2
+    x: 596
+    y: 97
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

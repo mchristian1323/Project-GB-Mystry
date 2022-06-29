@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8258380889925004856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3cd6d96a-112c-47b3-981b-46c8469e4537
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: "From what's legible, it seems like Cole was making some plan to apologize
+    for some failed Cybernetic operation. It seems he was going to take responsibility
+    for all of the trouble and casualties for the project, but this ledger implies
+    he wasn\u2019t solely responsible "
+  portrait: {fileID: 21300000, guid: 04939b0ed780dc64e9b37abb10993b47, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 802
+    y: 153
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3776289657032389601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2811879d-8494-4266-a2fe-05b3b68b3972
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: "The sheets of papers seemed to be the missing notes from Cole\u2019s folder
+    covered in some kind of alcoholic drink."
+  portrait: {fileID: 21300000, guid: 04939b0ed780dc64e9b37abb10993b47, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 3cd6d96a-112c-47b3-981b-46c8469e4537
+  rect:
+    serializedVersion: 2
+    x: 552
+    y: 152
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Black Ledger
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 4056092431960770548}
+  - {fileID: 3654058628354430267}
+  - {fileID: -3776289657032389601}
+  - {fileID: -8258380889925004856}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &3654058628354430267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 52ce390f-2d9c-423a-91fd-eca336e3933c
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: "One of the ones at the end seemed to have accounts for a collaboration with
+    Cole Waters Labeled under Project: Mindscape. The note under it says \u201Cproject
+    canceled\u201D."
+  portrait: {fileID: 21300000, guid: 04939b0ed780dc64e9b37abb10993b47, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 2811879d-8494-4266-a2fe-05b3b68b3972
+  rect:
+    serializedVersion: 2
+    x: 300
+    y: 153
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &4056092431960770548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e6536b83-8a8c-4d7f-8f7a-bc8cef24305d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: The black book seems to be a ledger of secret meetings and underhanded deals.
+    A lot of them have to do with tech and cybernetics that seemed to never be published.
+  portrait: {fileID: 21300000, guid: 04939b0ed780dc64e9b37abb10993b47, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 52ce390f-2d9c-423a-91fd-eca336e3933c
+  rect:
+    serializedVersion: 2
+    x: 44
+    y: 154
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

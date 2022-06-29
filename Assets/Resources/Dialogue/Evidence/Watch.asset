@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Watch
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 2152268973588887217}
+  - {fileID: 7655661949066791880}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2152268973588887217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 9c2c0d83-19be-4d47-aaa6-bfe43f94eddd
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: 'Waters'' watch. Finely crafted with an elegant design. '
+  portrait: {fileID: 21300000, guid: b5596f3156f726449bfc123061d16c03, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 10ee44e4-5350-46c9-965f-0c63fd482b1d
+  rect:
+    serializedVersion: 2
+    x: 145
+    y: 196
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7655661949066791880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 10ee44e4-5350-46c9-965f-0c63fd482b1d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: It has the name COLE WATERS engraved under it and some food stains for being
+    in the trash.
+  portrait: {fileID: 21300000, guid: b5596f3156f726449bfc123061d16c03, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 395
+    y: 196
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

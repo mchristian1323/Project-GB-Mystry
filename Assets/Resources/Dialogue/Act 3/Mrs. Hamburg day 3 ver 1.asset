@@ -1,0 +1,496 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6887812574014929455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 1192b303-0a88-4491-83c5-a503ffc91d23
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Where were you when Cole Waters was murdered!?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 21c41023-f93b-49fb-aaee-7753a7c9adf0
+  rect:
+    serializedVersion: 2
+    x: 1646
+    y: 274
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6461860934154954980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: db062235-dc87-4bac-854a-2296515577ef
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: "Wasn\u2019t there some rumors going around that you were collaborating again
+    on some cybernetic enhancement?"
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 76cae1d8-458d-441f-b487-c9f8147e2e7a
+  rect:
+    serializedVersion: 2
+    x: 1146
+    y: 27
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6422524945144128451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 27537e20-396c-44be-8912-36a29d25a052
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: ...
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 3b2bd245-0554-4fbd-b120-44dd08fb3459
+  - 20365940-6185-44a0-beed-4b3fba5c9b28
+  rect:
+    serializedVersion: 2
+    x: 124
+    y: 161
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6111515912439628275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 6c43f6ea-b4cd-4755-98f3-8548910b572c
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: You mentioned before that you worked with him. What exactly did you work
+    on?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - c920d6be-6cb3-4296-a1b8-2e234791d581
+  rect:
+    serializedVersion: 2
+    x: 646
+    y: 27
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5394274021580814074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 268bdd45-1b24-452c-b90d-ab9572324140
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: "You\u2019re quite presumptuous for a detective. Maybe I\u2019m happy that
+    a competitor is out of the competition, or MAYBE I am just upset over the death
+    of an acquaintance. We all grieve in our own way after all. But either way, I
+    don\u2019t see what this has to do with anything detective."
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 1192b303-0a88-4491-83c5-a503ffc91d23
+  rect:
+    serializedVersion: 2
+    x: 1396
+    y: 274
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4897183998452488469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: d883bf3b-e097-4bb9-b139-752365c4c660
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: Excuse me, Detective?
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 212d3a16-34b8-44d6-a3e0-40694ff72d57
+  rect:
+    serializedVersion: 2
+    x: 896
+    y: 275
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4505687731703195805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c920d6be-6cb3-4296-a1b8-2e234791d581
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: "We had a couple of projects together making computer chips and some android
+    parts. Those projects were years ago and it\u2019s been years since I had any
+    interest working with him again."
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - db062235-dc87-4bac-854a-2296515577ef
+  rect:
+    serializedVersion: 2
+    x: 896
+    y: 27
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1988132763592488023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5506c591-de84-4bf9-b31f-41c11687751a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "\u2026"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 3b2bd245-0554-4fbd-b120-44dd08fb3459
+  - 20365940-6185-44a0-beed-4b3fba5c9b28
+  rect:
+    serializedVersion: 2
+    x: 2181
+    y: 269
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Mrs. Hamburg day 3 ver 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -6422524945144128451}
+  - {fileID: 4862182363832840397}
+  - {fileID: 4494606088737433142}
+  - {fileID: -6111515912439628275}
+  - {fileID: -4505687731703195805}
+  - {fileID: -6461860934154954980}
+  - {fileID: 4506566218190694086}
+  - {fileID: 352400044129600759}
+  - {fileID: 4214996529536265928}
+  - {fileID: 7404040926561970997}
+  - {fileID: -4897183998452488469}
+  - {fileID: 4006719879820921559}
+  - {fileID: -5394274021580814074}
+  - {fileID: -6887812574014929455}
+  - {fileID: 6643791261329020972}
+  - {fileID: -1988132763592488023}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &352400044129600759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e73f06bb-c0ba-431b-a067-88c3c88643d8
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK
+  text: You refuse to work for the man, and yet you are, in your words, torn over
+    his death?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 2930c1f4-deb8-4101-96f6-6d208bd69317
+  rect:
+    serializedVersion: 2
+    x: 1646
+    y: 26
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &4006719879820921559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 212d3a16-34b8-44d6-a3e0-40694ff72d57
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "You have been duplicitous with us from the start. Your original testimony
+    was full of holes and when he gets brought up in any context other than his death,
+    you seem to lose your composure. It\u2019s almost as if you are happy with him
+    being gone."
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 268bdd45-1b24-452c-b90d-ab9572324140
+  rect:
+    serializedVersion: 2
+    x: 1142
+    y: 272
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &4214996529536265928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2930c1f4-deb8-4101-96f6-6d208bd69317
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: "I can still respect a man I butt heads with, can\u2019t I detective? "
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 3b2bd245-0554-4fbd-b120-44dd08fb3459
+  - 20365940-6185-44a0-beed-4b3fba5c9b28
+  rect:
+    serializedVersion: 2
+    x: 1896
+    y: 26
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &4494606088737433142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 20365940-6185-44a0-beed-4b3fba5c9b28
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: "you hated the man didn\u2019t you..."
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - ae231bed-580d-412d-b381-77cbec3b9362
+  rect:
+    serializedVersion: 2
+    x: 396
+    y: 275
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &4506566218190694086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 76cae1d8-458d-441f-b487-c9f8147e2e7a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: Your mistaken! I vowed to never work with the man again, so those rumors
+    are simply untrue.
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - e73f06bb-c0ba-431b-a067-88c3c88643d8
+  rect:
+    serializedVersion: 2
+    x: 1396
+    y: 26
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &4862182363832840397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3b2bd245-0554-4fbd-b120-44dd08fb3459
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Did you have a working relationship with waters...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 6c43f6ea-b4cd-4755-98f3-8548910b572c
+  rect:
+    serializedVersion: 2
+    x: 396
+    y: 27
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6643791261329020972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 21c41023-f93b-49fb-aaee-7753a7c9adf0
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: I already told you detective. And if we are just going to go back in a circle,
+    I am done answering questions.
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 5506c591-de84-4bf9-b31f-41c11687751a
+  rect:
+    serializedVersion: 2
+    x: 1916
+    y: 273
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7404040926561970997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ae231bed-580d-412d-b381-77cbec3b9362
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "You hated the man, didn\u2019t you Mrs. Hamburg?"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - d883bf3b-e097-4bb9-b139-752365c4c660
+  rect:
+    serializedVersion: 2
+    x: 646
+    y: 275
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

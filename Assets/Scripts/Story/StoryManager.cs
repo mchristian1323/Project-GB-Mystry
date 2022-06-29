@@ -6,27 +6,56 @@ namespace Story
 {
     public class StoryManager : MonoBehaviour
     {
-        // Start is called before the first frame update
-        void Start()
+        public void SetDialogue()
+        {
+            //pick target
+            //replace dialogue with them
+            //if that target is the current target, reset the dialogue (probably done with the events
+        }
+
+        public void SetUpActOne()
+        {
+            //load first scene
+            //make sure things are clear
+            //start the first cutscene
+            //give player control
+            //save
+        }
+
+        public void SetUpActTwo()
+        {
+            //set second scene
+            //check player evidence for specified items
+            //add dialogue depending on specified items
+            //give player control
+            //save
+        }
+
+        public void SetUpActThree()
+        {
+            //set second scene
+            //check player evidence for specified items
+            //add dialogue depending on specified items
+            //give player control
+            //save
+        }
+
+        //add theory
+        public void AddTheory()
         {
 
         }
 
-        // Update is called once per frame
-        void Update()
+        //add evidence
+        public void AddEvidence()
         {
 
         }
 
-        //set dialogue
-            //take in character and add in new dialogue (set from dialogue events most likely)
-            //resest current dialogue
+        //prompt player to pick a theory/end the game
+        public void PickTheoryForEnd()
+        {
 
-        //set the acts
-            //set the stage and assign all of the act 1 dialogues (check if certain criteria is met for certain dialogue)
-
-        //change object dialogue
-
-         
+        }
     }
 }

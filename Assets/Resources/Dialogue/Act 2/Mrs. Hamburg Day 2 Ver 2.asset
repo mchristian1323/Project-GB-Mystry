@@ -1,0 +1,560 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6025613709133243235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2c39c86c-a094-4248-8438-c833bd20331b
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "I see\u2026"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 5af16fd3-2758-444a-92cc-60e6ef51978b
+  rect:
+    serializedVersion: 2
+    x: 1956
+    y: 158
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5747127805681051082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e03a99c0-860b-41d3-9e8a-0469efe4c75f
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: What are you hiding...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 5dae079d-57e5-49a5-b89e-94c512d87813
+  rect:
+    serializedVersion: 2
+    x: 449
+    y: 15
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5651359006789635966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ff8ae5e0-8926-4b49-b44c-f402545c466a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: You are still a suspect Mrs. Hamburg. And I would thank you to start taking
+    my questions seriously.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 3ff23179-29cb-4a8d-ba87-7587b4d39a8d
+  rect:
+    serializedVersion: 2
+    x: 2191
+    y: 13
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4871117666282505518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 215578cc-207b-4d48-b302-13d11b741f07
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: '*Whispers* ooh, you got her good partner.'
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - e03a99c0-860b-41d3-9e8a-0469efe4c75f
+  - 5af16fd3-2758-444a-92cc-60e6ef51978b
+  rect:
+    serializedVersion: 2
+    x: 2691
+    y: 13
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4265218620413376406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 857d1cc5-b3ff-4187-936f-baecd4ae907d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: Whatever do you mean detective?
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - fe8be23b-2042-4d71-8c7d-b30e1bc1c943
+  rect:
+    serializedVersion: 2
+    x: 949
+    y: 15
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4076011704514390517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 6feaec72-5f10-452f-9af3-e6faee2c4ec2
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: "Cole took responsibility. He usually was very quick to make public apologies
+    for anything that went wrong with the things he was connected to. Even if it
+    wasn\u2019t his fault."
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - f1b6f573-6906-4dfe-b0b3-c796bb46f264
+  rect:
+    serializedVersion: 2
+    x: 1437
+    y: 156
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2953693184104830569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 0434c325-1b7a-4f2b-9929-55ad27deebc6
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: I was never a collaborator with that half with hack of an inventor!
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - c91335e3-e2b2-419e-9f16-018ccdc64df2
+  rect:
+    serializedVersion: 2
+    x: 1449
+    y: 15
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2000219988268547036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c4b37c32-c611-4b14-ad67-c60a31ec7173
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: "I personally never wanted to work with the young man. We never got past
+    a few meetings where he failed to prove to me that he is not some reckless scientist
+    who wants to be famous. Cole on the other hand has worked with him once before.
+    I don\u2019t remember the details, but I remember bran did something that sent
+    the project spiraling."
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 6feaec72-5f10-452f-9af3-e6faee2c4ec2
+  rect:
+    serializedVersion: 2
+    x: 1187
+    y: 156
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-446236959980856600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7dcdfa01-3ef4-4902-89c9-742718a529cc
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: "Well, excuse me for not wanting to associate myself with that unhinged embarrassment
+    of the tech world! Last I checked, I\u2019m not on trial here for my relationship
+    with bran!"
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - ff8ae5e0-8926-4b49-b44c-f402545c466a
+  rect:
+    serializedVersion: 2
+    x: 1941
+    y: 13
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-404561611498522625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: bc07beca-a242-4de2-9d07-35785037d834
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Prof. Bran claims you three were rivals. What is your take on that?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - c7aa5678-f07e-450b-bb81-311a30993102
+  rect:
+    serializedVersion: 2
+    x: 687
+    y: 157
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-234773890155647252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3ff23179-29cb-4a8d-ba87-7587b4d39a8d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: "\u2026"
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 215578cc-207b-4d48-b302-13d11b741f07
+  rect:
+    serializedVersion: 2
+    x: 2441
+    y: 13
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Mrs. Hamburg Day 2 Ver 2
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 5966698123152689624}
+  - {fileID: -5747127805681051082}
+  - {fileID: 4591742392336256868}
+  - {fileID: -4265218620413376406}
+  - {fileID: 8138649400038747376}
+  - {fileID: -2953693184104830569}
+  - {fileID: 8204447063426488118}
+  - {fileID: -446236959980856600}
+  - {fileID: -5651359006789635966}
+  - {fileID: -234773890155647252}
+  - {fileID: -4871117666282505518}
+  - {fileID: 5434678072125588218}
+  - {fileID: -404561611498522625}
+  - {fileID: 9127353198695280692}
+  - {fileID: -2000219988268547036}
+  - {fileID: -4076011704514390517}
+  - {fileID: -6025613709133243235}
+  - {fileID: 4913932075544870386}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &4591742392336256868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5dae079d-57e5-49a5-b89e-94c512d87813
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Mrs. Hamburg, why are you being duplicitous with us?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 857d1cc5-b3ff-4187-936f-baecd4ae907d
+  rect:
+    serializedVersion: 2
+    x: 686
+    y: 14
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &4913932075544870386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: f1b6f573-6906-4dfe-b0b3-c796bb46f264
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: "But Bran seems to blame Cole for what happened, letting Cole\u2019s obnoxious
+    honesty and desire to do the \u201Cright thing\u201D get to his head. Now he\u2019s
+    got grudges against anyone that is more successful than him, with myself and
+    Cole being rather famous, its no wonder he builds these obsessions with us."
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 2c39c86c-a094-4248-8438-c833bd20331b
+  rect:
+    serializedVersion: 2
+    x: 1691
+    y: 157
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5434678072125588218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5af16fd3-2758-444a-92cc-60e6ef51978b
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Expand on your relationship with Bran and Waters...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - bc07beca-a242-4de2-9d07-35785037d834
+  rect:
+    serializedVersion: 2
+    x: 444
+    y: 158
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5966698123152689624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: adfe8658-ea66-49aa-b2de-bfdbbad98a40
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: ...
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - e03a99c0-860b-41d3-9e8a-0469efe4c75f
+  - 5af16fd3-2758-444a-92cc-60e6ef51978b
+  rect:
+    serializedVersion: 2
+    x: 185
+    y: 168
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8138649400038747376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: fe8be23b-2042-4d71-8c7d-b30e1bc1c943
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: We both know you left out your early departure from the bar last night. Plus
+    you mentioned you had a couple of conversations with Prof. Bran, yet you failed
+    to mention you collaborators in the past.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 0434c325-1b7a-4f2b-9929-55ad27deebc6
+  rect:
+    serializedVersion: 2
+    x: 1199
+    y: 15
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8204447063426488118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c91335e3-e2b2-419e-9f16-018ccdc64df2
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "Your right. I made that up. But he claimed you, him, and waters were rivals.
+    And as much as I don\u2019t believe he kept up with your success, the fact that
+    you know him as an inventor and a \u201Chalf-wit\u201D one at that, shows that
+    you have more of a history together than what you implied before. What are you
+    trying to hide Mrs. Hamburg?"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 7dcdfa01-3ef4-4902-89c9-742718a529cc
+  rect:
+    serializedVersion: 2
+    x: 1701
+    y: 12
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &9127353198695280692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c7aa5678-f07e-450b-bb81-311a30993102
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: Bran is an inventor. And a small time one at that. He had a few bright ideas
+    that got him some money and a little bit of fame amongst engineers and he let
+    that get to his head.
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - c4b37c32-c611-4b14-ad67-c60a31ec7173
+  rect:
+    serializedVersion: 2
+    x: 937
+    y: 157
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

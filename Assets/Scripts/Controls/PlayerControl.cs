@@ -13,6 +13,8 @@ namespace Control
         //public
         public bool canAct = true;
 
+        public Vector2 mousePos;
+
         //Serialized
         [Header("Player Stats")]
         [SerializeField] float playerCurrentSpeed;
@@ -128,6 +130,11 @@ namespace Control
         public void SetAct(bool act)
         {
             canAct = act;
+        }
+
+        public void OnMousePos(InputAction.CallbackContext context)
+        {
+            mousePos = context.ReadValue<Vector2>();
         }
     }
 }

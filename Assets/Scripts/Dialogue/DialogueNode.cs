@@ -16,8 +16,8 @@ namespace Dialogue
         [SerializeField] bool unSkipable;
         [SerializeField] List<string> children = new List<string>();
         [SerializeField] Rect rect = new Rect(0, 0, 200, 100);
-        [SerializeField] string onEnterAction;
-        [SerializeField] string onExitAction; //array to trigger multipe actions on exiting a node
+        [SerializeField] string[] onEnterAction;
+        [SerializeField] string[] onExitAction; //array to trigger multipe actions on exiting a node
 
         public Rect GetRect()
         {
@@ -59,12 +59,12 @@ namespace Dialogue
             return unSkipable;
         }
 
-        public string GetOnEnterActions()
+        public string[] GetOnEnterActions()
         {
             return onEnterAction;
         }
         
-        public string GetOnExitActions()
+        public string[] GetOnExitActions()
         {
             return onExitAction;
         }

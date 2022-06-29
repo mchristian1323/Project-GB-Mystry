@@ -475,8 +475,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Dialogue Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12369390a50753b46924ddc6df401a76, type: 2}
-  m_sharedMaterial: {fileID: -6727888950915150457, guid: 12369390a50753b46924ddc6df401a76,
+  m_fontAsset: {fileID: 11400000, guid: cfac0e3a5ed5c2d4f94a72fcd464e7af, type: 2}
+  m_sharedMaterial: {fileID: 8105103805999475553, guid: cfac0e3a5ed5c2d4f94a72fcd464e7af,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -501,8 +501,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42
-  m_fontSizeBase: 42
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1117,7 +1117,7 @@ MonoBehaviour:
     m_Top: 2
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_Spacing: -15
+  m_Spacing: -40
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1

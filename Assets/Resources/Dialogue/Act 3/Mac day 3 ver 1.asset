@@ -1,0 +1,438 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8750971474188297989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3c415553-bf4d-45fc-b8ec-19041f567ba4
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "That\u2019s definitely noble of you."
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 09b12c94-b177-4fd7-85f1-2ba36fd8f12c
+  - fcd83951-b8e1-4721-84f1-15126709c036
+  rect:
+    serializedVersion: 2
+    x: 1550
+    y: 97
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-7667375531549206428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7218194e-8655-4c71-aa04-47248c220b6f
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "Your personality and your reputation are rather opposed, aren\u2019t they?"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - cc74378b-389c-4cb3-9e41-3f86a556cd34
+  rect:
+    serializedVersion: 2
+    x: 550
+    y: 97
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6912621199738540378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 09b12c94-b177-4fd7-85f1-2ba36fd8f12c
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: You put on a kind face...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 7218194e-8655-4c71-aa04-47248c220b6f
+  rect:
+    serializedVersion: 2
+    x: 297
+    y: 97
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6763818061213735157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: cc74378b-389c-4cb3-9e41-3f86a556cd34
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: "Yeah. Super nice, but being a thief just doesn\u2019t really fit that image.
+    Though I guess you could be a conman too."
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - b29764c6-5e5b-49f0-abb3-201747cd7c46
+  rect:
+    serializedVersion: 2
+    x: 800
+    y: 97
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6452976810816338567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3f149a11-4df7-45b1-8562-e401dacd2158
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: You do realize that your story with that watch can only be corroborated by
+    you and Cole Waters. No one else can verify your story.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 48816362-8517-4cc3-a49d-98e81be86a10
+  rect:
+    serializedVersion: 2
+    x: 551
+    y: 295
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3118794583866763648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: de2c05f0-7eea-40fa-bc66-5ea3a53df5ef
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: That makes sense. But only if your interaction with him went the way you
+    said it went.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 5a6ce28c-30f1-4ab6-a930-aa17d5bf57dd
+  rect:
+    serializedVersion: 2
+    x: 1051
+    y: 295
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2559371838908412411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5a6ce28c-30f1-4ab6-a930-aa17d5bf57dd
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: That makes sense. But only if your interaction with him went the way you
+    said it went.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - e0cd8b67-1735-40f4-820c-c2952e3adf2a
+  rect:
+    serializedVersion: 2
+    x: 1301
+    y: 295
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2393568101691036281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ba7d34ee-45d5-4570-b120-4b64907fed9b
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: "I know that doesn\u2019t place me in the best of lights. But you seem like
+    good detectives. I\u2019m sure you will find the truth in all of this. And I
+    feel the best way to help is to be honest. Even if it does put me in a bad light.
+    Or punished for my petty crimes."
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 3c415553-bf4d-45fc-b8ec-19041f567ba4
+  rect:
+    serializedVersion: 2
+    x: 1300
+    y: 98
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2011725059904471357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 48816362-8517-4cc3-a49d-98e81be86a10
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: "I guess that\u2019s true. But why would I want to kill him. He helped me.
+    He saved me! If it weren\u2019t for him, you two would probably be arresting
+    me for a rash decision I couldn\u2019t take back. He gave me the opportunity
+    to not be tempted by that decision."
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - de2c05f0-7eea-40fa-bc66-5ea3a53df5ef
+  rect:
+    serializedVersion: 2
+    x: 801
+    y: 295
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Mac day 3 ver 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 4935964570111341410}
+  - {fileID: -6912621199738540378}
+  - {fileID: 757643471064949347}
+  - {fileID: -7667375531549206428}
+  - {fileID: -6452976810816338567}
+  - {fileID: -6763818061213735157}
+  - {fileID: 3571830006184099160}
+  - {fileID: -2393568101691036281}
+  - {fileID: -8750971474188297989}
+  - {fileID: -2011725059904471357}
+  - {fileID: -3118794583866763648}
+  - {fileID: -2559371838908412411}
+  - {fileID: 9054508729986440440}
+  - {fileID: 3508616095207189561}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &757643471064949347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: fcd83951-b8e1-4721-84f1-15126709c036
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Who can corroborate you...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 3f149a11-4df7-45b1-8562-e401dacd2158
+  rect:
+    serializedVersion: 2
+    x: 297
+    y: 294
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3508616095207189561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 50776872-bef8-48b7-af0e-12224dbe1d00
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "\u2026"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 09b12c94-b177-4fd7-85f1-2ba36fd8f12c
+  - fcd83951-b8e1-4721-84f1-15126709c036
+  rect:
+    serializedVersion: 2
+    x: 1801
+    y: 295
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3571830006184099160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b29764c6-5e5b-49f0-abb3-201747cd7c46
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: "I don\u2019t know about being no conman, but in all honesty I was a thief.
+    In a lot of ways I still am. "
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - ba7d34ee-45d5-4570-b120-4b64907fed9b
+  rect:
+    serializedVersion: 2
+    x: 1050
+    y: 98
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &4935964570111341410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: a68663ca-eef4-4dc2-9057-23af2d17996a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: Evening, Detective.
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 09b12c94-b177-4fd7-85f1-2ba36fd8f12c
+  - fcd83951-b8e1-4721-84f1-15126709c036
+  rect:
+    serializedVersion: 2
+    x: 49
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &9054508729986440440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e0cd8b67-1735-40f4-820c-c2952e3adf2a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: "I guess that\u2019s true too. I don\u2019t have any other way of proving
+    it to you then. But I stand by belief in you detective. I know you will find
+    the truth in all of this."
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 50776872-bef8-48b7-af0e-12224dbe1d00
+  rect:
+    serializedVersion: 2
+    x: 1551
+    y: 295
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

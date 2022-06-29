@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Note from coles folder
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 582872665331668946}
+  - {fileID: 1417512820835093822}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &582872665331668946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 520ccfab-d795-4e75-965a-eade878398c9
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: " A note written in pencil, it matches the handwriting in Cole Waters\u2019
+    folder of notes."
+  portrait: {fileID: 21300000, guid: f425b2858c3fa3a469c1e137980f7787, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 0dcf2c33-581a-47da-ad41-f555627bd7e7
+  rect:
+    serializedVersion: 2
+    x: 93
+    y: 147
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &1417512820835093822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 0dcf2c33-581a-47da-ad41-f555627bd7e7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: 'It seems to be a list of notes for some kind of apology speech. '
+  portrait: {fileID: 21300000, guid: f425b2858c3fa3a469c1e137980f7787, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 343
+    y: 147
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

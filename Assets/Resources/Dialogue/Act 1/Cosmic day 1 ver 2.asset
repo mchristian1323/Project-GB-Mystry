@@ -1,0 +1,1035 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6768165500555586978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ab678037-c564-4466-9a5c-75339f6d620c
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "I was trying to fix my phone. That weak lookin\u2019 dude bumped into me
+    as I was walking near the bar. Knocked me right into a tray that had some drinks
+    on it and they got all over me."
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - dacce051-9c1b-4a2c-97fa-d14dda2986c7
+  rect:
+    serializedVersion: 2
+    x: 795
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6417598847821518217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7d2c24a1-71bb-409a-8ed4-fc5e77d7b370
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: What?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 1691b694-c4c9-48ba-a240-24b6737a5182
+  rect:
+    serializedVersion: 2
+    x: 1545
+    y: 199
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5634664773896466931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 9557c008-cfd3-413e-ae17-783baa0c3c07
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: "So I\u2019m assuming by your tone that its still broken and your still mad
+    about it?"
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - b8e58c10-1cf9-44ec-a3bb-9f5d6112e105
+  rect:
+    serializedVersion: 2
+    x: 1295
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5619668274810807512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: cd4d831d-61b6-4896-b8a8-3fab6238e7e7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: Really?
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 990ef6b0-761c-4977-8a2a-8accb4e023b7
+  rect:
+    serializedVersion: 2
+    x: 1060
+    y: 494
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5499998271720603879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3f0fbee4-8ec4-44e8-a921-aeb607f2e1ec
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: Suspiciously in the middle of the possible time of death.
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 447c4a4b-0255-4833-9629-70744f22906a
+  rect:
+    serializedVersion: 2
+    x: 2304
+    y: 499
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4738264261051764249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: f990ffd4-5a92-4e11-b383-71f7c96a2acd
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "Yeah\u2026 Look, I\u2019m telling you the truth. "
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - a49375f8-c145-46ca-92b7-c4503dff47b6
+  - 0554321c-a433-4691-842a-f1effce3c59a
+  - 5abfed64-062a-4d55-98c7-51038de4ab1b
+  - 5e6b6bde-975d-4ad7-a069-117fdee3d93b
+  rect:
+    serializedVersion: 2
+    x: 3047
+    y: 498
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4260623813004491950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 90f0a292-841a-45f3-a63d-a0c2435e543a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "Well\u2026 I guess I could have been later than that."
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 2513fe66-84b9-4dc6-bbd0-7fdf0d8cc02d
+  rect:
+    serializedVersion: 2
+    x: 1560
+    y: 494
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3953477276358442877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: abf3c0e7-09b8-4cad-b4f5-df88b0962540
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: It seems a little worse now that you try to hide it Cosmic. You know that,
+    Right?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - f990ffd4-5a92-4e11-b383-71f7c96a2acd
+  rect:
+    serializedVersion: 2
+    x: 2801
+    y: 495
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3895876589304048135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5e6b6bde-975d-4ad7-a069-117fdee3d93b
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: What were you doing out...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 317a2d19-96d7-401f-a6f8-9827d3c7a7f6
+  rect:
+    serializedVersion: 2
+    x: 295
+    y: 495
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3579672004665733488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 37ec5518-05b1-49ab-8634-80a62d8b7d55
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "Uhh\u2026 I guess it was kinda late. Maybe around 8 or so."
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - cd4d831d-61b6-4896-b8a8-3fab6238e7e7
+  rect:
+    serializedVersion: 2
+    x: 810
+    y: 495
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3033472824433272016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b8e58c10-1cf9-44ec-a3bb-9f5d6112e105
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "Of course its still broken! And who wouldn\u2019t be mad. That guy damaged
+    a good shirt, and my me and my wifes lively hood relies on our phones! Were influencer's.
+    With my phone broken, I can\u2019t work!"
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - c671eb16-da49-45da-abff-e6a2c6ac7bff
+  rect:
+    serializedVersion: 2
+    x: 1545
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2266298040018809889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 1348952d-379a-4308-8bff-5d9e01fbd57b
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "Oh, no I didn\u2019t. My wife met him before though."
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - a49375f8-c145-46ca-92b7-c4503dff47b6
+  - 0554321c-a433-4691-842a-f1effce3c59a
+  - 5abfed64-062a-4d55-98c7-51038de4ab1b
+  - 5e6b6bde-975d-4ad7-a069-117fdee3d93b
+  rect:
+    serializedVersion: 2
+    x: 1297
+    y: 347
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2163440496815346174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 447c4a4b-0255-4833-9629-70744f22906a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "Alright, I can explain. You see I was actually gonna go try to talk to Cole
+    Waters. I\u2019m a fan of his work and I wanted to grab a picture. But before
+    I got my chance my phone broke. I didn\u2019t tell ya before cause, it paints
+    me in bit of a bad light. I know it seems suspicious that I was looking to see
+    him the time he was killed, but I swear I didn\u2019t even see him."
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - abf3c0e7-09b8-4cad-b4f5-df88b0962540
+  rect:
+    serializedVersion: 2
+    x: 2551
+    y: 495
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1888902850107152000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 4a18ba58-429e-48f6-911c-87eb6a0bfbd0
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: Is you sight really that bad detective, or are you just daft.
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 7d2c24a1-71bb-409a-8ed4-fc5e77d7b370
+  rect:
+    serializedVersion: 2
+    x: 1295
+    y: 199
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1867999866907477387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: d9506c4e-6cfc-4adf-8e1d-60d4618599c0
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: Yo.
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - a49375f8-c145-46ca-92b7-c4503dff47b6
+  - 0554321c-a433-4691-842a-f1effce3c59a
+  - 5abfed64-062a-4d55-98c7-51038de4ab1b
+  - 5e6b6bde-975d-4ad7-a069-117fdee3d93b
+  rect:
+    serializedVersion: 2
+    x: 45
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1424209332774124202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2ef4d759-99e1-488f-bda2-4da3b1585464
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: He means personally, Mr. Apple.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 1348952d-379a-4308-8bff-5d9e01fbd57b
+  rect:
+    serializedVersion: 2
+    x: 1048
+    y: 347
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-969494845376680059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 1691b694-c4c9-48ba-a240-24b6737a5182
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: This is a luxury ship partner. They check people before hand so that they
+    can offer them a peaceful ride. Having cameras on would only stress people out.
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 09af5a6a-0600-4d20-a9e2-8b3bbd044130
+  rect:
+    serializedVersion: 2
+    x: 1795
+    y: 199
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-925532231994326395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 317a2d19-96d7-401f-a6f8-9827d3c7a7f6
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "It occurs to me we didn\u2019t ask the time you bumped into Mr. Quiche."
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 37ec5518-05b1-49ab-8634-80a62d8b7d55
+  rect:
+    serializedVersion: 2
+    x: 548
+    y: 495
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-817701203618559098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 990ef6b0-761c-4977-8a2a-8accb4e023b7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "We have a witness that claims you were walking around the bar a little later
+    than \u201C8 or so\u201D. Care to explain?"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 90f0a292-841a-45f3-a63d-a0c2435e543a
+  rect:
+    serializedVersion: 2
+    x: 1310
+    y: 494
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-208635107799909011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: d6fb3c52-6d8a-4759-b220-14e074d28e18
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: Guess thats why your here detective. Lets hope you can do your job well.
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - a49375f8-c145-46ca-92b7-c4503dff47b6
+  - 0554321c-a433-4691-842a-f1effce3c59a
+  - 5abfed64-062a-4d55-98c7-51038de4ab1b
+  - 5e6b6bde-975d-4ad7-a069-117fdee3d93b
+  rect:
+    serializedVersion: 2
+    x: 2294
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Cosmic day 1 ver 2
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -1867999866907477387}
+  - {fileID: 6970068529745243080}
+  - {fileID: 1144160412223964663}
+  - {fileID: 7362995930214330850}
+  - {fileID: 6335549596910406171}
+  - {fileID: 2561879224114882067}
+  - {fileID: 6725064283960718426}
+  - {fileID: -6768165500555586978}
+  - {fileID: 4871336643667420503}
+  - {fileID: -5634664773896466931}
+  - {fileID: -3033472824433272016}
+  - {fileID: 7756262154682570641}
+  - {fileID: 8654546263850779769}
+  - {fileID: 220623609457846144}
+  - {fileID: -1888902850107152000}
+  - {fileID: -6417598847821518217}
+  - {fileID: -969494845376680059}
+  - {fileID: 4192373408685331410}
+  - {fileID: -208635107799909011}
+  - {fileID: 5659956293627666102}
+  - {fileID: -1424209332774124202}
+  - {fileID: -2266298040018809889}
+  - {fileID: -3895876589304048135}
+  - {fileID: -925532231994326395}
+  - {fileID: -3579672004665733488}
+  - {fileID: -5619668274810807512}
+  - {fileID: -817701203618559098}
+  - {fileID: -4260623813004491950}
+  - {fileID: 6876782223451019869}
+  - {fileID: 3233936231887616244}
+  - {fileID: -5499998271720603879}
+  - {fileID: -2163440496815346174}
+  - {fileID: -3953477276358442877}
+  - {fileID: -4738264261051764249}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &220623609457846144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 812c404b-87b1-45cb-9943-01c413cc4fa6
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Maybe they caught it on the security cameras.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 4a18ba58-429e-48f6-911c-87eb6a0bfbd0
+  rect:
+    serializedVersion: 2
+    x: 1046
+    y: 199
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &1144160412223964663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 0554321c-a433-4691-842a-f1effce3c59a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Did you know the victim...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 733f1d42-d8b3-4600-878a-85ea31ea493e
+  rect:
+    serializedVersion: 2
+    x: 295
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &2561879224114882067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 733f1d42-d8b3-4600-878a-85ea31ea493e
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: So you were near the bars last night next to the VIP rooms. Any chance you
+    were to have anything recorded on your phone?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 1bed2b27-7351-412a-a2a7-8e93635cc3ea
+  rect:
+    serializedVersion: 2
+    x: 545
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3233936231887616244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: f15cb488-e7fd-4405-87d8-fd778cd42bd3
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "\u2026Maybe around 10:30?"
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 3f0fbee4-8ec4-44e8-a921-aeb607f2e1ec
+  rect:
+    serializedVersion: 2
+    x: 2051
+    y: 495
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &4192373408685331410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 09af5a6a-0600-4d20-a9e2-8b3bbd044130
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: So we got a murder and no video evidence. Great.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - d6fb3c52-6d8a-4759-b220-14e074d28e18
+  rect:
+    serializedVersion: 2
+    x: 2045
+    y: 199
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &4871336643667420503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: dacce051-9c1b-4a2c-97fa-d14dda2986c7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "I was gonna puml-\u2026 Ugh, tell him whats what but he ran off before I
+    could. Looked a little flight sick to me so I guess he was tryin\u2019 to find
+    a toilet. So I went back to my room. After I changed clothes I noticed my phone
+    was cracked and soaked. I spent the rest of the night trying to fix it."
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 9557c008-cfd3-413e-ae17-783baa0c3c07
+  rect:
+    serializedVersion: 2
+    x: 1045
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5659956293627666102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: a00fdb93-5624-4af2-a50b-43f41b8af17a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "Yeah I did. Who doesn\u2019t? He\u2019s like a huge star."
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 2ef4d759-99e1-488f-bda2-4da3b1585464
+  rect:
+    serializedVersion: 2
+    x: 797
+    y: 348
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6335549596910406171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 8b640ca5-8acb-43dd-a5ca-e91f450413f6
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Where were you between the hours of 9:00pm and Midnight, Mr. Apple
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - ab678037-c564-4466-9a5c-75339f6d620c
+  rect:
+    serializedVersion: 2
+    x: 545
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6725064283960718426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 6a34c538-8d19-4f38-9798-2ae92253524f
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: Did you know the victim?
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - a00fdb93-5624-4af2-a50b-43f41b8af17a
+  rect:
+    serializedVersion: 2
+    x: 547
+    y: 348
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6876782223451019869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2513fe66-84b9-4dc6-bbd0-7fdf0d8cc02d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: How late?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - f15cb488-e7fd-4405-87d8-fd778cd42bd3
+  rect:
+    serializedVersion: 2
+    x: 1810
+    y: 494
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6970068529745243080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: a49375f8-c145-46ca-92b7-c4503dff47b6
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Where were you when...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 8b640ca5-8acb-43dd-a5ca-e91f450413f6
+  rect:
+    serializedVersion: 2
+    x: 296
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7362995930214330850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5abfed64-062a-4d55-98c7-51038de4ab1b
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: You phone is busted
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 6a34c538-8d19-4f38-9798-2ae92253524f
+  rect:
+    serializedVersion: 2
+    x: 296
+    y: 347
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7756262154682570641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c671eb16-da49-45da-abff-e6a2c6ac7bff
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "I see\u2026"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - a49375f8-c145-46ca-92b7-c4503dff47b6
+  - 0554321c-a433-4691-842a-f1effce3c59a
+  - 5abfed64-062a-4d55-98c7-51038de4ab1b
+  - 5e6b6bde-975d-4ad7-a069-117fdee3d93b
+  rect:
+    serializedVersion: 2
+    x: 1791
+    y: 44
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8654546263850779769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 1bed2b27-7351-412a-a2a7-8e93635cc3ea
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: "Not a chance. Phones busted. And even if it wasn\u2019t its not like I was
+    recording anyways. And I don\u2019t think I saw anyone recorded me get covered
+    in drinks."
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 812c404b-87b1-45cb-9943-01c413cc4fa6
+  rect:
+    serializedVersion: 2
+    x: 795
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

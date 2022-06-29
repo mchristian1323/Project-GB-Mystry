@@ -137,6 +137,7 @@ namespace UI
                 yield return new WaitForSeconds(0.01f);
             }
             */
+
             StartCoroutine(FadeOut());
         }
 

@@ -1,0 +1,870 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8826828401315333621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3407326f-2d75-461a-ba88-0cb1a23e0e6d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: "Why would I kill him! I may have hated the man, but killing him doesn\u2019t
+    solve anything!"
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - ce50d759-c77d-4eba-ad00-728720a88119
+  rect:
+    serializedVersion: 2
+    x: 1345
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-8678900183780022152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3569d696-686a-40fd-a542-56c44d4ac321
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'Even though the ship has strong regulations? '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 5ebb954e-e958-46da-baee-984d68bf92b2
+  rect:
+    serializedVersion: 2
+    x: 3604
+    y: 273
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-7779088177222612675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e167b69a-0b8e-4678-abf8-8eb164f58826
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Your research resulted in a mans death! Tell me!
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 68db3d44-5c68-44eb-8e08-a8b54e7fe51c
+  rect:
+    serializedVersion: 2
+    x: 2596
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-7747504838924666521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 4a62c122-bc7b-4940-bb28-b24c1d25a856
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: "Because now I have no way to prove who was the better innovator! I can\u2019t
+    prove that I\u2019m better with out him there to lose in the competition! Now
+    I only have Mrs. Hamburg to compete with!"
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 539c9796-252e-4331-ab53-dd3801265c4b
+  rect:
+    serializedVersion: 2
+    x: 1845
+    y: 203
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6995695483010723071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5114085e-3c3f-4eec-ba99-6fba3afeaf72
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: ...
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 6f72f136-c4fc-4c6c-b946-5dbb7cd256fd
+  - 8342542d-09f6-477b-b261-3658efda0741
+  rect:
+    serializedVersion: 2
+    x: 3609
+    y: 613
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6538348153595460561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 68db3d44-5c68-44eb-8e08-a8b54e7fe51c
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: "It\u2019s a saw!"
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 5f164dea-fb60-4264-91be-8338ac1f29ff
+  rect:
+    serializedVersion: 2
+    x: 2846
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6382807078146221342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 63ace7aa-67d1-48fb-bf3d-4ec18fc45700
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: It is a tragedy, but I have the future to think about.
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 6f72f136-c4fc-4c6c-b946-5dbb7cd256fd
+  - 8342542d-09f6-477b-b261-3658efda0741
+  rect:
+    serializedVersion: 2
+    x: 2345
+    y: 203
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6033937705525744264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ce50d759-c77d-4eba-ad00-728720a88119
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Your gonna have to show me your work if you want me to believe it.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 4a62c122-bc7b-4940-bb28-b24c1d25a856
+  rect:
+    serializedVersion: 2
+    x: 1609
+    y: 203
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5307503782930000807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 03fbf289-3e32-42ae-b8cc-b3eb7d2d489b
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: What?! What do you mean?! And it's Prof. Bran!
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - de1ace38-1d40-46c5-ae0e-32538417a411
+  rect:
+    serializedVersion: 2
+    x: 1346
+    y: 46
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5212431235881433187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 062088eb-ec40-4ec2-9a81-826854f97e0c
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: Thats a negative, Professorino.
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 03fbf289-3e32-42ae-b8cc-b3eb7d2d489b
+  rect:
+    serializedVersion: 2
+    x: 1096
+    y: 46
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4986932458955342993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 0bf434bf-2d75-48b5-969d-37362358181f
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: Wha- I-I wanted to keep it safe.
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 3569d696-686a-40fd-a542-56c44d4ac321
+  rect:
+    serializedVersion: 2
+    x: 3603
+    y: 162
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4733389828213541216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: a5a8aebf-57af-4a13-84f6-6fd92640a812
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: Hello Detective Hardy.
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 6f72f136-c4fc-4c6c-b946-5dbb7cd256fd
+  - 8342542d-09f6-477b-b261-3658efda0741
+  rect:
+    serializedVersion: 2
+    x: 97
+    y: 147
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4485057238916266120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5ebb954e-e958-46da-baee-984d68bf92b2
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: "Well you could never be to careful. I didn\u2019t want it to fell into the
+    wrong hands."
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 527cf1e9-c307-46b7-9fa9-a46840be9ec5
+  rect:
+    serializedVersion: 2
+    x: 3604
+    y: 382
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4243487629618089091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 539c9796-252e-4331-ab53-dd3801265c4b
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: The man lost his life and all you care about is that you want people to think
+    you higher than him.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 63ace7aa-67d1-48fb-bf3d-4ec18fc45700
+  rect:
+    serializedVersion: 2
+    x: 2095
+    y: 203
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3710441391817734557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5f164dea-fb60-4264-91be-8338ac1f29ff
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: Seriously? Your research is a common power tool?
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 9aa5d8d1-1f49-43a4-9f79-db746eaf119a
+  rect:
+    serializedVersion: 2
+    x: 3096
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3204253185773179604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c899f6c2-52f5-4139-9030-c070844c4f65
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: What exactly is this tool for.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 4fbe1ce9-1860-413c-84c6-b5724f371330
+  rect:
+    serializedVersion: 2
+    x: 2096
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2748266623502331897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 9aa5d8d1-1f49-43a4-9f79-db746eaf119a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: It is anything but common! And the power source is the real focus. With it,
+    I will revolutionize-
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 2dde78c1-85d6-4dfd-8f26-30c3bd572f08
+  rect:
+    serializedVersion: 2
+    x: 3346
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2186211139008225210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 0411b65d-ad6b-4f8e-a9d7-965e681513f9
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "So you brought an illegal item on to the ship. And you just so happen to
+    lose it mid flight, with it ultimately being found discarded after it was used
+    to kill your rival. That sounds a little odd, don\u2019t you think."
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 17ed63a9-5379-4aba-a2e4-5daafc0ad092
+  rect:
+    serializedVersion: 2
+    x: 598
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-471140269920293051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 4e39a508-59d2-4706-8720-890fd45a8a61
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: We found your tool Professor.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - a0772c5d-169b-446e-b7d4-657a8ccf97d3
+  rect:
+    serializedVersion: 2
+    x: 596
+    y: 46
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Bran day 3 ver 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -4733389828213541216}
+  - {fileID: 3800161429479614403}
+  - {fileID: 8223877584953833847}
+  - {fileID: -471140269920293051}
+  - {fileID: -2186211139008225210}
+  - {fileID: 4335928339767847829}
+  - {fileID: -5212431235881433187}
+  - {fileID: -5307503782930000807}
+  - {fileID: 3797980653365672022}
+  - {fileID: 7086588192035910114}
+  - {fileID: -3204253185773179604}
+  - {fileID: 8625411167492929340}
+  - {fileID: -7779088177222612675}
+  - {fileID: -6538348153595460561}
+  - {fileID: -3710441391817734557}
+  - {fileID: -2748266623502331897}
+  - {fileID: 7836192876504615773}
+  - {fileID: -4986932458955342993}
+  - {fileID: -8678900183780022152}
+  - {fileID: -4485057238916266120}
+  - {fileID: 2682265106012419561}
+  - {fileID: -6995695483010723071}
+  - {fileID: 1653817348796933739}
+  - {fileID: 2170782211447488956}
+  - {fileID: -8826828401315333621}
+  - {fileID: -6033937705525744264}
+  - {fileID: -7747504838924666521}
+  - {fileID: -4243487629618089091}
+  - {fileID: -6382807078146221342}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1653817348796933739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 17ed63a9-5379-4aba-a2e4-5daafc0ad092
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: Well it is exactly what happened, Detective.
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 15bc637c-629e-4794-9453-1c38162731d9
+  rect:
+    serializedVersion: 2
+    x: 848
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &2170782211447488956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 15bc637c-629e-4794-9453-1c38162731d9
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Oh, really now? Because it seems to me that a lot of that is rather convenient.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 3407326f-2d75-461a-ba88-0cb1a23e0e6d
+  rect:
+    serializedVersion: 2
+    x: 1095
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &2682265106012419561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 527cf1e9-c307-46b7-9fa9-a46840be9ec5
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Well so much for that.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 5114085e-3c3f-4eec-ba99-6fba3afeaf72
+  rect:
+    serializedVersion: 2
+    x: 3607
+    y: 498
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3797980653365672022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: de1ace38-1d40-46c5-ae0e-32538417a411
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: It has been officially submitted as evidence. The blade on your tool has
+    blood from the deceased. It has been officially declared as the murder weapon.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - d3eb97ef-0a6f-4fef-a03d-1f33366010fb
+  rect:
+    serializedVersion: 2
+    x: 1596
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3800161429479614403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 6f72f136-c4fc-4c6c-b946-5dbb7cd256fd
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Your tool caused his death...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 4e39a508-59d2-4706-8720-890fd45a8a61
+  rect:
+    serializedVersion: 2
+    x: 346
+    y: 46
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &4335928339767847829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: a0772c5d-169b-446e-b7d4-657a8ccf97d3
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: "Oh excellent! I didn\u2019t realized you would go through the effort for
+    me! Thank you! Can I have it back?"
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 062088eb-ec40-4ec2-9a81-826854f97e0c
+  rect:
+    serializedVersion: 2
+    x: 846
+    y: 46
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7086588192035910114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: d3eb97ef-0a6f-4fef-a03d-1f33366010fb
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: "No!... No, this can\u2019t be!"
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - c899f6c2-52f5-4139-9030-c070844c4f65
+  rect:
+    serializedVersion: 2
+    x: 1846
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7836192876504615773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2dde78c1-85d6-4dfd-8f26-30c3bd572f08
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Why did you bring it on the ship?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 0bf434bf-2d75-48b5-969d-37362358181f
+  rect:
+    serializedVersion: 2
+    x: 3596
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8223877584953833847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 8342542d-09f6-477b-b261-3658efda0741
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Can you prove you didn't...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 0411b65d-ad6b-4f8e-a9d7-965e681513f9
+  rect:
+    serializedVersion: 2
+    x: 346
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8625411167492929340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 4fbe1ce9-1860-413c-84c6-b5724f371330
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: Why do you need to know! It may be evidence but my research is important.
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - e167b69a-0b8e-4678-abf8-8eb164f58826
+  rect:
+    serializedVersion: 2
+    x: 2346
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

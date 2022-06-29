@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4982392463476056020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 0d30ae7f-6d43-4960-8e5a-66d782da8430
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: A couple of unwashed glasses that have a strong scent of alchohal.
+  portrait: {fileID: 21300000, guid: 0b34f5400f9e6e645972812b63ae6598, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 318b31f8-3fd3-4e06-b9ce-054ec478eabf
+  rect:
+    serializedVersion: 2
+    x: 141
+    y: 179
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Drinks
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -4982392463476056020}
+  - {fileID: 1098719894248461863}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1098719894248461863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 318b31f8-3fd3-4e06-b9ce-054ec478eabf
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: The colorations of the stains show that each glass held a different drink.
+  portrait: {fileID: 21300000, guid: 0b34f5400f9e6e645972812b63ae6598, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 391
+    y: 179
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

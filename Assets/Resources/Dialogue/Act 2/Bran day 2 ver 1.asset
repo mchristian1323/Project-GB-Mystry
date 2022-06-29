@@ -1,0 +1,672 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9023085215210033120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: edaf60b2-1261-4396-8219-437b0c2ca145
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'Did you do the world a favor by slashing his throat as well? '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 4bed6704-ab81-4516-a17b-d937811b592d
+  rect:
+    serializedVersion: 2
+    x: 1645
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-8938330392112529792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 0731b554-d068-42dc-99c9-56565304c74f
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: I worked on the recent batch of cybernetics that Hamburg released and Waters
+    invested in. They tried to cut costs by using cheaper materials and they ended
+    up frying the brains of thousands of people by releasing faulty implants.
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - ffb10a5e-bfba-45e3-93f5-2688eba3a0de
+  rect:
+    serializedVersion: 2
+    x: 2645
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6951341272825905262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 46aa6bdc-82d3-4d9f-8e53-87948827597a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: "Again, no. The lock mechanically disconnects the door from any electric
+    circuit to prevent just that. You really don\u2019t want a door to space opening
+    while you\u2019re inside, detective."
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 5c563620-3a93-4cb7-ba95-c38b9bdc0b9f
+  rect:
+    serializedVersion: 2
+    x: 1907
+    y: 345
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5000550551856617086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 90f6eaa7-8ef9-46fe-a29e-7a0c2b122548
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'Where does all this animosity against Waters come from? '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - e25c687f-79ea-464a-9d0f-cc49adbd2804
+  rect:
+    serializedVersion: 2
+    x: 2145
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3347702548349814057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2cf01eb4-b9fc-4f7a-a785-659a95c88f18
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: 
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 646
+    y: 48
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2167247744690442549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5d2998a1-a2e3-4037-a950-f4b37b3dd63d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'Would there be a way to get into a locked door? '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - a809871d-641c-4631-bce6-fcf1ab88d143
+  rect:
+    serializedVersion: 2
+    x: 1157
+    y: 347
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2093885319228024031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 49078fa8-d1a4-4720-8bf4-5d4ab4880590
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Professor, do you mind if we get your professional opinion on the security
+    of the doors on the ship?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 0dfb4fa9-01c8-4349-b525-d5830b05034f
+  rect:
+    serializedVersion: 2
+    x: 657
+    y: 347
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1147596797063515764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ffb10a5e-bfba-45e3-93f5-2688eba3a0de
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: But who got shunned by the scientific community? The person who designed
+    the original safe designs. Me.
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 63af727d-0b05-412d-9464-fe8f2eefed32
+  - a3080a83-1de0-4442-b69a-6813e80c93c0
+  - 249b7322-11a7-436b-b9d3-b75f667b7da4
+  rect:
+    serializedVersion: 2
+    x: 2895
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-896503817193580592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 0dfb4fa9-01c8-4349-b525-d5830b05034f
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: "It\u2019s not the type of machinery I work with, but I\u2019ll give the
+    best input I can. "
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 5d2998a1-a2e3-4037-a950-f4b37b3dd63d
+  rect:
+    serializedVersion: 2
+    x: 907
+    y: 347
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-892716843234819318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 4bed6704-ab81-4516-a17b-d937811b592d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRANP
+  text: 'Psh! As if I would ever soil my hands with his filthy blood. '
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 90f6eaa7-8ef9-46fe-a29e-7a0c2b122548
+  rect:
+    serializedVersion: 2
+    x: 1895
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-802646377692584148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: a3080a83-1de0-4442-b69a-6813e80c93c0
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: The watch...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - bd325830-01de-4227-9015-362d3551ecb8
+  rect:
+    serializedVersion: 2
+    x: 395
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Bran day 2 ver 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 5667540375072290245}
+  - {fileID: 5972624838541487453}
+  - {fileID: -802646377692584148}
+  - {fileID: 8586541181040642187}
+  - {fileID: -3347702548349814057}
+  - {fileID: 5702161582967662057}
+  - {fileID: -2093885319228024031}
+  - {fileID: 5399014271088218255}
+  - {fileID: 6561428356276444616}
+  - {fileID: 6362780765062341731}
+  - {fileID: -9023085215210033120}
+  - {fileID: -892716843234819318}
+  - {fileID: -5000550551856617086}
+  - {fileID: 6024414890257511599}
+  - {fileID: -8938330392112529792}
+  - {fileID: -1147596797063515764}
+  - {fileID: -896503817193580592}
+  - {fileID: -2167247744690442549}
+  - {fileID: 2771575416185730900}
+  - {fileID: 1212879697859095582}
+  - {fileID: -6951341272825905262}
+  - {fileID: 6638530327890983071}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1212879697859095582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 4f62bdec-4062-4880-83d3-d841bd8f54fc
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'Could they be hacked or hardwired? '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 46aa6bdc-82d3-4d9f-8e53-87948827597a
+  rect:
+    serializedVersion: 2
+    x: 1657
+    y: 346
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &2771575416185730900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: a809871d-641c-4631-bce6-fcf1ab88d143
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: "Not really. The doors are designed to be airtight in the event of a hull
+    breach. So there isn\u2019t a way to get through the lock without completely
+    destroying the door. "
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 4f62bdec-4062-4880-83d3-d841bd8f54fc
+  rect:
+    serializedVersion: 2
+    x: 1407
+    y: 347
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5399014271088218255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: fa81c478-1e8f-4604-b950-2be9fb509abd
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: 'The trash. '
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 249a1430-ecb9-4d81-bf99-39738400aaba
+  rect:
+    serializedVersion: 2
+    x: 895
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5667540375072290245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7b569f48-484b-4c91-8637-6af98f05eb1e
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: Hows the chase, Detective?
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 63af727d-0b05-412d-9464-fe8f2eefed32
+  - a3080a83-1de0-4442-b69a-6813e80c93c0
+  - 249b7322-11a7-436b-b9d3-b75f667b7da4
+  rect:
+    serializedVersion: 2
+    x: 145
+    y: 152
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5702161582967662057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: bd325830-01de-4227-9015-362d3551ecb8
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "Where is Waters\u2019 watch? "
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - fa81c478-1e8f-4604-b950-2be9fb509abd
+  rect:
+    serializedVersion: 2
+    x: 645
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5972624838541487453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 63af727d-0b05-412d-9464-fe8f2eefed32
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: The tool...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 2cf01eb4-b9fc-4f7a-a785-659a95c88f18
+  rect:
+    serializedVersion: 2
+    x: 396
+    y: 48
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6024414890257511599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e25c687f-79ea-464a-9d0f-cc49adbd2804
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: Prof. BRAN
+  text: "t\u2019s not just him, it's Hamburg and the whole cybernetics industry.
+    Those two are capitalist parasites leeching off of the breakthroughs of actual
+    scientists."
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 0731b554-d068-42dc-99c9-56565304c74f
+  rect:
+    serializedVersion: 2
+    x: 2395
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6362780765062341731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c0bda1f9-a489-4b8c-856c-9a008d8486da
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: PROF. BRAN
+  text: "It was valuable until I noticed it had Cole Waters\u2019 name engraved on
+    it. I\u2019m doing the world a favor by erasing proof that the man ever existed. "
+  portrait: {fileID: 21300000, guid: 71e91da8b4773864ea873c18ab5d62c4, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - edaf60b2-1261-4396-8219-437b0c2ca145
+  rect:
+    serializedVersion: 2
+    x: 1395
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6561428356276444616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 249a1430-ecb9-4d81-bf99-39738400aaba
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Why would you discard something so valuable?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - c0bda1f9-a489-4b8c-856c-9a008d8486da
+  rect:
+    serializedVersion: 2
+    x: 1145
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6638530327890983071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5c563620-3a93-4cb7-ba95-c38b9bdc0b9f
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'So the door either had to have been left open or the murderer was let in
+    by the victim. '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 63af727d-0b05-412d-9464-fe8f2eefed32
+  - a3080a83-1de0-4442-b69a-6813e80c93c0
+  - 249b7322-11a7-436b-b9d3-b75f667b7da4
+  rect:
+    serializedVersion: 2
+    x: 2157
+    y: 345
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8586541181040642187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 249b7322-11a7-436b-b9d3-b75f667b7da4
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: The doors...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 49078fa8-d1a4-4720-8bf4-5d4ab4880590
+  rect:
+    serializedVersion: 2
+    x: 396
+    y: 352
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

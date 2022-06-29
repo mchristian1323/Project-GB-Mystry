@@ -42,3 +42,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Bottom
+    uniqueID: 3806342899
+    locked: 0
+  - name: Objects
+    uniqueID: 2418896459
+    locked: 0
+  - name: Interactables
+    uniqueID: 79618423
+    locked: 0
+  - name: Characters
+    uniqueID: 4047044039
+    locked: 0
+  - name: Top
+    uniqueID: 488992595
+    locked: 0

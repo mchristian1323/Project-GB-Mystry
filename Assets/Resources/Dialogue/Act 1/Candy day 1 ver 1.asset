@@ -1,0 +1,747 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8298339478722180489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c65ee7de-8c65-493e-949a-956595571fd7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Is there anything suspicious about the other passengers.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 3499253b-885b-4321-bcfa-81906ca3971f
+  rect:
+    serializedVersion: 2
+    x: 1295
+    y: 348
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-7341066544801259287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: a741baf2-f1f7-4ee1-bc2e-5b40d05f9ddb
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: "Then theres that flight attendant rose\u2019. She had that scene with Cole
+    Waters day one, and she has been talking trash about his movies the entire flight."
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 49551668-a43f-4b6f-8122-d96904eab770
+  rect:
+    serializedVersion: 2
+    x: 2045
+    y: 348
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6697639390935297017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7a15b7db-0cf5-411f-9217-89027b8fbdb9
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: "You mentioned you worked with waters, I didn\u2019t realize this ship had
+    two actors on it?"
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 163dfc3d-5b1a-4455-9a87-b3ee0ed40e17
+  rect:
+    serializedVersion: 2
+    x: 1547
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6599724682213767934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 4c413bb7-5138-41e4-b1af-d730ddf9da88
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: Yup, thats my hubby. Though he has been pretty neglectful this trip, spending
+    most of his time posting to his Cosmonauts. Thats what he calls his subscribers.
+    And now he is super bitchy cause he cant update them. And im not letting him
+    mess with my phone for it, I got my own following to entertain.
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 23459e82-c990-4fe4-9981-40baba834af2
+  rect:
+    serializedVersion: 2
+    x: 2828
+    y: 350
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4454769438271924260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2e7542e8-9b81-4182-88d8-2c21906f8023
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: "Well I did have the opportunity to work with him in the past. Call it a
+    perk of the entertainment career. But he didn\u2019t seem to be in much of the
+    talking mood. The one time I did talk to him, he had the gall to tell me he didn\u2019t
+    remember me! Though, I guess I shouldn\u2019t hold a grudge. He did seem rather
+    distracted, while he was here. We probably wouldn\u2019t have known he was on
+    the ship if he didn\u2019t get into a fight with the flight attendant."
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 4bcb6730-3933-4d82-9515-cd8a9a0fc06a
+  rect:
+    serializedVersion: 2
+    x: 798
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3575845058873197016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 163dfc3d-5b1a-4455-9a87-b3ee0ed40e17
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: "umm\u2026 Influencer actually. I\u2019m a pretty big one too, I\u2019m surprised
+    you didn\u2019t recognize me when you approached me. Though I did have dreams
+    to be an actor once when I was young, and my sketch work does get a lot of praise
+    online, so I guess I got a knack for it. But being an online sensation is my
+    real calling."
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 1bb3a2cb-a125-402c-b635-04d6d10aab4d
+  - 81fd3ea8-b9b2-46ba-89c3-f38ad9cc2a28
+  - 9f8fdfc3-a7a0-427d-8fc9-b24c65e05521
+  rect:
+    serializedVersion: 2
+    x: 1797
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1756112340718710596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: cb98613e-593d-4d41-b622-519f3fe727e0
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: The victim, Cole Waters, did you get to know him during this flight?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 2e7542e8-9b81-4182-88d8-2c21906f8023
+  rect:
+    serializedVersion: 2
+    x: 547
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1459458482254457016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: d5402db9-e774-42f8-8808-b5f89d1a26fb
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: Hi Detecive!
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 1bb3a2cb-a125-402c-b635-04d6d10aab4d
+  - 81fd3ea8-b9b2-46ba-89c3-f38ad9cc2a28
+  - 9f8fdfc3-a7a0-427d-8fc9-b24c65e05521
+  rect:
+    serializedVersion: 2
+    x: 45
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1262657921264234275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3dbd932b-cc00-40ea-93cf-24f02a089df7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: What can you tell me of the other passengers.
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 74fc1bcc-b2d8-454b-ba21-795f2db32af7
+  rect:
+    serializedVersion: 2
+    x: 546
+    y: 348
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-853511821706531528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7c789b94-cfeb-4991-9520-c48f901bf53b
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: What were you doing last night, Mrs. Apple.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - c12f2b2d-5dc7-403c-a281-7a8f8d9880ba
+  rect:
+    serializedVersion: 2
+    x: 544
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-516807412618222047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3499253b-885b-4321-bcfa-81906ca3971f
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: "Well lets see\u2026 There is that big engineer guy, the captain told me
+    some stories about how he used to be a thief."
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 75e1792f-cd67-4b3d-821a-bcb1142abf80
+  rect:
+    serializedVersion: 2
+    x: 1545
+    y: 348
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Candy day 1 ver 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -1459458482254457016}
+  - {fileID: 8625191206627319211}
+  - {fileID: 2011798100119940715}
+  - {fileID: 6653524194924949814}
+  - {fileID: -853511821706531528}
+  - {fileID: 2127185591445980726}
+  - {fileID: 4224357259816177985}
+  - {fileID: -1756112340718710596}
+  - {fileID: -4454769438271924260}
+  - {fileID: 8690519372420185003}
+  - {fileID: 7277153290849999506}
+  - {fileID: -6697639390935297017}
+  - {fileID: -3575845058873197016}
+  - {fileID: -1262657921264234275}
+  - {fileID: 8022557480378953075}
+  - {fileID: 7999273810954885009}
+  - {fileID: -8298339478722180489}
+  - {fileID: -516807412618222047}
+  - {fileID: 7460143794727250078}
+  - {fileID: -7341066544801259287}
+  - {fileID: 6029582531015839029}
+  - {fileID: 5229378190165050900}
+  - {fileID: -6599724682213767934}
+  - {fileID: 8203358015107540619}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2011798100119940715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 81fd3ea8-b9b2-46ba-89c3-f38ad9cc2a28
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Did you know the victim...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - cb98613e-593d-4d41-b622-519f3fe727e0
+  rect:
+    serializedVersion: 2
+    x: 295
+    y: 196
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &2127185591445980726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c12f2b2d-5dc7-403c-a281-7a8f8d9880ba
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: "Oh! Candy is just fine. And I went to bed rather early last night. I went
+    out to get a drink with Mrs. Hamburg, as I have done quite a few nights this
+    trip. Which, it turns out she is a lot nicer than you would expect. Being a big
+    tech billionaire with some shady business practices, you wouldn\u2019t expect
+    her to be so kind and normal. However, we only shared a couple of minutes together
+    before I went back to my room. That was around 10. I just went to bed afterwords."
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 7563316e-a577-4455-931d-41568316a602
+  rect:
+    serializedVersion: 2
+    x: 794
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &4224357259816177985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7563316e-a577-4455-931d-41568316a602
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "Hmm\u2026 interesting."
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 1bb3a2cb-a125-402c-b635-04d6d10aab4d
+  - 81fd3ea8-b9b2-46ba-89c3-f38ad9cc2a28
+  - 9f8fdfc3-a7a0-427d-8fc9-b24c65e05521
+  rect:
+    serializedVersion: 2
+    x: 1042
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5229378190165050900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: d03093f7-6062-4fe0-8723-2551f43db2eb
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: Your husband is Mr. Cosmic yes?
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 4c413bb7-5138-41e4-b1af-d730ddf9da88
+  rect:
+    serializedVersion: 2
+    x: 2545
+    y: 348
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6029582531015839029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 49551668-a43f-4b6f-8122-d96904eab770
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: Ooh! Then there is that creepy guy Kenneth, who was running around a lot
+    last night. Every once in a while he would dash off somewhere like he was flight
+    sick or something. He ended up breaking my husbands phone, which is why he is
+    super moody today.
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - d03093f7-6062-4fe0-8723-2551f43db2eb
+  rect:
+    serializedVersion: 2
+    x: 2295
+    y: 348
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6653524194924949814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 9f8fdfc3-a7a0-427d-8fc9-b24c65e05521
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: The other passengers...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 3dbd932b-cc00-40ea-93cf-24f02a089df7
+  rect:
+    serializedVersion: 2
+    x: 296
+    y: 348
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7277153290849999506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c2d86ca6-92f9-4a61-9ea5-f9139ff4d916
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: '*Whispers* On the first day of the flight, Waters had an argument with one
+    of the flight attendants. Shes actually one of the suspects.'
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 7a15b7db-0cf5-411f-9217-89027b8fbdb9
+  rect:
+    serializedVersion: 2
+    x: 1297
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7460143794727250078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 75e1792f-cd67-4b3d-821a-bcb1142abf80
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: "Then there\u2019s that Prof. Bran, who had a couple of heated debates with
+    Mrs. Hamburg. He\u2019s got some jealousy issues, for sure since. It\u2019s like
+    he thinks he deserves Mrs. Hamburgs success, but she says his \u201Cinnovated
+    inventions\u201D are pretty crappy."
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - a741baf2-f1f7-4ee1-bc2e-5b40d05f9ddb
+  rect:
+    serializedVersion: 2
+    x: 1795
+    y: 348
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7999273810954885009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3b4e1d35-988f-4746-9a5c-fbf92865ce70
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: '*Whispers* some one seems excited.'
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - c65ee7de-8c65-493e-949a-956595571fd7
+  rect:
+    serializedVersion: 2
+    x: 1045
+    y: 348
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8022557480378953075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 74fc1bcc-b2d8-454b-ba21-795f2db32af7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: Ooh! Lots of stuff. What do you want to know?
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 3b4e1d35-988f-4746-9a5c-fbf92865ce70
+  rect:
+    serializedVersion: 2
+    x: 796
+    y: 348
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8203358015107540619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 23459e82-c990-4fe4-9981-40baba834af2
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: I think we are getting off topic.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 1bb3a2cb-a125-402c-b635-04d6d10aab4d
+  - 81fd3ea8-b9b2-46ba-89c3-f38ad9cc2a28
+  - 9f8fdfc3-a7a0-427d-8fc9-b24c65e05521
+  rect:
+    serializedVersion: 2
+    x: 3093
+    y: 351
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8625191206627319211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 1bb3a2cb-a125-402c-b635-04d6d10aab4d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Where were you when...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 7c789b94-cfeb-4991-9520-c48f901bf53b
+  rect:
+    serializedVersion: 2
+    x: 294
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8690519372420185003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 4bcb6730-3933-4d82-9515-cd8a9a0fc06a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: '*Whispers* What does she mean Watts?'
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - c2d86ca6-92f9-4a61-9ea5-f9139ff4d916
+  rect:
+    serializedVersion: 2
+    x: 1047
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

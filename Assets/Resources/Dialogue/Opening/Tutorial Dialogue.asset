@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5357231627722034188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 8430ab60-5f47-449b-9966-71bf0d25c590
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: Will you find the truth and bring justice to the killer? Or will the mystry
+    be lost to darkness.
+  portrait: {fileID: 0}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 793
+    y: 98
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Tutorial Dialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 6908316971984674940}
+  - {fileID: 5078877945033960400}
+  - {fileID: 5443712674703729568}
+  - {fileID: -5357231627722034188}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &5078877945033960400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 6b7f350b-cf14-4a0e-a04d-49d09a000a72
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: WASD - Movement, E - Evidence Menue, R - Theory Menue, ESC - Pause, Click/Space
+    - Talk and Interact
+  portrait: {fileID: 0}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 1
+  children:
+  - 40648bd3-13ee-4198-a441-8a87b7d74f1e
+  rect:
+    serializedVersion: 2
+    x: 293
+    y: 98
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5443712674703729568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 40648bd3-13ee-4198-a441-8a87b7d74f1e
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: Talk to suspects, search the envoirnment, and gather evidence to try to find
+    out how Cole Waters died.
+  portrait: {fileID: 0}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 1
+  children:
+  - 8430ab60-5f47-449b-9966-71bf0d25c590
+  rect:
+    serializedVersion: 2
+    x: 543
+    y: 98
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6908316971984674940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b4e139f2-34b7-43a9-901a-a0ceed663c8d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: In this game, you will be responsible for solving the murder of Cole Waters.
+  portrait: {fileID: 0}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 1
+  children:
+  - 6b7f350b-cf14-4a0e-a04d-49d09a000a72
+  rect:
+    serializedVersion: 2
+    x: 44
+    y: 98
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

@@ -1,0 +1,835 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9036660261953014671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: d9387a0a-3072-4eb5-a4af-455393d7c3ab
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: "And need I remind you, detective, that there is still a ship to drive. The
+    auto pilot can\u2019t do everything and I would rather not crash the rest of
+    the remaining passenger into an asteroid."
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - abda762a-fad4-489f-b3fd-ae2a9219c1a5
+  rect:
+    serializedVersion: 2
+    x: 1305
+    y: 43
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6179517737805522820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 08c2c3c1-ead3-447d-8fb9-edc6f8c90ec5
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: What about my subordinates!?
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - ef5b0596-f50e-49e5-9bc9-67a19b72cb69
+  rect:
+    serializedVersion: 2
+    x: 793
+    y: 346
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6062486422755747430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: abda762a-fad4-489f-b3fd-ae2a9219c1a5
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: And for the record, you are a SolarPol agent, and you did less than I to
+    prevent the death of that man. If your gonna point blame here, I would take a
+    long look at yourself first.
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - c1fe46ae-d1ee-4014-b3dc-a6b612a453af
+  rect:
+    serializedVersion: 2
+    x: 1555
+    y: 43
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6030303879628505560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 701cf9ac-3c8f-40bf-a594-acaefef2a7c9
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: That or someone with the proper credentials to bypass the lock got it.
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 79f55d53-9fe3-41f0-84cb-634a012c10cb
+  rect:
+    serializedVersion: 2
+    x: 1040
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4953893502724982715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7c3953c4-a546-4732-97aa-68d0c675496a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: What are you implying, Detective? You blame me for that passengers death,
+    now you say my leadership brought some of my workers to do it? I am done entertaining
+    this line of thought detective.
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 1f4135fb-11a1-4624-86a7-bbd76c842c43
+  rect:
+    serializedVersion: 2
+    x: 1293
+    y: 346
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4576652759534762685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 1f4135fb-11a1-4624-86a7-bbd76c842c43
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: '*Whispers* a lot of confidence in people he looks down on.'
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 7d3e0e52-8733-4fb9-a395-be7c13ed0105
+  - f3248c4d-ddd1-43f4-b410-d90880f0847d
+  - a223da60-2852-490c-b84c-60e0bc42f0f4
+  rect:
+    serializedVersion: 2
+    x: 1550
+    y: 344
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4287165763602657075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 02117afc-e929-4b57-8aa9-0bc8bddf7043
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: We shall see captain.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - e88128c6-848f-4cef-8b5c-7e44d8d0fa8b
+  rect:
+    serializedVersion: 2
+    x: 3555
+    y: 43
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3910348499237114890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 0ddd6e61-b678-4c1d-a9ee-8408b8b25b23
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Well, it seems to me, captain, that you seem to have an ego problem. You
+    were fine with my medical condition before, but the moment I reminded you of
+    your failure with a passenger, you start taking weak shots.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - c221af9e-88db-4868-8531-64452a7ecc5d
+  rect:
+    serializedVersion: 2
+    x: 2305
+    y: 43
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3754258157088621084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: f3248c4d-ddd1-43f4-b410-d90880f0847d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: About your security...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 25161b52-d080-4ecd-8e44-ff78cd3d2669
+  rect:
+    serializedVersion: 2
+    x: 295
+    y: 196
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2370742354289472332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: f0ae91ec-1e02-458d-b227-ad44a57e1d0f
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: Oh. Is that so?
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 6d72aeb5-ec12-490a-a9b6-45ddebd67556
+  rect:
+    serializedVersion: 2
+    x: 805
+    y: 43
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1975693033928859707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c221af9e-88db-4868-8531-64452a7ecc5d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "It was the same with Waters, wasn\u2019t it? He made some comments that
+    you didn\u2019t like, then started paying less attention to the service and security
+    to his room and unfortunately someone decided to off the man while you weren\u2019t
+    watching. Or is that too coincidental? Maybe my eye is clouding my discernment
+    so help me understand."
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 2a2a1889-9172-466e-8c70-e5c09f44fa26
+  rect:
+    serializedVersion: 2
+    x: 2555
+    y: 43
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1823106292252212024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: a223da60-2852-490c-b84c-60e0bc42f0f4
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Your subordinates...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 2af767cd-4e18-4247-adc6-b4f7672a14b1
+  rect:
+    serializedVersion: 2
+    x: 296
+    y: 346
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1367872253729033197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 6d72aeb5-ec12-490a-a9b6-45ddebd67556
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Yes. You were short with us earlier, and after we had a recess you let the
+    other suspects leave the gathering car. Should I remind you that one of your
+    passengers is dead and that you are still a suspect?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - d9387a0a-3072-4eb5-a4af-455393d7c3ab
+  rect:
+    serializedVersion: 2
+    x: 1055
+    y: 43
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-865362536245071565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: dc0a2b64-a104-43a1-8543-ef5a7a095fb5
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: "Grr\u2026 Look, I\u2019ll cooperate. I can do my job and answer your questions,
+    I\u2019m not avoiding either responsibility. The other passengers can\u2019t
+    get far on this ship but I made sure to have the rest of my staff watch any sensitive
+    areas. And I didn\u2019t kill the man. I may not have liked him, for multiple
+    reasons, but I would never take the life of one of my passengers."
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 02117afc-e929-4b57-8aa9-0bc8bddf7043
+  rect:
+    serializedVersion: 2
+    x: 3305
+    y: 43
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-825413010254695926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 79f55d53-9fe3-41f0-84cb-634a012c10cb
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: "I\u2019m the only one with that level of credentials and I did no such thing,
+    detective."
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 7d3e0e52-8733-4fb9-a395-be7c13ed0105
+  - f3248c4d-ddd1-43f4-b410-d90880f0847d
+  - a223da60-2852-490c-b84c-60e0bc42f0f4
+  rect:
+    serializedVersion: 2
+    x: 1299
+    y: 196
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-674629012204978482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ef5b0596-f50e-49e5-9bc9-67a19b72cb69
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: I noticed that you tend to pull a real tight shift on this ship. Do you think
+    that any of them would crack under the pressure? Do something they might regret?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 7c3953c4-a546-4732-97aa-68d0c675496a
+  rect:
+    serializedVersion: 2
+    x: 1043
+    y: 346
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-215464024409140748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 194886ea-4699-42f4-b9f9-20366b02cf95
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: Seems to get around just fine to me.
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 0ddd6e61-b678-4c1d-a9ee-8408b8b25b23
+  rect:
+    serializedVersion: 2
+    x: 2055
+    y: 43
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Wellington day 2 ver 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 5219781483084652955}
+  - {fileID: 6170110096826297831}
+  - {fileID: -3754258157088621084}
+  - {fileID: -1823106292252212024}
+  - {fileID: 5054305639759774163}
+  - {fileID: 1561619845254069439}
+  - {fileID: 957114799010076860}
+  - {fileID: -2370742354289472332}
+  - {fileID: -1367872253729033197}
+  - {fileID: -9036660261953014671}
+  - {fileID: -6062486422755747430}
+  - {fileID: 1934748006825601545}
+  - {fileID: -215464024409140748}
+  - {fileID: -3910348499237114890}
+  - {fileID: -1975693033928859707}
+  - {fileID: 8941876097719952862}
+  - {fileID: 260595436585610305}
+  - {fileID: -865362536245071565}
+  - {fileID: -4287165763602657075}
+  - {fileID: 2928567914900112668}
+  - {fileID: 1874245240318084995}
+  - {fileID: -6030303879628505560}
+  - {fileID: -825413010254695926}
+  - {fileID: -6179517737805522820}
+  - {fileID: -674629012204978482}
+  - {fileID: -4953893502724982715}
+  - {fileID: -4576652759534762685}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &260595436585610305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b11829e4-489b-4712-82e9-a295430a1112
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "Are you avoiding our questioning because you killed him and you are trying
+    to hide behind your work, or are you throwing a tantrum because you didn\u2019t
+    like the man like you don\u2019t like me?"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - dc0a2b64-a104-43a1-8543-ef5a7a095fb5
+  rect:
+    serializedVersion: 2
+    x: 3055
+    y: 43
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &957114799010076860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2af767cd-4e18-4247-adc6-b4f7672a14b1
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: I want to talk about how you treat your subordinates, Captain.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 08c2c3c1-ead3-447d-8fb9-edc6f8c90ec5
+  rect:
+    serializedVersion: 2
+    x: 543
+    y: 346
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &1561619845254069439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 25161b52-d080-4ecd-8e44-ff78cd3d2669
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: So besides negligence, how do you think the killer go inside his room.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 3459159c-1659-4ca4-bf2d-39cf3e452060
+  rect:
+    serializedVersion: 2
+    x: 546
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &1874245240318084995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3459159c-1659-4ca4-bf2d-39cf3e452060
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: Well, rather he left his door unlocked, like he did with the attendant when
+    he invited her in, or someone has a way to bypass the security system and not
+    raise any red flags in the system, which seems highly unlikely.
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 701cf9ac-3c8f-40bf-a594-acaefef2a7c9
+  rect:
+    serializedVersion: 2
+    x: 796
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &1934748006825601545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c1fe46ae-d1ee-4014-b3dc-a6b612a453af
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: Hey, he is injured, you know!
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 194886ea-4699-42f4-b9f9-20366b02cf95
+  rect:
+    serializedVersion: 2
+    x: 1805
+    y: 43
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &2928567914900112668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e88128c6-848f-4cef-8b5c-7e44d8d0fa8b
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: '*Whispers* Ooh, nice partner!'
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 7d3e0e52-8733-4fb9-a395-be7c13ed0105
+  - f3248c4d-ddd1-43f4-b410-d90880f0847d
+  - a223da60-2852-490c-b84c-60e0bc42f0f4
+  rect:
+    serializedVersion: 2
+    x: 3796
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5054305639759774163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 57761bd7-ffa0-4e37-85d8-2a6dc350ab32
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: You seemed to be rather preoccupied captain.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - f0ae91ec-1e02-458d-b227-ad44a57e1d0f
+  rect:
+    serializedVersion: 2
+    x: 555
+    y: 43
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5219781483084652955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 1f2270b1-ba58-4bdd-bda7-40b9872f5a04
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: Detective.
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 7d3e0e52-8733-4fb9-a395-be7c13ed0105
+  - f3248c4d-ddd1-43f4-b410-d90880f0847d
+  - a223da60-2852-490c-b84c-60e0bc42f0f4
+  rect:
+    serializedVersion: 2
+    x: 47
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6170110096826297831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7d3e0e52-8733-4fb9-a395-be7c13ed0105
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: You seem to be distant...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 57761bd7-ffa0-4e37-85d8-2a6dc350ab32
+  rect:
+    serializedVersion: 2
+    x: 294
+    y: 46
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8941876097719952862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2a2a1889-9172-466e-8c70-e5c09f44fa26
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "It was the same with Waters, wasn\u2019t it? He made some comments that
+    you didn\u2019t like, then started paying less attention to the service and security
+    to his room and unfortunately someone decided to off the man while you weren\u2019t
+    watching. Or is that too coincidental? Maybe my eye is clouding my discernment
+    so help me understand."
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - b11829e4-489b-4712-82e9-a295430a1112
+  rect:
+    serializedVersion: 2
+    x: 2805
+    y: 43
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

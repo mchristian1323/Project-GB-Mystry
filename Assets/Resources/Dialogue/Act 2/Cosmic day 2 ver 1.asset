@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8795712604184184407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 8262bd89-5aca-4c36-a1a3-fff09651e403
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: What were you doing...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 17bce357-19c2-4414-9cdd-1a4b793f651c
+  rect:
+    serializedVersion: 2
+    x: 396
+    y: 47
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-8747312502217335053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: fe6bd52f-a181-409b-a96c-6ff3b565655d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: 'Like I told you before, Detective, the Cosmonauts are big fans of his movies,
+    it would have been huge to my followers if I got a picture with him. '
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - da534bfd-7718-48e6-a43d-86c7491a2162
+  rect:
+    serializedVersion: 2
+    x: 902
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2384767352651837526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 4d733b50-1b72-4f88-88c3-e8248e3ebfa7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: Uhh... well... You know, he is a big celebrity. He's a busy guy. I was just
+    trying to find the right time.
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 8262bd89-5aca-4c36-a1a3-fff09651e403
+  rect:
+    serializedVersion: 2
+    x: 1397
+    y: 46
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1248502255441791980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 17bce357-19c2-4414-9cdd-1a4b793f651c
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "Cosmic, you were seen around the victim\u2019s room awfully late last night.
+    Do you mind telling us what you were up to? "
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - fe6bd52f-a181-409b-a96c-6ff3b565655d
+  rect:
+    serializedVersion: 2
+    x: 646
+    y: 47
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Cosmic day 2 ver 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 7176196033654602820}
+  - {fileID: -8795712604184184407}
+  - {fileID: -1248502255441791980}
+  - {fileID: -8747312502217335053}
+  - {fileID: 7822365672770605199}
+  - {fileID: -2384767352651837526}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &7176196033654602820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3e60bb7a-4bda-47b1-8553-397a1c96e988
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: COSMIC APPLE
+  text: What's up, Detecive.
+  portrait: {fileID: 21300000, guid: 446f74b41e2d103469a0a7564a943ee2, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 8262bd89-5aca-4c36-a1a3-fff09651e403
+  rect:
+    serializedVersion: 2
+    x: 150
+    y: 201
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7822365672770605199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: da534bfd-7718-48e6-a43d-86c7491a2162
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: Everyone knew he was on the ship since day one. Why wait until yesterday?
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 4d733b50-1b72-4f88-88c3-e8248e3ebfa7
+  rect:
+    serializedVersion: 2
+    x: 1152
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

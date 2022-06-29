@@ -1,0 +1,887 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6237965452581992343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 038f4d06-7381-4988-970b-3049d4b3c8e9
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: "I own the collector\u2019s edition of all of them, never even saw you in
+    the special features."
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 346a3ffd-c6c2-432b-b3fd-59151dce693c
+  rect:
+    serializedVersion: 2
+    x: 796
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6121755256633196981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: bf1d45e6-ab62-42e7-a2c1-d3eddc4f7e25
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: 'I think she means it was a beautiful ceremony. '
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 33af28d9-7181-4d3c-b981-45b9865cb1a8
+  - 1ef1fc63-9c23-4ce1-bb1e-ac5d9b675d12
+  - d956303d-a3fd-4640-ac4b-349d9d42fab3
+  rect:
+    serializedVersion: 2
+    x: 1545
+    y: 46
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5978850884036399050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 70d50329-8e03-4fe4-8df3-b17e16173eac
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: "We\u2019re on our honeymoon! Cosmic and I just had our wedding, it got soo
+    many views and likes! "
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - bf1d45e6-ab62-42e7-a2c1-d3eddc4f7e25
+  rect:
+    serializedVersion: 2
+    x: 1295
+    y: 46
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4181416515339103069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 71d27dc9-3629-4268-9633-7d578d5b1342
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'You may want to turn the cameras off for this, Candy. We discovered a rather
+    curious note addressed to you. '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - dc0278bd-653b-4ca7-95a0-9be861a73054
+  rect:
+    serializedVersion: 2
+    x: 544
+    y: 347
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4015243147584513256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2d385df4-b78e-4f0c-b488-6ed71ca24570
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: 'Wait! I can explain- '
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 7fbe475f-3d9f-4ece-9f5a-9e8e61335454
+  rect:
+    serializedVersion: 2
+    x: 1294
+    y: 345
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3738549951358588296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 1ef1fc63-9c23-4ce1-bb1e-ac5d9b675d12
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: You menioned you knew Waters...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - fab78734-c29f-4f7a-b95e-e52b3d45e186
+  rect:
+    serializedVersion: 2
+    x: 296
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3399931030523971929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 441ce543-144d-4b6f-8ba1-0cef8cdf7ec2
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: Of course, Detective.
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 5841eb6e-b828-4245-8a38-41fd4e3d2e2c
+  rect:
+    serializedVersion: 2
+    x: 795
+    y: 46
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2417658787173580343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: d956303d-a3fd-4640-ac4b-349d9d42fab3
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Love Note...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 71d27dc9-3629-4268-9633-7d578d5b1342
+  rect:
+    serializedVersion: 2
+    x: 295
+    y: 349
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Candy day 2 ver 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1777672300017405090}
+  - {fileID: 7381151508085052956}
+  - {fileID: -3738549951358588296}
+  - {fileID: -2417658787173580343}
+  - {fileID: 7484022697289313846}
+  - {fileID: 5322134134133277760}
+  - {fileID: -4181416515339103069}
+  - {fileID: -3399931030523971929}
+  - {fileID: 25079732910057615}
+  - {fileID: -5978850884036399050}
+  - {fileID: -6121755256633196981}
+  - {fileID: -6237965452581992343}
+  - {fileID: 2376289955394633285}
+  - {fileID: 618450609149288692}
+  - {fileID: 7082272667549439391}
+  - {fileID: 1482680557333446558}
+  - {fileID: 3036988101172030861}
+  - {fileID: 3746215876446720293}
+  - {fileID: 374014811343383320}
+  - {fileID: 8468799790685206301}
+  - {fileID: 3791815244445734344}
+  - {fileID: -4015243147584513256}
+  - {fileID: 5517646190110166354}
+  - {fileID: 6823974517057108447}
+  - {fileID: 8486808281200665577}
+  - {fileID: 7770993186879349421}
+  - {fileID: 8857173969124904975}
+  - {fileID: 7370063593795041512}
+  - {fileID: 8979302098981702235}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &25079732910057615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5841eb6e-b828-4245-8a38-41fd4e3d2e2c
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Why are you here on this ship?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 70d50329-8e03-4fe4-8df3-b17e16173eac
+  rect:
+    serializedVersion: 2
+    x: 1045
+    y: 46
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &374014811343383320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 4cf5cb30-38c1-46f2-b36d-f89c9646bba9
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: 'Maybe you should guest star in Crime and Justice, they let anyone on that
+    show. '
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 33af28d9-7181-4d3c-b981-45b9865cb1a8
+  - 1ef1fc63-9c23-4ce1-bb1e-ac5d9b675d12
+  - d956303d-a3fd-4640-ac4b-349d9d42fab3
+  rect:
+    serializedVersion: 2
+    x: 2530
+    y: 196
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &618450609149288692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 6b4418cc-274b-4808-822f-ebe291e08fe2
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: So, let me get this straight, you get married with a huge audience so everyone
+    would know you had an excuse to book an expensive flight, and you just so happen
+    to be on the same flight as the actor who killed your career before it could
+    begin?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - e8cada8c-7279-44ad-a4c4-e3ca15b791ce
+  rect:
+    serializedVersion: 2
+    x: 1296
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &1482680557333446558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 96d6f0d9-d244-4842-9034-27834bd87c6c
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: '*holds up fingers like framing a camera shot* Wow detective! This is just
+    like watching an episode of Crime and Justice! '
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - ad092786-a366-4fd3-8cf4-d0c17a34f346
+  rect:
+    serializedVersion: 2
+    x: 1796
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &1777672300017405090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: fa18710b-c83c-4b71-8798-f14a24266ca8
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: Hmm...?
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 33af28d9-7181-4d3c-b981-45b9865cb1a8
+  - 1ef1fc63-9c23-4ce1-bb1e-ac5d9b675d12
+  - d956303d-a3fd-4640-ac4b-349d9d42fab3
+  rect:
+    serializedVersion: 2
+    x: 71
+    y: 199
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &2376289955394633285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 346a3ffd-c6c2-432b-b3fd-59151dce693c
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: "Well, that\u2019s really all I can call it: an opportunity. It was back
+    when I was just starting an acting career, I auditioned to be a co-star, but
+    he chose some other girl. "
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 6b4418cc-274b-4808-822f-ebe291e08fe2
+  rect:
+    serializedVersion: 2
+    x: 1046
+    y: 198
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3036988101172030861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ad092786-a366-4fd3-8cf4-d0c17a34f346
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "This isn\u2019t television, a man is dead! "
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - bed0ed38-fa0e-4802-8982-a6eabf7f52eb
+  rect:
+    serializedVersion: 2
+    x: 2046
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3746215876446720293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: bed0ed38-fa0e-4802-8982-a6eabf7f52eb
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: 'Look, him not choosing to work with me was the best thing that ever happened
+    to me. Selling my soul to social media has made me far happier than selling my
+    soul to Hollywood ever would. I ought to have thanked him. Can I livestream your
+    next interrogation? My followers would love you! '
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 4cf5cb30-38c1-46f2-b36d-f89c9646bba9
+  rect:
+    serializedVersion: 2
+    x: 2296
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3791815244445734344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2c8c168d-83f4-433d-bbfb-65fb6b41b605
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "I think you know damn well what note I\u2019m talking about. Isn\u2019t
+    it a bit early in your marriage to be stepping out? "
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 2d385df4-b78e-4f0c-b488-6ed71ca24570
+  rect:
+    serializedVersion: 2
+    x: 1044
+    y: 346
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5322134134133277760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: fab78734-c29f-4f7a-b95e-e52b3d45e186
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "You said you had the \u201Copportunity\u201D to work with Waters before,
+    yet my partner has never seen you in any of his movies. "
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 038f4d06-7381-4988-970b-3049d4b3c8e9
+  rect:
+    serializedVersion: 2
+    x: 546
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5517646190110166354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7fbe475f-3d9f-4ece-9f5a-9e8e61335454
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "Wouldn\u2019t it be disastrous to both your career and your husband\u2019s
+    for news of an affair to break out? "
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - e24a1c62-1ede-4d60-a6a6-338c10675f4e
+  rect:
+    serializedVersion: 2
+    x: 1544
+    y: 345
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6823974517057108447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e24a1c62-1ede-4d60-a6a6-338c10675f4e
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: Detective, please-
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - c5a45bad-9205-41dc-badf-b8dc7c184631
+  rect:
+    serializedVersion: 2
+    x: 1798
+    y: 342
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7082272667549439391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e8cada8c-7279-44ad-a4c4-e3ca15b791ce
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'The same flight where that actor is found dead? '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 96d6f0d9-d244-4842-9034-27834bd87c6c
+  rect:
+    serializedVersion: 2
+    x: 1546
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7370063593795041512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c6a93135-aca4-448d-a466-744aa0e5e51a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: "It\u2019s\u2026 it\u2019s Cosmic! It\u2019s a goofy pet name I have for
+    him\u2026 Cosmic the Wonderboy! Besides, how would I have the opportunity to
+    sleep with Waters, Cosmic has spent literally the whole trip hovering around
+    the man! In fact, I\u2019ve barely been able to spend any time with him, he\u2019s
+    been so preoccupied with Waters! "
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - c40b4587-a455-4c31-b762-46cbb8e4d480
+  rect:
+    serializedVersion: 2
+    x: 2798
+    y: 342
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7381151508085052956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 33af28d9-7181-4d3c-b981-45b9865cb1a8
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Why are you here...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - b5d90a9e-af74-4f85-b60a-c7603e9e0733
+  rect:
+    serializedVersion: 2
+    x: 295
+    y: 46
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7484022697289313846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b5d90a9e-af74-4f85-b60a-c7603e9e0733
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'Hello again Mrs. Apple, I need to ask you some more questions. '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 441ce543-144d-4b6f-8ba1-0cef8cdf7ec2
+  rect:
+    serializedVersion: 2
+    x: 545
+    y: 46
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7770993186879349421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 90172125-e302-40b1-a718-1b5ff37cd34f
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: No!
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - e2740ca6-f5b1-4804-bf25-b03742b34de2
+  rect:
+    serializedVersion: 2
+    x: 2298
+    y: 341
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8468799790685206301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: dc0278bd-653b-4ca7-95a0-9be861a73054
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CANDY APPLE
+  text: "\u2026 a note?"
+  portrait: {fileID: 21300000, guid: 4120af61918f17b44ba27297f8ab1162, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 2c8c168d-83f4-433d-bbfb-65fb6b41b605
+  rect:
+    serializedVersion: 2
+    x: 794
+    y: 347
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8486808281200665577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c5a45bad-9205-41dc-badf-b8dc7c184631
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'Or maybe this was an attempt at starting over? You slept with Waters to
+    get him to cast you in another movie, and when he rejected you again, you killed
+    him! '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 90172125-e302-40b1-a718-1b5ff37cd34f
+  rect:
+    serializedVersion: 2
+    x: 2048
+    y: 342
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8857173969124904975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e2740ca6-f5b1-4804-bf25-b03742b34de2
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'Then who is CW? Talk! '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - c6a93135-aca4-448d-a466-744aa0e5e51a
+  rect:
+    serializedVersion: 2
+    x: 2548
+    y: 341
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8979302098981702235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c40b4587-a455-4c31-b762-46cbb8e4d480
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: ...
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 33af28d9-7181-4d3c-b981-45b9865cb1a8
+  - 1ef1fc63-9c23-4ce1-bb1e-ac5d9b675d12
+  - d956303d-a3fd-4640-ac4b-349d9d42fab3
+  rect:
+    serializedVersion: 2
+    x: 3046
+    y: 343
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

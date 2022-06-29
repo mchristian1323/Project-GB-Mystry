@@ -149,7 +149,8 @@ namespace Dialogue
         {
             if(currentNode != null)
             {
-                TriggerAction(currentNode.GetOnEnterActions());
+                for(int i = 0; i < currentNode.GetOnEnterActions().Length; i++)
+                    TriggerAction(currentNode.GetOnEnterActions()[i]);
             }
         }
 
@@ -157,7 +158,8 @@ namespace Dialogue
         {
             if (currentNode != null)
             {
-                TriggerAction(currentNode.GetOnExitActions());
+                for (int i = 0; i < currentNode.GetOnExitActions().Length; i++)
+                    TriggerAction(currentNode.GetOnExitActions()[i]);
             }
         }
 

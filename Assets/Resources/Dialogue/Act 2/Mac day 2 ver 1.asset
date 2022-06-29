@@ -1,0 +1,864 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8743609065590632733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2fae63d5-4dfe-4275-b9d4-a5fc9103128c
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: 'Oh, I guess he lost some big invention he was carrying and assumed it was
+    me. I suppose I do have a reputation for being a thief, whether I like it or
+    not. '
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - c6402eae-40c6-41b9-ab7a-7b9a7dedf840
+  rect:
+    serializedVersion: 2
+    x: 797
+    y: 396
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-7413721111052191511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 40e683c1-97c7-4a75-be32-0b5fe7c18210
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: As the engineer who keeps the ship running, you must have many tools, yes?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 3f7aa643-83bc-45a4-8bab-bb86389b1f30
+  rect:
+    serializedVersion: 2
+    x: 540
+    y: 246
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-7220920935635027531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 544101c1-6d14-4d25-b366-b834edb20cd8
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: "After a few drinks he noticed the watch and must\u2019ve taken a fancy to
+    it. He offered a bet, and if I won he said he would take me on as an apprentice.
+    I can\u2019t say I\u2019m exactly happy on this ship, detective, so I took the
+    bet\u2026 and lost\u2026"
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 39f369f0-3d00-4833-9ad1-112c1f674d09
+  rect:
+    serializedVersion: 2
+    x: 1546
+    y: 395
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6822463758046665424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b2bfdbcf-8df6-4002-b21e-07737e654a36
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Prof. Bran...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - fa6f1d7a-1cbf-4185-bf06-09a8fff41b2a
+  rect:
+    serializedVersion: 2
+    x: 297
+    y: 396
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6225808002713947675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2c37b268-1490-4e65-8552-5f23f890e038
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "Professor Bran says he won a watch from you in a bet. A watch that is unmistakably
+    Cole Waters\u2019. I think you need to come clean. Did you steal the watch? "
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 3b46b3ef-244c-478b-8e8c-3feab64dc88f
+  rect:
+    serializedVersion: 2
+    x: 546
+    y: 99
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4873618433775063327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: fa6f1d7a-1cbf-4185-bf06-09a8fff41b2a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'Professor Bran has seemed very suspicious of you, why is that? '
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 2fae63d5-4dfe-4275-b9d4-a5fc9103128c
+  rect:
+    serializedVersion: 2
+    x: 547
+    y: 396
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3944714720097511721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3f7aa643-83bc-45a4-8bab-bb86389b1f30
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: I suppose so, yeah.
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 43db016d-294a-4d5a-9512-ba36cb3ae7eb
+  rect:
+    serializedVersion: 2
+    x: 790
+    y: 246
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3074731974980190244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e7f55480-412c-4c29-a3f7-5be8d0fb5f9d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'Then how did it end up in your hands? '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 5522ff32-dee8-45dc-ae8b-5097c9762e70
+  rect:
+    serializedVersion: 2
+    x: 1046
+    y: 99
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2998403527862148336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: f3d84981-733c-4099-96d8-3954d1d28aee
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Story behind the watch...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 2c37b268-1490-4e65-8552-5f23f890e038
+  rect:
+    serializedVersion: 2
+    x: 296
+    y: 99
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2804219710871873121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3c14c7a3-59b4-48b0-ad21-eceb74cc7d97
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: Well after grilling me for a while about losing his doohickey, he realized
+    he was barking up the wrong tree and offered to buy me a drink for my trouble.
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 544101c1-6d14-4d25-b366-b834edb20cd8
+  rect:
+    serializedVersion: 2
+    x: 1297
+    y: 396
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2782978361113429057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 39f369f0-3d00-4833-9ad1-112c1f674d09
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'What was the bet? '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - d5c5288b-1922-47a7-88a4-7a95adeff4ac
+  rect:
+    serializedVersion: 2
+    x: 1796
+    y: 395
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2774671152702698007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 875759af-5a7d-445f-9d24-3aff930e18af
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: "Well\u2026 I\u2019m actually a little clumsy with my tools, I\u2019m always
+    losing them. But they aren\u2019t anything harmful, nothing that could do that
+    to Mr. Waters."
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 3a62b856-7aa8-4a0a-b8e0-697f2c256563
+  rect:
+    serializedVersion: 2
+    x: 1296
+    y: 245
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2607980844181327840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5522ff32-dee8-45dc-ae8b-5097c9762e70
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: "There\u2019s no point in telling you. Once you\u2019re branded a thief,
+    that\u2019s what everyone thinks of you. "
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - c363c556-c8c7-4969-b09d-3b4ef5192604
+  rect:
+    serializedVersion: 2
+    x: 1296
+    y: 99
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1291919518230221396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e5a3ddd3-c3e5-4ef8-b88a-6c52057efd1b
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Your tools...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 40e683c1-97c7-4a75-be32-0b5fe7c18210
+  rect:
+    serializedVersion: 2
+    x: 296
+    y: 246
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-508072266486835495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: d5c5288b-1922-47a7-88a4-7a95adeff4ac
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: "There was a piece of paper folded in half on the bar. He said if I could
+    fold it in half another seven times, I\u2019d leave the ship with him when we
+    landed. After five folds, it became a balled up mess that I couldn\u2019t fold
+    any more. "
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - d94665e5-3c19-4ae5-b854-30e5801055b0
+  rect:
+    serializedVersion: 2
+    x: 2046
+    y: 395
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Mac day 2 ver 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 7957283140556681778}
+  - {fileID: -2998403527862148336}
+  - {fileID: -1291919518230221396}
+  - {fileID: -6822463758046665424}
+  - {fileID: -6225808002713947675}
+  - {fileID: -7413721111052191511}
+  - {fileID: 2637346289208937754}
+  - {fileID: -3074731974980190244}
+  - {fileID: -2607980844181327840}
+  - {fileID: 5040370723242010402}
+  - {fileID: 3571482589769489142}
+  - {fileID: 5324163241962133503}
+  - {fileID: 4884867333816569162}
+  - {fileID: 5620045729487511255}
+  - {fileID: 3689383368918380654}
+  - {fileID: 7888944161024942516}
+  - {fileID: -3944714720097511721}
+  - {fileID: 6856286555927774601}
+  - {fileID: -2774671152702698007}
+  - {fileID: 1861992012951847580}
+  - {fileID: -4873618433775063327}
+  - {fileID: -8743609065590632733}
+  - {fileID: 8881271745464178904}
+  - {fileID: -2804219710871873121}
+  - {fileID: -7220920935635027531}
+  - {fileID: -2782978361113429057}
+  - {fileID: -508072266486835495}
+  - {fileID: 3602770413502829541}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1861992012951847580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3a62b856-7aa8-4a0a-b8e0-697f2c256563
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: 'I mostly just use screwdrivers and wrenches to open up the air vents and
+    change the filters, or fix a leaky pipe. Anything more intensive than that the
+    captain keeps locked up and recorded. '
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - f3d84981-733c-4099-96d8-3954d1d28aee
+  - e5a3ddd3-c3e5-4ef8-b88a-6c52057efd1b
+  - b2bfdbcf-8df6-4002-b21e-07737e654a36
+  rect:
+    serializedVersion: 2
+    x: 1544
+    y: 245
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &2637346289208937754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3b46b3ef-244c-478b-8e8c-3feab64dc88f
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: 'No, Detective! Honest! My thieving days are behind me. The captain keeps
+    a close eye on me and constantly threatens to reprimand me whenever anything
+    goes missing. '
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - e7f55480-412c-4c29-a3f7-5be8d0fb5f9d
+  rect:
+    serializedVersion: 2
+    x: 796
+    y: 99
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3571482589769489142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 0ecdf3d3-5172-49e4-9d51-bab3546dede9
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: "Ok well\u2026 It was after Waters and the Captain got in that big shouting
+    match. Captain called me up to the bridge for a status report, but I think it
+    was more to blow off steam. He immediately started shouting at me, warning me
+    he\u2019d toss me into space or something if he caught me stealing anything. "
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 7a97538d-dfa6-4d5e-9928-0bd03b686a2a
+  rect:
+    serializedVersion: 2
+    x: 1796
+    y: 99
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3602770413502829541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: d94665e5-3c19-4ae5-b854-30e5801055b0
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "*sigh* That\u2019s an old trick Mac, don\u2019t fall for it again."
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - f3d84981-733c-4099-96d8-3954d1d28aee
+  - e5a3ddd3-c3e5-4ef8-b88a-6c52057efd1b
+  - b2bfdbcf-8df6-4002-b21e-07737e654a36
+  rect:
+    serializedVersion: 2
+    x: 2296
+    y: 394
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3689383368918380654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b6327ab7-8dd9-42b1-a895-5e494e7b2834
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'This might be the first evidence of him not being an intolerable person. '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 018b2d35-b2cc-46db-b274-2053574a8ea1
+  rect:
+    serializedVersion: 2
+    x: 2796
+    y: 98
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &4884867333816569162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: fe8300d6-d97c-4d60-8d7e-719b90f179b7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: Right, well after he finished shouting at me, he sent me back to the engine
+    room. Along the way I saw Mr. Waters leaning in his doorway. He stopped me and
+    said it was his fault that the captain got all worked up, then asked me my name
+    and my story.
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 078c9f3b-25d6-4b15-ae3e-84f73ba50693
+  rect:
+    serializedVersion: 2
+    x: 2296
+    y: 98
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5040370723242010402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c363c556-c8c7-4969-b09d-3b4ef5192604
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: "Mac, we\u2019ve only just met you. It\u2019s our job to be thorough and
+    not make snap judgements. "
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 0ecdf3d3-5172-49e4-9d51-bab3546dede9
+  rect:
+    serializedVersion: 2
+    x: 1546
+    y: 99
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5324163241962133503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7a97538d-dfa6-4d5e-9928-0bd03b686a2a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: "Yes, we\u2019re familiar with his colorful threats towards his subordinates. "
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - fe8300d6-d97c-4d60-8d7e-719b90f179b7
+  rect:
+    serializedVersion: 2
+    x: 2046
+    y: 99
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5620045729487511255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 078c9f3b-25d6-4b15-ae3e-84f73ba50693
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MAC
+  text: 'I told him how I swiped a few things in the past to help support my family,
+    but that those days are behind me now. Then out of kindness, guilt, or both,
+    he gave me the watch. '
+  portrait: {fileID: 21300000, guid: cc0a93d5956cae84482a930ccc63369e, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - b6327ab7-8dd9-42b1-a895-5e494e7b2834
+  rect:
+    serializedVersion: 2
+    x: 2546
+    y: 98
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6856286555927774601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 43db016d-294a-4d5a-9512-ba36cb3ae7eb
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'How secure are they? We have not yet found a murder weapon. '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 875759af-5a7d-445f-9d24-3aff930e18af
+  rect:
+    serializedVersion: 2
+    x: 1046
+    y: 245
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7888944161024942516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 018b2d35-b2cc-46db-b274-2053574a8ea1
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: "He was a philanthropist after all, and it does seem like everyone else has
+    been a nuisance to him upon their first interaction, so I guess we can\u2019t
+    blame him for being standoff-ish. "
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - f3d84981-733c-4099-96d8-3954d1d28aee
+  - e5a3ddd3-c3e5-4ef8-b88a-6c52057efd1b
+  - b2bfdbcf-8df6-4002-b21e-07737e654a36
+  rect:
+    serializedVersion: 2
+    x: 3028
+    y: 98
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7957283140556681778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 15c6710e-8d84-4733-a936-1363966ef5b2
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: Afternoon, Detective Hardy.
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - f3d84981-733c-4099-96d8-3954d1d28aee
+  - e5a3ddd3-c3e5-4ef8-b88a-6c52057efd1b
+  - b2bfdbcf-8df6-4002-b21e-07737e654a36
+  rect:
+    serializedVersion: 2
+    x: 45
+    y: 248
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8881271745464178904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c6402eae-40c6-41b9-ab7a-7b9a7dedf840
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "So, how did he end up with Waters\u2019 watch? "
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 3c14c7a3-59b4-48b0-ad21-eceb74cc7d97
+  rect:
+    serializedVersion: 2
+    x: 1047
+    y: 396
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

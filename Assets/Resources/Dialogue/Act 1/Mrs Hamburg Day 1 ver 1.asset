@@ -1,0 +1,647 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7328995278169322916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 54fbabf8-75f5-4d76-b614-952bd498a1e1
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "You\u2019ve gotten to know some of the other passengers on board, yes?"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 6588565d-74c4-4822-b8b2-e23109dd9708
+  rect:
+    serializedVersion: 2
+    x: 611
+    y: 285
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-7109213762342957294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 005ece95-891c-4903-bc5d-944d686e6a35
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. Hamburg
+  text: "I must say, Candy is very much a gossip, and I hope you don\u2019t think
+    bad of me for enjoying it. Though she had to have been rather nosy around the
+    ship to get the info she\u2019s been giving me."
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 7e071578-6564-494b-8bf6-157e9ee9c8aa
+  rect:
+    serializedVersion: 2
+    x: 1100
+    y: 298
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6263389927823857315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7f144c65-c26d-400d-aa94-7b6909eae417
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Where were you when...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 171c1443-f56e-4a72-8f02-0ba8daacd0c5
+  rect:
+    serializedVersion: 2
+    x: 350
+    y: 41
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5938523157404306805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7edc2ae8-ca75-4be9-9370-03003ea1ffe7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: Hello Detective.
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 7f144c65-c26d-400d-aa94-7b6909eae417
+  - 11385109-01a2-4b45-8c73-b368f5904a4d
+  - 3d89a4da-3dfc-447a-b85a-a61e7b4bbd04
+  rect:
+    serializedVersion: 2
+    x: 51
+    y: 264
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5795092075644175895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3d89a4da-3dfc-447a-b85a-a61e7b4bbd04
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: "The other passengers\u2026"
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 54fbabf8-75f5-4d76-b614-952bd498a1e1
+  rect:
+    serializedVersion: 2
+    x: 349
+    y: 293
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4106458696816845863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 107ccc34-c5cc-4a0f-b433-36b075ec37ae
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: "Yes I Was. She\u2019s a nice girl. At least on the surface."
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 7f144c65-c26d-400d-aa94-7b6909eae417
+  - 11385109-01a2-4b45-8c73-b368f5904a4d
+  - 3d89a4da-3dfc-447a-b85a-a61e7b4bbd04
+  rect:
+    serializedVersion: 2
+    x: 1849
+    y: 41
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3338126486999470678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ba96effc-c0fa-441b-93f0-e4f58bd16522
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: What would you know?! We all grieve in our own ways.
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 7f144c65-c26d-400d-aa94-7b6909eae417
+  - 11385109-01a2-4b45-8c73-b368f5904a4d
+  - 3d89a4da-3dfc-447a-b85a-a61e7b4bbd04
+  rect:
+    serializedVersion: 2
+    x: 1350
+    y: 169
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1110462321293487108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 8464567f-3452-4f3f-a1dd-d8d40f56394b
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: I remember seeing you there. You were talking to Candy there rather often.
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 107ccc34-c5cc-4a0f-b433-36b075ec37ae
+  rect:
+    serializedVersion: 2
+    x: 1599
+    y: 41
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-686053707866462367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 1850db85-7330-401d-b435-f09433c1c1f5
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: He is a little old to be pursuing a career in writing if you ask me.
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 7f144c65-c26d-400d-aa94-7b6909eae417
+  - 11385109-01a2-4b45-8c73-b368f5904a4d
+  - 3d89a4da-3dfc-447a-b85a-a61e7b4bbd04
+  rect:
+    serializedVersion: 2
+    x: 2104
+    y: 285
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Mrs Hamburg Day 1 ver 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -5938523157404306805}
+  - {fileID: -6263389927823857315}
+  - {fileID: 3607547242336082436}
+  - {fileID: -5795092075644175895}
+  - {fileID: 7245802662503935475}
+  - {fileID: 7958993089438489396}
+  - {fileID: 3282656901855364061}
+  - {fileID: 745187019499904597}
+  - {fileID: -1110462321293487108}
+  - {fileID: -4106458696816845863}
+  - {fileID: 658322884209062205}
+  - {fileID: 710622770733009918}
+  - {fileID: 9091852907438623019}
+  - {fileID: -3338126486999470678}
+  - {fileID: -7328995278169322916}
+  - {fileID: 7515389872638192001}
+  - {fileID: 8052442196421205338}
+  - {fileID: 1092473225014122919}
+  - {fileID: 1341917396677883505}
+  - {fileID: -686053707866462367}
+  - {fileID: -7109213762342957294}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &658322884209062205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: be0d0ae9-29f5-4052-b3f9-f83079325994
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Did you have any prior connection to the victim, Mrs. Hamburg?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 9004121a-4bf8-4fac-97e4-fc672bfe52d3
+  rect:
+    serializedVersion: 2
+    x: 598
+    y: 169
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &710622770733009918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 9004121a-4bf8-4fac-97e4-fc672bfe52d3
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: "Of course detective! We are both rather well known and our line of work
+    tends to cross from time to time so I have had my fair share of conversations
+    and dinners with the man. I don\u2019t think there is a person on this ship that
+    is more torn up over last nights events than me."
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - e55b8b77-c2a0-42d9-a436-e76177893849
+  rect:
+    serializedVersion: 2
+    x: 850
+    y: 169
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &745187019499904597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5478669f-2c05-4f9c-a82d-521b0b6d54a6
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: "There really isn\u2019t that many options *to* frequent detective, besides
+    staying cooped up in my room, I would visit the bar or the common area."
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 8464567f-3452-4f3f-a1dd-d8d40f56394b
+  rect:
+    serializedVersion: 2
+    x: 1349
+    y: 41
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &1092473225014122919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 77e4d149-2759-4f98-914a-3fc71d089b8f
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: "Let\u2019s just say she wasn\u2019t getting all the juicy details by sitting
+    in her room all day. I also had a few conversations with that Prof. Bran fella
+    and that man Keith. Bran seems to have some kind of chip on his should about
+    me. Plus, I think he some how got a hold of Cole\u2019s watch. And that boy Keith
+    is a nice young man. Though he is a little foolish."
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 73fa1481-ae13-4bd5-8fd3-b08cea8e1c49
+  rect:
+    serializedVersion: 2
+    x: 1604
+    y: 290
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &1341917396677883505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 73fa1481-ae13-4bd5-8fd3-b08cea8e1c49
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Foolish?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 1850db85-7330-401d-b435-f09433c1c1f5
+  rect:
+    serializedVersion: 2
+    x: 1847
+    y: 285
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3282656901855364061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 4a739fb5-99cf-4a8d-9c00-55d74b596fb7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Any other places you frequented during this trip?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 5478669f-2c05-4f9c-a82d-521b0b6d54a6
+  rect:
+    serializedVersion: 2
+    x: 1099
+    y: 41
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3607547242336082436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 11385109-01a2-4b45-8c73-b368f5904a4d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: "Did you know the victim\u2026?"
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - be0d0ae9-29f5-4052-b3f9-f83079325994
+  rect:
+    serializedVersion: 2
+    x: 348
+    y: 169
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7245802662503935475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 171c1443-f56e-4a72-8f02-0ba8daacd0c5
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Where were you between the hours of 9:00pm and Midnight?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - f6248a75-7bfb-4190-860b-b8650b530926
+  rect:
+    serializedVersion: 2
+    x: 600
+    y: 41
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7515389872638192001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 6588565d-74c4-4822-b8b2-e23109dd9708
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: "Sure. I shared some time with Cole, he is an old colleague, after all. I
+    also had the pleasure of talking to that girl Candy. She\u2019s sweet and her
+    and her husband make a cute couple."
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 005ece95-891c-4903-bc5d-944d686e6a35
+  rect:
+    serializedVersion: 2
+    x: 865
+    y: 281
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7958993089438489396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: f6248a75-7bfb-4190-860b-b8650b530926
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: MRS. HAMBURG
+  text: "I was where I spent most of my nights on this ship, having a cocktail at
+    the bar. I\u2019ve ended most of my days on the ship having a drink then heading
+    to bed around 11."
+  portrait: {fileID: 21300000, guid: 1384797aeac60d646baf89c99e0c76e5, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 4a739fb5-99cf-4a8d-9c00-55d74b596fb7
+  rect:
+    serializedVersion: 2
+    x: 849
+    y: 41
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8052442196421205338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7e071578-6564-494b-8bf6-157e9ee9c8aa
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: Nosy how?
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 77e4d149-2759-4f98-914a-3fc71d089b8f
+  rect:
+    serializedVersion: 2
+    x: 1354
+    y: 296
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &9091852907438623019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e55b8b77-c2a0-42d9-a436-e76177893849
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: "You don\u2019t seem torn up about it, Mrs. Hamburg."
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - ba96effc-c0fa-441b-93f0-e4f58bd16522
+  rect:
+    serializedVersion: 2
+    x: 1100
+    y: 169
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

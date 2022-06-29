@@ -1,0 +1,517 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6983121239789069607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e33e1ed8-d1e7-40d7-958f-9e74f08905fa
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: So that no one would notice?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 5b03fc3e-5fa9-4e20-aba0-2201fb5600f0
+  rect:
+    serializedVersion: 2
+    x: 1094
+    y: 48
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6790412915411791071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: d03134cc-c18c-4764-974a-31729a8708ab
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: What are you implying detective?
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - f0e9afa4-7ce4-4b29-9b36-8fce5f2bb8b4
+  rect:
+    serializedVersion: 2
+    x: 1844
+    y: 48
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5024660038278444068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 767d0537-a173-4885-8e69-4656031b84c3
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: You weren't watching
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - e4144b72-1824-4a86-8ce2-ed1e2362f732
+  rect:
+    serializedVersion: 2
+    x: 344
+    y: 250
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4384137287114705205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7ef880e3-5ecd-43c1-b8d8-8812757f6a59
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "I\u2019m saying that you incompetently gave someone the opportunity to kill
+    a big celebrity or that you took advantage of no one watching the room."
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 4aa4a845-abba-4565-b634-28a69b0f7ddd
+  rect:
+    serializedVersion: 2
+    x: 1094
+    y: 250
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3193840379806463549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e0ff388e-1215-462c-9dd4-e01f8552387d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: ...
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 53ee0e93-a2e4-4afa-a3e4-89bcdca67fac
+  - 767d0537-a173-4885-8e69-4656031b84c3
+  rect:
+    serializedVersion: 2
+    x: 1594
+    y: 250
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2050695789784446442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: f87a9aaf-bcc4-4c67-8457-4e22a6c92d01
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: ...
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 53ee0e93-a2e4-4afa-a3e4-89bcdca67fac
+  - 767d0537-a173-4885-8e69-4656031b84c3
+  rect:
+    serializedVersion: 2
+    x: 2588
+    y: 48
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-755461277776957115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 43da9736-7118-415d-bbe8-46546cde4fee
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: What?! I had no idea!
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - f87a9aaf-bcc4-4c67-8457-4e22a6c92d01
+  rect:
+    serializedVersion: 2
+    x: 2344
+    y: 48
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-350996185054162237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 4aa4a845-abba-4565-b634-28a69b0f7ddd
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: "What do you want me to say!? That I suck at my job!? I SUCK AT MY JOB! There
+    happy? Because I didn\u2019t kill the man. Not on purpose or by prank!"
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - e0ff388e-1215-462c-9dd4-e01f8552387d
+  rect:
+    serializedVersion: 2
+    x: 1344
+    y: 250
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Rose Day 3 ver 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 5556717227798370117}
+  - {fileID: 6351166806779212626}
+  - {fileID: -5024660038278444068}
+  - {fileID: 6839988018784621478}
+  - {fileID: 2500967139426270020}
+  - {fileID: 7225738667943981963}
+  - {fileID: -6983121239789069607}
+  - {fileID: 479889461687359163}
+  - {fileID: 6680629103555369406}
+  - {fileID: -6790412915411791071}
+  - {fileID: 8846111924419873531}
+  - {fileID: -755461277776957115}
+  - {fileID: -2050695789784446442}
+  - {fileID: 707591282916945334}
+  - {fileID: -4384137287114705205}
+  - {fileID: -350996185054162237}
+  - {fileID: -3193840379806463549}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &479889461687359163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5b03fc3e-5fa9-4e20-aba0-2201fb5600f0
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: Yeah, I guess. Gives more time for the joke to set in.
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - ccb63b4b-c1cd-4053-bc30-d8856b853285
+  rect:
+    serializedVersion: 2
+    x: 1344
+    y: 48
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &707591282916945334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3f186e73-bbea-4b9d-babe-b5f6b45a83b6
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: What are you saying, Detective?
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 7ef880e3-5ecd-43c1-b8d8-8812757f6a59
+  rect:
+    serializedVersion: 2
+    x: 844
+    y: 250
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &2500967139426270020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e4144b72-1824-4a86-8ce2-ed1e2362f732
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "\u2026So conveniently you put a tool that could be used to kill in his room
+    and when the deed was done your superior was off somewhere and you just so happened
+    to not be doing your job to not notice someone getting into his room and killing
+    him. His body was there for sometime before someone found it the next morning."
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 3f186e73-bbea-4b9d-babe-b5f6b45a83b6
+  rect:
+    serializedVersion: 2
+    x: 594
+    y: 250
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5556717227798370117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2081edde-8fea-4d5b-8ad3-69629c610a98
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: ...Yes, Detective?
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 53ee0e93-a2e4-4afa-a3e4-89bcdca67fac
+  - 767d0537-a173-4885-8e69-4656031b84c3
+  rect:
+    serializedVersion: 2
+    x: 101
+    y: 148
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6351166806779212626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 53ee0e93-a2e4-4afa-a3e4-89bcdca67fac
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Incompitence...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - ebec054a-bfba-4419-b034-92f05a7b4934
+  rect:
+    serializedVersion: 2
+    x: 344
+    y: 48
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6680629103555369406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ccb63b4b-c1cd-4053-bc30-d8856b853285
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: And give you enough time to do something, maybe?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - d03134cc-c18c-4764-974a-31729a8708ab
+  rect:
+    serializedVersion: 2
+    x: 1594
+    y: 48
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6839988018784621478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ebec054a-bfba-4419-b034-92f05a7b4934
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: That prank you mentioned before. Why did you pick Prof. Brans Bag?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 72d037d0-6a87-4e84-a7c3-39dcbace20e5
+  rect:
+    serializedVersion: 2
+    x: 594
+    y: 48
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7225738667943981963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 72d037d0-6a87-4e84-a7c3-39dcbace20e5
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: Because it looked similar.
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - e33e1ed8-d1e7-40d7-958f-9e74f08905fa
+  rect:
+    serializedVersion: 2
+    x: 844
+    y: 48
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8846111924419873531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: f0e9afa4-7ce4-4b29-9b36-8fce5f2bb8b4
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "The murder weapon was in the bag you put in Cole Waters\u2019 room."
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 43da9736-7118-415d-bbe8-46546cde4fee
+  rect:
+    serializedVersion: 2
+    x: 2094
+    y: 48
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

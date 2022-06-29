@@ -1,0 +1,919 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8773961563679399015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b7a67df3-25d3-4b82-8b1b-213c6c11349a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: That would be Kenneth Quiche and Cosmic Apple.
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - a9569b28-8a17-437e-b454-7fccdfec96ff
+  rect:
+    serializedVersion: 2
+    x: 2166
+    y: 37
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-8290822201478025918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 4021b9fc-19d5-4dfc-88d8-57e749de9c29
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: "Uhh\u2026 look I wasn\u2019t trying to get him killed or anything! But after
+    my first interaction with him, I understand why someone would want to!"
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - fbf2eadf-af1a-46d7-8788-ee86ef19cd29
+  rect:
+    serializedVersion: 2
+    x: 3095
+    y: 201
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-7204362711201858044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ec4b2b48-3b4c-4435-83ec-98625ccd348e
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: Did you go into his room at all that day?
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 9aea21c7-14ac-42bd-8498-43e204e31268
+  rect:
+    serializedVersion: 2
+    x: 2945
+    y: 35
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-7045307079978890184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 17ea9932-0ab8-49a9-9ee9-b67d064ae5e6
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Is there anything you could tell us about the other passengers or your colleagues.
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - be7616a4-c614-4acf-84ec-24932bf7f402
+  rect:
+    serializedVersion: 2
+    x: 589
+    y: 349
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6962710199399745475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: fa71b05c-9ffd-47e6-98f5-ee447ca88dfc
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "Where were you around the time of death Ms.Ros\xE9?"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 961efd6a-da2b-4e45-abe7-e82903f7486b
+  rect:
+    serializedVersion: 2
+    x: 595
+    y: 47
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6503362510870629029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c27cede6-bd99-4406-a029-b407781150bd
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: It *was* an accident. He seems rather petty to start flipping out over a
+    mistake.
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 854cedbd-87b6-40a6-924d-93f6405a4328
+  rect:
+    serializedVersion: 2
+    x: 1845
+    y: 201
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6349787723348020308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 077a4c0f-4811-48c3-873d-942d9e9c6cae
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: I guess the only ones that stand out were the two dudes that spilled the
+    drinks I was preparing.
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - b7a67df3-25d3-4b82-8b1b-213c6c11349a
+  rect:
+    serializedVersion: 2
+    x: 1900
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5450002545711399963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 0fc75312-36f9-40d9-a2c0-0763e328f554
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: I guess he was lost in thought because when he realized I was there. He jumped
+    and quickly put some of his papers away. He acted like I was gonna steal it or
+    something. Must of been a script or something.
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - b4b9c357-593d-49e1-b335-e83693817e9e
+  rect:
+    serializedVersion: 2
+    x: 1345
+    y: 201
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5423344563938170707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 9aea21c7-14ac-42bd-8498-43e204e31268
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: Hell no. Have dealt with Mr. Waters since day one.
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - ddc81b23-80a4-4171-b52a-40057c6056f1
+  - 1464f9ba-d256-44ed-a0ee-a488f5042204
+  - 2e77ff11-520c-4b6b-a724-8e510b355f12
+  rect:
+    serializedVersion: 2
+    x: 3287
+    y: 35
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5293721560925778194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b39384f6-2526-4c25-be0f-dbc9ca383678
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: '*Sigh* How can I help you?'
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - ddc81b23-80a4-4171-b52a-40057c6056f1
+  - 1464f9ba-d256-44ed-a0ee-a488f5042204
+  - 2e77ff11-520c-4b6b-a724-8e510b355f12
+  rect:
+    serializedVersion: 2
+    x: 95
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-5032004793850195750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 03fe7a8a-6df9-4425-99e7-f7b18ec7a367
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: I got reports that there were some other people around the bar while you
+    were there. Is that correct?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - ed483108-b181-438b-865d-8bd46c1c146e
+  rect:
+    serializedVersion: 2
+    x: 1095
+    y: 47
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2361170670658576421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 232a3a36-3574-453e-adfb-108eb7ffa015
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "I see\u2026"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - ddc81b23-80a4-4171-b52a-40057c6056f1
+  - 1464f9ba-d256-44ed-a0ee-a488f5042204
+  - 2e77ff11-520c-4b6b-a724-8e510b355f12
+  rect:
+    serializedVersion: 2
+    x: 1111
+    y: 350
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2233656206095887037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: fbf2eadf-af1a-46d7-8788-ee86ef19cd29
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "Of course, Ms. Ros\xE9"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - ddc81b23-80a4-4171-b52a-40057c6056f1
+  - 1464f9ba-d256-44ed-a0ee-a488f5042204
+  - 2e77ff11-520c-4b6b-a724-8e510b355f12
+  rect:
+    serializedVersion: 2
+    x: 3318
+    y: 200
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2069256722229818313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ddc81b23-80a4-4171-b52a-40057c6056f1
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Where were you...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - fa71b05c-9ffd-47e6-98f5-ee447ca88dfc
+  rect:
+    serializedVersion: 2
+    x: 345
+    y: 47
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1150175355888474341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 23fd2d29-e0fb-4fbd-96e6-302e81b0c626
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: He ordered a drink and some food and I went to go deliver it. First class
+    get direct to room service, after all. He was working on something when I walked
+    in.
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 0fc75312-36f9-40d9-a2c0-0763e328f554
+  rect:
+    serializedVersion: 2
+    x: 1095
+    y: 201
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1019843463854527156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ed483108-b181-438b-865d-8bd46c1c146e
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: Wow, great work, detective! There are other people on the ship!
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - b23433a9-9417-4851-adff-e94aa16d355c
+  rect:
+    serializedVersion: 2
+    x: 1398
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-677937766806997179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: be7616a4-c614-4acf-84ec-24932bf7f402
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: Well that one girl, candy, you know the influence? She was suspiciously around
+    his room alot, she always hovered around the bar and the control room which is
+    right next to the VIP lodges. I would also keep an eye on Mac, the ships engineer.
+    There is a lot of rumors floating around that he is a thief. Apparently, the
+    captain caught him with stealing something big a few days ago.
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 232a3a36-3574-453e-adfb-108eb7ffa015
+  rect:
+    serializedVersion: 2
+    x: 839
+    y: 349
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-506144326439817498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2e77ff11-520c-4b6b-a724-8e510b355f12
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: The other passengers...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 17ea9932-0ab8-49a9-9ee9-b67d064ae5e6
+  rect:
+    serializedVersion: 2
+    x: 339
+    y: 349
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-366412731243627257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 961efd6a-da2b-4e45-abe7-e82903f7486b
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: I was getting drinks for an order behind the bar.
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 03fe7a8a-6df9-4425-99e7-f7b18ec7a367
+  rect:
+    serializedVersion: 2
+    x: 845
+    y: 47
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-317209807345364362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: a9569b28-8a17-437e-b454-7fccdfec96ff
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Cole Waters room is near by, did you see either of those men get close or
+    go into that room?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - ce4a1750-6d01-4866-a65f-f85be34848ce
+  rect:
+    serializedVersion: 2
+    x: 2445
+    y: 35
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Rose day 1 ver 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -5293721560925778194}
+  - {fileID: -2069256722229818313}
+  - {fileID: 5059962157770752392}
+  - {fileID: -506144326439817498}
+  - {fileID: -6962710199399745475}
+  - {fileID: -366412731243627257}
+  - {fileID: -5032004793850195750}
+  - {fileID: -1019843463854527156}
+  - {fileID: 1630929809678907391}
+  - {fileID: -6349787723348020308}
+  - {fileID: -8773961563679399015}
+  - {fileID: -317209807345364362}
+  - {fileID: 729875838630848807}
+  - {fileID: -7204362711201858044}
+  - {fileID: -5423344563938170707}
+  - {fileID: 3573383736367095329}
+  - {fileID: 6351586543843093896}
+  - {fileID: -1150175355888474341}
+  - {fileID: -5450002545711399963}
+  - {fileID: 9140505995300994767}
+  - {fileID: -6503362510870629029}
+  - {fileID: 8854403978774871511}
+  - {fileID: 1732326470154323149}
+  - {fileID: 353778068111364164}
+  - {fileID: 6260944316638032424}
+  - {fileID: -8290822201478025918}
+  - {fileID: -2233656206095887037}
+  - {fileID: -7045307079978890184}
+  - {fileID: -677937766806997179}
+  - {fileID: -2361170670658576421}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &353778068111364164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 28dde842-41d5-4dff-9241-6cbaa5ddb943
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: Yeah I did. He was getting obnoxious and I could tell he was trying to keep
+    a low profile. So I decided to stick it to him by outing him to the other passengers.
+    Then the captain stepped in because of his tone.
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 8b8b020f-990d-4721-8bf8-be3a9954f5d1
+  rect:
+    serializedVersion: 2
+    x: 2595
+    y: 201
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &729875838630848807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ce4a1750-6d01-4866-a65f-f85be34848ce
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: Nope. Too busy getting cleaning supplies.
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - ec4b2b48-3b4c-4435-83ec-98625ccd348e
+  rect:
+    serializedVersion: 2
+    x: 2695
+    y: 35
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &1630929809678907391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b23433a9-9417-4851-adff-e94aa16d355c
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Any that stand out?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 077a4c0f-4811-48c3-873d-942d9e9c6cae
+  rect:
+    serializedVersion: 2
+    x: 1650
+    y: 45
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &1732326470154323149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 6f9ddec0-c19f-42d2-9c2c-ea901e1f94a9
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: I was in the area. I remember you yelling his name and telling him to keep
+    it down?
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 28dde842-41d5-4dff-9241-6cbaa5ddb943
+  rect:
+    serializedVersion: 2
+    x: 2345
+    y: 201
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &3573383736367095329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 5b0c706d-2cb2-45e1-aa1f-283afb5b3b8a
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: I remember hearing you got into an argument with Cole Waters.
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 4387ab1e-a4c3-48ad-9d3b-51627b0e1c84
+  rect:
+    serializedVersion: 2
+    x: 605
+    y: 200
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &5059962157770752392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 1464f9ba-d256-44ed-a0ee-a488f5042204
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Did you know the victim...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 5b0c706d-2cb2-45e1-aa1f-283afb5b3b8a
+  rect:
+    serializedVersion: 2
+    x: 348
+    y: 199
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6260944316638032424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 8b8b020f-990d-4721-8bf8-be3a9954f5d1
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "So let me get this straight. You barged in on a passenger, spill something
+    on his belongings, leave the room, which I\u2019m assuming you didn\u2019t tell
+    him about getting the cleaning supplies, then to spite him you exposed him, which
+    possible lead him to his death. Does that sound about right?"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 4021b9fc-19d5-4dfc-88d8-57e749de9c29
+  rect:
+    serializedVersion: 2
+    x: 2845
+    y: 201
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6351586543843093896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 4387ab1e-a4c3-48ad-9d3b-51627b0e1c84
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: "Can you recount the events for us Ms. Ros\xE9?"
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 23fd2d29-e0fb-4fbd-96e6-302e81b0c626
+  rect:
+    serializedVersion: 2
+    x: 855
+    y: 200
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8854403978774871511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 854cedbd-87b6-40a6-924d-93f6405a4328
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: "I know right?! Typical actor! Then he starts yelling things like \u201Cwhy
+    didn\u2019t you knock?\u201D or \u201CI told you to wait a moment?\u201D so I
+    started to leave. I had other orders to fulfill and I was gonna get the cleaning
+    supplies, but then he started to follow me."
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - 6f9ddec0-c19f-42d2-9c2c-ea901e1f94a9
+  rect:
+    serializedVersion: 2
+    x: 2095
+    y: 201
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &9140505995300994767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b4b9c357-593d-49e1-b335-e83693817e9e
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: ROS~
+  text: "Anyways, Is started placing food on the table and his drink on the table,
+    but there wasn\u2019t much space on the table from all of the papers, so I accidentally
+    knocked over his drink with the dinner plate. His notes got wet and he started
+    getting mad."
+  portrait: {fileID: 21300000, guid: d75c25cf76590cf4fa57fc99994759a6, type: 3}
+  characterSound: {fileID: 8300000, guid: c0aa647a1897f3c4eb06c3fb74028139, type: 3}
+  unSkipable: 0
+  children:
+  - c27cede6-bd99-4406-a029-b407781150bd
+  rect:
+    serializedVersion: 2
+    x: 1595
+    y: 201
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

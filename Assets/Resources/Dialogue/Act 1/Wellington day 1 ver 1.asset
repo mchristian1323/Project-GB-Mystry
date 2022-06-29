@@ -1,0 +1,729 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7518577918454795051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ff3a34af-5d56-41b7-ae5f-2e00b3bb339c
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: Detective.
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 69d5b9de-eede-4933-bfcc-c1f608842680
+  - a2f205c7-d1ec-4213-ba15-f7d1d1abf3b2
+  - d1b7fd59-25a9-426f-bcc0-a8242cde5ff3
+  rect:
+    serializedVersion: 2
+    x: 95
+    y: 195
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4781445030777020293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 7857a243-3044-4968-b977-5a017b752619
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: "Nah. Don\u2019t got evidence. After that I went to make sure the ship was
+    on the right track then went to bed. Saw nothin\u2019 of interest during."
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 69d5b9de-eede-4933-bfcc-c1f608842680
+  - a2f205c7-d1ec-4213-ba15-f7d1d1abf3b2
+  - d1b7fd59-25a9-426f-bcc0-a8242cde5ff3
+  rect:
+    serializedVersion: 2
+    x: 1846
+    y: 48
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4664942099421598516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 411d8a09-a1b2-4006-b1ce-e779f7a26503
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Did you see anything suspicious?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - faf600cd-f4d8-4cb6-aacf-4e52e6cf2bb1
+  rect:
+    serializedVersion: 2
+    x: 1096
+    y: 347
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4225165427554872880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 00d43f55-07a4-4ccf-815f-57b9c1863d18
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: '*Whispers* real help, this guy is.'
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 69d5b9de-eede-4933-bfcc-c1f608842680
+  - a2f205c7-d1ec-4213-ba15-f7d1d1abf3b2
+  - d1b7fd59-25a9-426f-bcc0-a8242cde5ff3
+  rect:
+    serializedVersion: 2
+    x: 2600
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-4188798827797096226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 83885b30-b7be-4277-8d9b-4d7519710e2d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: "I got into an argument with him on the first day of the trip. He got uppity
+    with my attendant and I stepped in because I didn\u2019t like his tone."
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - c906b2f4-4972-4ccc-94e4-320c47711309
+  rect:
+    serializedVersion: 2
+    x: 1863
+    y: 203
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3915861188381635518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 34cc6bd0-cd77-42f3-9204-123ddadade57
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: I have a few conversations ever once in a while with some of the passengers.
+    Nothing more than small talk.
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 411d8a09-a1b2-4006-b1ce-e779f7a26503
+  rect:
+    serializedVersion: 2
+    x: 846
+    y: 347
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-3674967516420365251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: ad3d9beb-faac-485d-9774-aa4f38f25d58
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: Well beside being incompetent. I got some complaints of stolen goods. And
+    I have some suspicion he was behind it.
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - bd41646e-c81e-4d87-afa8-31896c315426
+  rect:
+    serializedVersion: 2
+    x: 1346
+    y: 47
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2717507529617722142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: d1b7fd59-25a9-426f-bcc0-a8242cde5ff3
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: The other passengers...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - e87342b6-4c3f-4828-8f5f-7d4c867ab5e3
+  rect:
+    serializedVersion: 2
+    x: 348
+    y: 347
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2572752471808815804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 10b26a2c-48e3-40ca-9d2f-46ad5b9297b7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: "Nope. Know he\u2019s an actor. Not much into movies though."
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - b37ed45d-a3b2-40de-8f7f-fc88be1c90aa
+  rect:
+    serializedVersion: 2
+    x: 845
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1986332127437896032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: d8d026fa-4ff6-4fa3-b498-ff8dd1462590
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: Checking up on my engineer.
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 8262b18b-1841-4303-a43d-e8f1214831a7
+  rect:
+    serializedVersion: 2
+    x: 846
+    y: 47
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-450194002774191552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: bc6d2e92-83fb-414b-a8d8-7ce7022262c0
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: '*Whispers* Pretty bold of him to yell about safety when one of his passengers
+    was murdered.'
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 69d5b9de-eede-4933-bfcc-c1f608842680
+  - a2f205c7-d1ec-4213-ba15-f7d1d1abf3b2
+  - d1b7fd59-25a9-426f-bcc0-a8242cde5ff3
+  rect:
+    serializedVersion: 2
+    x: 1599
+    y: 347
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-162752660617880493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e5a6caf5-e17f-46d4-a44f-2fcdaf117560
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: "\u2026Yes you could say I have."
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - a13cbcee-c9fe-4831-a59f-41a95dd322f9
+  rect:
+    serializedVersion: 2
+    x: 1345
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Wellington day 1 ver 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -7518577918454795051}
+  - {fileID: 248682178029782362}
+  - {fileID: 7417036181698506360}
+  - {fileID: 2474712929737380721}
+  - {fileID: -2717507529617722142}
+  - {fileID: 1700517324702953817}
+  - {fileID: 7975302675679450664}
+  - {fileID: -1986332127437896032}
+  - {fileID: 6700571489116923964}
+  - {fileID: -3674967516420365251}
+  - {fileID: 786114467109643887}
+  - {fileID: -4781445030777020293}
+  - {fileID: -2572752471808815804}
+  - {fileID: 8373295626569836097}
+  - {fileID: -162752660617880493}
+  - {fileID: 7871410498749535139}
+  - {fileID: -4188798827797096226}
+  - {fileID: 1888309566121101607}
+  - {fileID: 2043064213418749608}
+  - {fileID: -4225165427554872880}
+  - {fileID: -3915861188381635518}
+  - {fileID: -4664942099421598516}
+  - {fileID: 7885224586897393486}
+  - {fileID: -450194002774191552}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &248682178029782362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 69d5b9de-eede-4933-bfcc-c1f608842680
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Where were you when...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - b2cb5aeb-2dc6-4fac-a301-780186cde212
+  rect:
+    serializedVersion: 2
+    x: 346
+    y: 47
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &786114467109643887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: bd41646e-c81e-4d87-afa8-31896c315426
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: "Anything you would like to report to the authorities? You know\u2026 like
+    us?"
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 7857a243-3044-4968-b977-5a017b752619
+  rect:
+    serializedVersion: 2
+    x: 1596
+    y: 47
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &1700517324702953817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b2cb5aeb-2dc6-4fac-a301-780186cde212
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Where were you around the time of the killing captain?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - d8d026fa-4ff6-4fa3-b498-ff8dd1462590
+  rect:
+    serializedVersion: 2
+    x: 596
+    y: 47
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &1888309566121101607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: c906b2f4-4972-4ccc-94e4-320c47711309
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: 'What exactly was the argument about? '
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 28093132-1e5a-484a-9618-d78e96aa62b6
+  rect:
+    serializedVersion: 2
+    x: 2106
+    y: 203
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &2043064213418749608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 28093132-1e5a-484a-9618-d78e96aa62b6
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: "Don\u2019t know, but I know the sound of an entitled rich boy berating my
+    crew when I hear it. "
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - 00d43f55-07a4-4ccf-815f-57b9c1863d18
+  rect:
+    serializedVersion: 2
+    x: 2350
+    y: 199
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &2474712929737380721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 812defde-9387-4d0a-8e94-aae493e5f909
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Have you had any relationship with the victim?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 10b26a2c-48e3-40ca-9d2f-46ad5b9297b7
+  rect:
+    serializedVersion: 2
+    x: 595
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &6700571489116923964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 8262b18b-1841-4303-a43d-e8f1214831a7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: What for?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - ad3d9beb-faac-485d-9774-aa4f38f25d58
+  rect:
+    serializedVersion: 2
+    x: 1096
+    y: 47
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7417036181698506360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: a2f205c7-d1ec-4213-ba15-f7d1d1abf3b2
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 1
+  conversantName: 
+  text: Did you know the victim...
+  portrait: {fileID: 0}
+  characterSound: {fileID: 0}
+  unSkipable: 0
+  children:
+  - 812defde-9387-4d0a-8e94-aae493e5f909
+  rect:
+    serializedVersion: 2
+    x: 354
+    y: 196
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7871410498749535139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: a13cbcee-c9fe-4831-a59f-41a95dd322f9
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: WATTS
+  text: What did you talk about?
+  portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
+  unSkipable: 0
+  children:
+  - 83885b30-b7be-4277-8d9b-4d7519710e2d
+  rect:
+    serializedVersion: 2
+    x: 1613
+    y: 203
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7885224586897393486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: faf600cd-f4d8-4cb6-aacf-4e52e6cf2bb1
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: CPT. WELLINGTON
+  text: "I haven\u2019t really had time to give any of them a psychological exam,
+    detective. I\u2019m a little busy guiding the ship and worrying about passenger
+    safety."
+  portrait: {fileID: 21300000, guid: cc3544601d88982429144e8c106cb78c, type: 3}
+  characterSound: {fileID: 8300000, guid: 9107cf2794a71184bb60d5edaf14a430, type: 3}
+  unSkipable: 0
+  children:
+  - bc6d2e92-83fb-414b-a8d8-7ce7022262c0
+  rect:
+    serializedVersion: 2
+    x: 1346
+    y: 347
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &7975302675679450664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: e87342b6-4c3f-4828-8f5f-7d4c867ab5e3
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Have you gotten to know any of the other passengers?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 34cc6bd0-cd77-42f3-9204-123ddadade57
+  rect:
+    serializedVersion: 2
+    x: 596
+    y: 347
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &8373295626569836097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: b37ed45d-a3b2-40de-8f7f-fc88be1c90aa
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: BROCK HARDY
+  text: Any interaction with during the last few days?
+  portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - e5a6caf5-e17f-46d4-a44f-2fcdaf117560
+  rect:
+    serializedVersion: 2
+    x: 1095
+    y: 197
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []

@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6682034553420436101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 93b4b34b-b3b5-4ab1-ba63-f538531d605c
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: 'Logs of the personnel who took out the more dangerous tools. The last couple
+    of entries state:'
+  portrait: {fileID: 21300000, guid: cfff1f84d5bd5b04b9ede1690be292f1, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 3304098e-cf66-4aa2-b6b3-2cf6d001fc75
+  rect:
+    serializedVersion: 2
+    x: 98
+    y: 143
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-6637288156928019724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 3304098e-cf66-4aa2-b6b3-2cf6d001fc75
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: Carl Lima, the ships janitor, took out a power washer to clean up an unspecified
+    substance during the last flight,
+  portrait: {fileID: 21300000, guid: cfff1f84d5bd5b04b9ede1690be292f1, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 2014e220-3440-4a91-b79c-07e15d911ec7
+  rect:
+    serializedVersion: 2
+    x: 348
+    y: 143
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-2490533799685350462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 53eb0b68-ae7b-48a1-9cdc-a377cac6405d
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: and Captain Charles Wellington took out the tools for an inspection before
+    the ship took off for the current flight. No one has taken out the tools during
+    this flight.
+  portrait: {fileID: 21300000, guid: cfff1f84d5bd5b04b9ede1690be292f1, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 845
+    y: 143
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &-1401860350403098695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99239114494a628468e8d6c2df0e0641, type: 3}
+  m_Name: 2014e220-3440-4a91-b79c-07e15d911ec7
+  m_EditorClassIdentifier: 
+  dialogueChoiceNode: 0
+  conversantName: 
+  text: Mac took out a laser cutter to replace a fuel pipe while the ship was docked,
+  portrait: {fileID: 21300000, guid: cfff1f84d5bd5b04b9ede1690be292f1, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
+  unSkipable: 0
+  children:
+  - 53eb0b68-ae7b-48a1-9cdc-a377cac6405d
+  rect:
+    serializedVersion: 2
+    x: 595
+    y: 143
+    width: 200
+    height: 100
+  onEnterAction: []
+  onExitAction: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2919cc6167eac947906604150d0b470, type: 3}
+  m_Name: Tool Logs
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -6682034553420436101}
+  - {fileID: -6637288156928019724}
+  - {fileID: -1401860350403098695}
+  - {fileID: -2490533799685350462}
+  newNodeOffset: {x: 250, y: 0}

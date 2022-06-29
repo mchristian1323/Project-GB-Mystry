@@ -16,18 +16,18 @@ MonoBehaviour:
   conversantName: WATTS
   text: Brock!!! You there partner?
   portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
-  characterSound: {fileID: 8300000, guid: 8efc3ec9d557e6a42836dfa02fd87371, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
   unSkipable: 1
   children:
   - 1a5b4ea0-a4ec-4163-b6a8-35e5532f3ccb
   rect:
     serializedVersion: 2
-    x: 326
-    y: 280
+    x: 325
+    y: 262
     width: 200
     height: 100
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: []
+  onExitAction: []
 --- !u!114 &-8327009217595905352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47,17 +47,17 @@ MonoBehaviour:
     of death. They\u2019re all in the common area waiting for questioning. When ever
     your ready chief."
   portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
-  characterSound: {fileID: 8300000, guid: 8efc3ec9d557e6a42836dfa02fd87371, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
   unSkipable: 0
   children: []
   rect:
     serializedVersion: 2
-    x: 949
-    y: 411
+    x: 947
+    y: 415
     width: 200
     height: 100
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: []
+  onExitAction: []
 --- !u!114 &-7396202263373088167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78,18 +78,18 @@ MonoBehaviour:
     that no one else gets hurt. It also might be our best chance to figure out whats
     going on, before the murder is released unto mars and out of reach. '
   portrait: {fileID: 0}
-  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
   unSkipable: 1
   children:
   - 32e0cf95-1fcf-469a-89d6-7c6e561753b9
   rect:
     serializedVersion: 2
-    x: 1
-    y: 281
+    x: 12
+    y: 263
     width: 200
     height: 100
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: []
+  onExitAction: []
 --- !u!114 &-6985514601106138920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
     Watts already started scanning the area, and I announced to the ship that the
     entire ship was under investigation."
   portrait: {fileID: 0}
-  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
   unSkipable: 1
   children:
   - ede236b5-3a0b-4cb7-a37a-af6a816a1981
@@ -122,8 +122,8 @@ MonoBehaviour:
     y: 139
     width: 200
     height: 100
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: []
+  onExitAction: []
 --- !u!114 &-6506190948361473986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,18 +143,18 @@ MonoBehaviour:
     held captive in my quarters by him. I wish I paid a little more attention, would
     have helped me with what was to come."
   portrait: {fileID: 0}
-  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
   unSkipable: 1
   children:
   - ce48d4a6-a885-4a28-bf5d-d3bc9fb813d7
   rect:
     serializedVersion: 2
-    x: 312
-    y: 146
+    x: 331
+    y: 141
     width: 200
     height: 100
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: []
+  onExitAction: []
 --- !u!114 &-5919503065415331516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,18 +173,18 @@ MonoBehaviour:
     I tried to tell him I\u2019m fine, but he wasn\u2019t having any of it. He tends
     to worry a bit to much."
   portrait: {fileID: 0}
-  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
   unSkipable: 1
   children:
   - a58052a0-cab5-4472-9807-36622038d566
   rect:
     serializedVersion: 2
-    x: -2
-    y: 150
+    x: 16
+    y: 141
     width: 200
     height: 100
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: []
+  onExitAction: []
 --- !u!114 &-4323018989363353465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,18 +203,18 @@ MonoBehaviour:
     get any messier.Well if your finally done, I\u2019ve already narrowed our list
     of suspects"
   portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
-  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
   unSkipable: 1
   children:
   - 31e00b82-392d-4eff-99e4-e0ffd49b9fa1
   rect:
     serializedVersion: 2
-    x: 6
-    y: 425
+    x: 18
+    y: 423
     width: 200
     height: 100
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: []
+  onExitAction: []
 --- !u!114 &-2891766508211228135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,18 +232,18 @@ MonoBehaviour:
   text: "We\u2019re kind of in the thick of it partner, you think you can cool it
     with the formalities and paperwork?"
   portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
-  characterSound: {fileID: 8300000, guid: 8efc3ec9d557e6a42836dfa02fd87371, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
   unSkipable: 1
   children:
   - f2ea3d4c-bd99-4202-a37a-922245660c1f
   rect:
     serializedVersion: 2
-    x: 953
-    y: 255
+    x: 942
+    y: 261
     width: 200
     height: 100
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: []
+  onExitAction: []
 --- !u!114 &-2595968186687269700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,18 +263,18 @@ MonoBehaviour:
     he got into an argument with a steward that outed his presence on the ship. This
     would start a chain of events that would lead to his downfall"
   portrait: {fileID: 0}
-  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
   unSkipable: 1
   children:
   - ddc0a5f2-5b86-4c8c-aee9-7a8f36e0a0da
   rect:
     serializedVersion: 2
-    x: 662
-    y: 139
+    x: 651
+    y: 140
     width: 200
     height: 100
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: []
+  onExitAction: []
 --- !u!114 &-158308215242706867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -293,18 +293,18 @@ MonoBehaviour:
     State of the art place that normally would take an arm and a leg to fix my eye,
     but luckily being a detective with Solarpol has its advantages.
   portrait: {fileID: 0}
-  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
   unSkipable: 1
   children:
   - bf3a27e7-ce6b-4a1b-ab40-ca607646223b
   rect:
     serializedVersion: 2
     x: 954
-    y: 13
+    y: 17
     width: 200
     height: 100
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: []
+  onExitAction: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -351,18 +351,18 @@ MonoBehaviour:
   conversantName: BROCK HARDY
   text: Impromptu case during sick leave.
   portrait: {fileID: 0}
-  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
   unSkipable: 1
   children:
   - 74b65101-1f62-4ef8-9790-960aa2d837ac
   rect:
     serializedVersion: 2
-    x: -5
-    y: 17
+    x: 13
+    y: 19
     width: 200
     height: 100
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: []
+  onExitAction: []
 --- !u!114 &2138805102428883040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -379,18 +379,18 @@ MonoBehaviour:
   conversantName: WATTS
   text: "Well if your finally done, I\u2019ve already narrowed our list of suspects."
   portrait: {fileID: 21300000, guid: 0e7485e83efc966458392814179cc3c6, type: 3}
-  characterSound: {fileID: 8300000, guid: 8efc3ec9d557e6a42836dfa02fd87371, type: 3}
+  characterSound: {fileID: 8300000, guid: 0a81adba2f9b66841ab93e53b728877c, type: 3}
   unSkipable: 1
   children:
   - 02d6e05b-1a7c-4460-84ab-c866a22af57f
   rect:
     serializedVersion: 2
-    x: 319
+    x: 328
     y: 422
     width: 200
     height: 100
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: []
+  onExitAction: []
 --- !u!114 &4906232971288163007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,18 +407,18 @@ MonoBehaviour:
   conversantName: BROCK HARDY
   text: Sorry I was logging things down. Whats the situation?
   portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
-  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
   unSkipable: 1
   children:
   - 77b3a5cc-2345-4d3e-b54c-9db84a3e8fda
   rect:
     serializedVersion: 2
-    x: 670
-    y: 273
+    x: 649
+    y: 262
     width: 200
     height: 100
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: []
+  onExitAction: []
 --- !u!114 &7196421547070732659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -439,18 +439,18 @@ MonoBehaviour:
     push me into taking sick leave. The job had been done, so I had little excuse
     to refuse, and my cybernetic eye wasn\u2019t gonna heal on its own."
   portrait: {fileID: 0}
-  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
   unSkipable: 1
   children:
   - 8f6c6fbc-b7bc-4773-86f7-dc6b7f0ab3c3
   rect:
     serializedVersion: 2
-    x: 665
-    y: 14
+    x: 649
+    y: 18
     width: 200
     height: 100
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: []
+  onExitAction: []
 --- !u!114 &8194110533798615925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -468,18 +468,18 @@ MonoBehaviour:
   text: 'Date: 20XX. Location: In transit to Mars on the GB Express Interplanetary
     ship. Victim: Cole Waters. Cause of Death: Laceration to the neck.'
   portrait: {fileID: 0}
-  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
   unSkipable: 1
   children:
   - 0fe8de3c-6d30-471e-bb5e-1abffa26a0cc
   rect:
     serializedVersion: 2
-    x: 309
-    y: 16
+    x: 322
+    y: 20
     width: 200
     height: 100
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: []
+  onExitAction: []
 --- !u!114 &9213891154571399370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -496,15 +496,15 @@ MonoBehaviour:
   conversantName: BROCK HARDY
   text: Fast as always Watts.
   portrait: {fileID: 21300000, guid: acad629ff23fadb45920778333702da8, type: 3}
-  characterSound: {fileID: 8300000, guid: ce0b310d4c3838c468cf7bdb410c37ef, type: 3}
+  characterSound: {fileID: 8300000, guid: f749c69a7fc3a9d4f9c176f7543ea82c, type: 3}
   unSkipable: 1
   children:
   - 5f13668c-b3ea-4ecd-947c-8a2ed46a54ed
   rect:
     serializedVersion: 2
-    x: 670
+    x: 656
     y: 416
     width: 200
     height: 100
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: []
+  onExitAction: []
